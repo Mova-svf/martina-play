@@ -66,6 +66,7 @@ function screenSplash() {
 }
 
 const ZONES = [
+  { icon: '🎙️', es: 'Audios con Lumi', en: 'Voice chat', color: '#25D366', fn: () => screenTalk() },
   { icon: '🗺️', es: 'Aventura', en: 'Adventure', color: '#FFC83D', fn: () => screenAdventure() },
   { icon: '🔤', es: 'Inglés', en: 'English', color: '#FF6FAE', fn: () => screenEnglish() },
   { icon: 'PET', es: 'Mi mascota', en: 'My pet', color: '#3DDC84', fn: () => screenPet() },
@@ -188,13 +189,25 @@ function screenParents() {
     <p class="small">Voz inglés: <b>${Voice.en ? Voice.en.name : 'por defecto'}</b> · Voz español: <b>${Voice.es ? Voice.es.name : 'por defecto'}</b><br>
     Tip: en el iPhone, en Ajustes › Accesibilidad › Contenido leído › Voces, puedes descargar voces “Mejoradas” (Samantha, Paulina) para que suenen más naturales. Recuerda quitar el modo silencio.</p>
     <p class="small">Progreso: ⭐ ${S.stars} estrellas · misión ${S.adv + 1}/${ADVENTURE.length} · ${S.stickers.length} stickers</p>
+    <h3>💡 Ideas de ${s.name} (${(S.ideas || []).length})</h3>
+    <div id="ideas">${(S.ideas || []).length ? S.ideas.map((it) => `<div class="idea" data-id="${it.id}"><small>${new Date(it.t).toLocaleString('es-CL', { dateStyle: 'short', timeStyle: 'short' })}</small><span>“${it.text}”</span>${it.audio ? '<button class="mini ip">▶</button>' : ''}<button class="mini idel">🗑️</button></div>`).join('') : '<p class="small">Cuando diga en “Audios con Lumi” algo como “quiero un juego de dinosaurios”, su idea aparecerá aquí.</p>'}</div>
+    ${(S.ideas || []).length ? '<button class="btn" id="pCopy">📋 Copiar ideas (para pegárselas a Claude)</button>' : ''}
+    <label>Avisos al celular (opcional, app gratis “ntfy”)<input id="pNtfy" value="${s.ntfy || ''}" placeholder="nombre del canal, ej: martina-ideas-8k2x"></label>
+    <p class="small">Instala la app <b>ntfy</b> en tu celular, toca “+” y suscríbete al mismo nombre de canal. Cada idea nueva te llegará como notificación. Usa un nombre difícil de adivinar: cualquiera que lo sepa podría leer los avisos. Déjalo vacío para no enviar nada.</p>
+    <div class="row2"><button class="btn" id="pNtfyGen">🎲 Crear nombre</button><button class="btn" id="pNtfyTest">🔔 Probar aviso</button></div>
     <button class="btn" id="pPetNew">🐾 Cambiar mascota</button>
     <button class="btn danger" id="pReset">🗑️ Reiniciar todo el progreso</button>
     <button class="btn-big" id="pSave">Guardar ✓</button>
   </div>`, { title: '⚙️ Padres', back: () => screenHome(), home: true });
+  $$('.idea .ip').forEach((b) => b.onclick = async () => { const blob = await IDB.get(b.parentNode.dataset.id); if (blob) { const a = new Audio(URL.createObjectURL(blob)); a.play().catch(() => {}); } else toast('No encontré el audio'); });
+  $$('.idea .idel').forEach((b) => b.onclick = () => { const id = b.parentNode.dataset.id; S.ideas = S.ideas.filter((x) => x.id !== id); IDB.del(id); save(); b.parentNode.style.display = 'none'; });
+  if ($('#pCopy')) $('#pCopy').onclick = () => { const txt = 'Ideas de ' + s.name + ' para la app:\n' + S.ideas.map((x) => '- ' + x.text).join('\n'); (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => toast('¡Copiado!'), () => prompt('Copia este texto:', txt)); };
+  $('#pNtfyGen').onclick = () => { $('#pNtfy').value = 'martina-ideas-' + Math.random().toString(36).slice(2, 10); };
+  $('#pNtfyTest').onclick = () => { const ch = $('#pNtfy').value.trim(); if (!ch) return toast('Primero escribe un nombre de canal'); fetch('https://ntfy.sh/' + encodeURIComponent(ch), { method: 'POST', body: '✅ Los avisos de ideas funcionan', headers: { Title: 'Martina Play' } }).then(() => toast('Aviso enviado'), () => toast('No se pudo enviar')); };
   $('#pTest').onclick = () => { S.settings.slow = $('#pSlow').checked; Voice.say([['en', 'Hello! I am Lumi.'], ['es', '¡Hola! Soy Lumi.', 'force']]); };
   $('#pSave').onclick = () => {
     S.settings.name = $('#pName').value.trim() || 'Martina';
+    S.settings.ntfy = $('#pNtfy').value.trim();
     S.settings.spanish = $('#pEs').checked; S.settings.slow = $('#pSlow').checked;
     if (S.pet) S.pet.name = $('#pPet').value.trim() || 'Coco';
     save(); screenHome();

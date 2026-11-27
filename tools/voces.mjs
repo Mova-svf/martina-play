@@ -19,8 +19,8 @@ const ONLY_LIST = process.argv.includes('--lista');
 
 /* ---------- 1. Cargar el contenido de la app ---------- */
 const ctx = vm.createContext({});
-const D = vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/data.js'), 'utf8') + '\n;({TOPICS,DIALOGS,PET_TYPES,FOODS,WARDROBE,EMOTIONS,RECIPES,PRAISE_EN,PRAISE_ES})', ctx);
-const { TOPICS, DIALOGS, PET_TYPES, FOODS, WARDROBE, EMOTIONS, RECIPES, PRAISE_EN, PRAISE_ES } = D;
+const D = vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/data.js'), 'utf8') + '\n;({TOPICS,DIALOGS,PET_TYPES,FOODS,WARDROBE,EMOTIONS,RECIPES,PRAISE_EN,PRAISE_ES,TALK,BRAIN,NAV,NAV_GAMES})', ctx);
+const { TOPICS, DIALOGS, PET_TYPES, FOODS, WARDROBE, EMOTIONS, RECIPES, PRAISE_EN, PRAISE_ES, TALK, BRAIN, NAV, NAV_GAMES } = D;
 const fill = (s) => String(s || '').replace(/\{name\}/g, NAME).replace(/\{pet\}/g, PET);
 
 /* ---------- 2. Todas las frases (igual que en el código) ---------- */
@@ -76,6 +76,11 @@ en('Good try! Tap a picture too!'); es('¡Buen intento! Ahora toca un dibujo.');
 ['Find the pairs!', 'Great job!', 'Oops! Try again!', 'Find the shadow!', "How many? Let's count!", 'Try again! Count with me.', 'Rainbow!', "Let's draw!"].forEach(en);
 ['Encuentra las parejas iguales.', 'Arrastra cada animal a su sombra.', '¿Cuántos hay? ¡Toca cada uno para contar!', '¡Dibuja algo primero!', '¡Dibuja lo que quieras! Elige un color.'].forEach(es);
 TOPICS.colors.items.forEach((c) => { en(`Pop the ${low(c.en)} bubbles!`); es(`¡Revienta las burbujas de color ${c.es}!`); en(`That's ${low(c.en)}!`); });
+
+// Audios con Lumi
+Object.values(TALK).flat().forEach(es);
+BRAIN.forEach((b) => b.r.forEach(es));
+[...NAV, NAV_GAMES].forEach((n) => es(n.r));
 
 const all = [...P.entries()];
 const chars = all.reduce((n, [, p]) => n + p.text.length, 0);

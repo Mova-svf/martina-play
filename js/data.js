@@ -324,6 +324,81 @@ const PRAISE_ES = ['¡Lo hiciste genial, {name}!', '¡Muy bien, {name}!', '¡Bra
 
 const DEFAULT_STATE = {
   stars: 0, stickers: [], adv: 0, advLoops: 0, done: {},
-  settings: { name: 'Martina', spanish: true, slow: false },
-  pet: null,
+  settings: { name: 'Martina', spanish: true, slow: false, ntfy: '' },
+  pet: null, ideas: [],
 };
+
+/* ============ AUDIOS CON LUMI: lo que Lumi entiende y responde ============
+   k = palabras clave (sin tildes, en minúscula). r = respuestas posibles (se elige una). */
+const TALK = {
+  hello: '¡Hola, {name}! Mándame un audio. Mantén apretado el micrófono y háblame.',
+  hold: 'Mantén apretado el micrófono mientras hablas, y suéltalo cuando termines.',
+  noMic: 'Necesito permiso para usar el micrófono. Pídele ayuda a un adulto.',
+  noText: ['¡Qué lindo audio! Me encanta escuchar tu voz.', '¡Te escuché! Tienes una voz muy bonita.', '¡Me encantó tu audio, {name}! Mándame otro.'],
+  idea: ['¡Qué buena idea, {name}! Se la voy a contar a tu papá para que la agregue al juego.', '¡Me encanta tu idea! Ya se la mandé a tu papá. ¡Eres muy creativa!'],
+  navOk: '¡Toca el botón y vamos!',
+  vocab: ['En inglés se dice:', '¿Puedes decirlo tú? Mándame un audio.'],
+  english: ['¡Wow, hablaste en inglés!', 'significa'],
+  fallback: ['¡Me encanta escucharte! Cuéntame más.', '¡Qué interesante! ¿Y qué más?', '¡Wow! Eres muy inteligente, {name}.', '¡Jaja, qué divertido!'],
+  ask: ['¿Cuál es tu animal favorito?', '¿Qué comiste hoy?', '¿Cuál es tu color favorito?', '¿Quieres jugar algo conmigo? Dime: quiero jugar a las burbujas.', '¿Qué hiciste hoy?'],
+};
+const BRAIN = [
+  { k: ['te quiero', 'te amo', 'te adoro', 'i love you'], r: ['¡Yo también te quiero mucho, {name}! Eres mi mejor amiga.'] },
+  { k: ['hola', 'holi', 'buenos dias', 'buenas tardes', 'buenas noches', 'hello', 'hi lumi'], r: ['¡Hola, {name}! ¡Qué lindo escucharte! ¿Cómo estás?', '¡Holaaa! Me alegra mucho que me hables. ¿Qué hiciste hoy?'] },
+  { k: ['como estas', 'como te va', 'how are you'], r: ['¡Estoy súper feliz porque me mandaste un audio! ¿Y tú cómo estás?'] },
+  { k: ['triste', 'pena', 'llorar', 'llore', 'lloro'], r: ['Oh, te mando un abrazo gigante. Cuéntale a tu mamá o a tu papá cómo te sientes. ¿Quieres jugar algo para ponerte contenta?'] },
+  { k: ['enojada', 'enojado', 'rabia', 'molesta'], r: ['Cuando estamos enojados, respiramos profundo. Toma aire por la nariz... y bótalo despacio. ¡Muy bien!'] },
+  { k: ['miedo', 'susto', 'asustada'], r: ['Cuando tengo miedo, abrazo a alguien que quiero. ¡Tú eres muy valiente, {name}!'] },
+  { k: ['cansada', 'sueno', 'tengo sueno'], r: ['Si tienes sueño, descansar es muy bueno. ¡Dulces sueños!'] },
+  { k: ['feliz', 'contenta', 'bien', 'super'], r: ['¡Qué bueno! Me pone muy feliz que estés contenta.'] },
+  { k: ['como te llamas', 'quien eres', 'tu nombre'], r: ['Me llamo Lumi. Soy tu amiga de las estrellas y me encanta aprender inglés contigo.'] },
+  { k: ['cuantos anos tienes', 'tu edad'], r: ['¡Yo tengo cinco años de estrella! ¿Y tú cuántos tienes?'] },
+  { k: ['donde vives', 'tu casa'], r: ['Vivo en una estrellita muy brillante, pero ahora estoy aquí contigo.'] },
+  { k: ['tengo cuatro', 'tengo 4', 'cuatro anos', '4 anos'], r: ['¡Cuatro años! En inglés se dice four. ¡Qué grande estás!'] },
+  { k: ['chiste', 'algo chistoso', 'risa'], r: ['¿Qué le dijo un pato a otro pato? ¡Estamos empatados! Jajaja.', '¿Qué hace una abeja en el gimnasio? ¡Zumba! Jajaja.', '¿Por qué el libro de matemáticas estaba triste? ¡Porque tenía muchos problemas! Jajaja.'] },
+  { k: ['cuento', 'historia'], r: ['Había una vez una estrellita llamada Lumi que quería tener una amiga. Un día escuchó una risa muy linda... ¡era {name}! Y desde ese día juegan juntas todos los días. Fin.'] },
+  { k: ['canta', 'cancion', 'cantar'], r: ['La la la, Lumi canta para ti. Uno, dos, tres, ¡a jugar otra vez! La la la.'] },
+  { k: ['gracias', 'thank you'], r: ['¡De nada, {name}! Siempre estoy aquí para ti.'] },
+  { k: ['chao', 'adios', 'bye', 'nos vemos'], r: ['¡Chao, {name}! Mándame otro audio cuando quieras. Bye bye!'] },
+  { k: ['mama', 'mami'], r: ['¡Tu mamá te quiere muchísimo! En inglés, mamá se dice mom.'] },
+  { k: ['papa', 'papi'], r: ['¡Tu papá te quiere muchísimo! En inglés, papá se dice dad.'] },
+  { k: ['abuela', 'abuelita', 'abuelo', 'abuelito', 'tata', 'nona'], r: ['¡Qué lindo! Los abuelitos son muy especiales. Mándales un abrazo de mi parte.'] },
+  { k: ['hermano', 'hermana', 'prima', 'primo', 'amiga', 'amigo'], r: ['¡Qué lindo tener a alguien con quien jugar! Mándale saludos de mi parte.'] },
+  { k: ['por que', 'porque'], r: ['¡Qué buena pregunta! Esa se la podemos preguntar a tu mamá o a tu papá. ¡Eres muy curiosa!'] },
+  { k: ['te gusta', 'tu favorito', 'tu favorita'], r: ['Me encanta el color morado, las estrellas y aprender inglés contigo.'] },
+];
+/* Comandos para ir a partes de la app (screen = zona; spec = actividad) */
+const CMD_VERBS = ['quiero', 'quero', 'vamos', 'jugar', 'juguemos', 'juega', 'abre', 'abrir', 'ir a', 'llevame', 'ver', 'hacer', 'hagamos', 'aprender', 'aprendamos', 'practicar', 'podemos', 'puedo', 'dale', 'muestrame', 'ensename', 'ponle', 'darle', 'dar'];
+const NAV = [
+  { k: ['banar', 'banemos', 'banarlo', 'banarla', 'bano', 'ducha', 'tina', 'jabon'], spec: { type: 'bath' }, icon: '🛁', r: '¡Vamos a bañar a {pet}!' },
+  { k: ['diente', 'cepill'], spec: { type: 'teeth' }, icon: '🪥', r: '¡Vamos a lavarle los dientes a {pet}!' },
+  { k: ['dar de comer', 'alimentar', 'darle comida', 'comer'], spec: { type: 'feed' }, icon: '🍎', r: '¡Vamos a darle comida a {pet}!' },
+  { k: ['vestir', 'ropa', 'disfra', 'sombrero', 'polera'], spec: { type: 'dress' }, icon: '👕', r: '¡Vamos a vestir a {pet}!' },
+  { k: ['emocion', 'carita', 'sentimiento'], spec: { type: 'emotions' }, icon: '😊', r: '¡Vamos a ver las emociones!' },
+  { k: ['dormir', 'acostar', 'cama'], spec: { type: 'sleep' }, icon: '🌙', r: '¡Vamos a hacer dormir a {pet}!' },
+  { k: ['pizza'], spec: { type: 'cook', recipe: 'pizza' }, icon: '🍕', r: '¡Vamos a cocinar una pizza!' },
+  { k: ['ensalada'], spec: { type: 'cook', recipe: 'salad' }, icon: '🥗', r: '¡Vamos a preparar una ensalada!' },
+  { k: ['batido', 'jugo', 'licuado'], spec: { type: 'cook', recipe: 'smoothie' }, icon: '🥤', r: '¡Vamos a preparar un batido!' },
+  { k: ['sandwich', 'sanguche'], spec: { type: 'cook', recipe: 'sandwich' }, icon: '🥪', r: '¡Vamos a preparar un sándwich!' },
+  { k: ['torta', 'pastel', 'queque'], spec: { type: 'cook', recipe: 'cake' }, icon: '🎂', r: '¡Vamos a preparar una torta!' },
+  { k: ['cocin'], screen: 'kitchen', icon: '🍳', r: '¡Vamos a la cocina!' },
+  { k: ['burbuja'], spec: { type: 'bubbles' }, icon: '🫧', r: '¡Vamos a reventar burbujas!' },
+  { k: ['memoria', 'parejas', 'cartas'], spec: { type: 'memory', topic: 'animals' }, icon: '🃏', r: '¡Vamos a jugar a la memoria!' },
+  { k: ['sombra'], spec: { type: 'shadows' }, icon: '👤', r: '¡Vamos a jugar a las sombras!' },
+  { k: ['contar'], spec: { type: 'counting' }, icon: '🔢', r: '¡Vamos a contar!' },
+  { k: ['dibuj', 'pintar', 'colorear'], spec: { type: 'draw' }, icon: '🖍️', r: '¡Vamos a dibujar!' },
+  { k: ['color'], spec: { type: 'lesson', topic: 'colors' }, icon: '🎨', r: '¡Vamos a aprender los colores!' },
+  { k: ['animal'], spec: { type: 'lesson', topic: 'animals' }, icon: '🦁', r: '¡Vamos a aprender los animales!' },
+  { k: ['numero'], spec: { type: 'lesson', topic: 'numbers' }, icon: '🔢', r: '¡Vamos a aprender los números!' },
+  { k: ['fruta', 'comida'], spec: { type: 'lesson', topic: 'food' }, icon: '🍎', r: '¡Vamos a aprender las comidas!' },
+  { k: ['cuerpo'], spec: { type: 'lesson', topic: 'body' }, icon: '👀', r: '¡Vamos a aprender las partes del cuerpo!' },
+  { k: ['figura', 'forma'], spec: { type: 'lesson', topic: 'shapes' }, icon: '⭐', r: '¡Vamos a aprender las figuras!' },
+  { k: ['naturaleza', 'clima'], spec: { type: 'lesson', topic: 'nature' }, icon: '🌈', r: '¡Vamos a aprender la naturaleza!' },
+  { k: ['sticker', 'premio'], screen: 'stickers', icon: '📒', r: '¡Vamos a ver tus stickers!' },
+  { k: ['aventura', 'mision', 'camino'], screen: 'adventure', icon: '🗺️', r: '¡Vamos a la aventura!' },
+  { k: ['mascota', 'perrito', 'gatito', 'conejito', 'osito'], screen: 'pet', icon: '🐾', r: '¡Vamos a ver a {pet}!' },
+  { k: ['ingles'], screen: 'english', icon: '🔤', r: '¡Vamos a aprender inglés!' },
+  { k: ['conversar', 'hablar con'], screen: 'chat', icon: '💬', r: '¡Vamos a conversar!' },
+];
+const NAV_GAMES = { k: ['juego', 'jugar', 'juguemos'], screen: 'games', icon: '🎮', r: '¡Vamos a los juegos!' };
+const IDEA_WORDS = ['quiero', 'quero', 'me gustaria', 'ojala', 'puedes', 'podrias', 'agrega', 'agregar', 'pon ', 'ponle', 'crea', 'inventa', 'hazme', 'haz ', 'nuevo', 'nueva', 'que haya', 'idea'];

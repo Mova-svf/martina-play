@@ -6123,5 +6123,390 @@
   "key": "en|That's white!",
   "lang": "en",
   "text": "That's white!"
+ },
+ {
+  "key": "es|¡Hola, Martina! Mándame un audio. Mantén apretado el micrófono y háblame.",
+  "lang": "es",
+  "text": "¡Hola, Martina! Mándame un audio. Mantén apretado el micrófono y háblame."
+ },
+ {
+  "key": "es|Mantén apretado el micrófono mientras hablas, y suéltalo cuando termines.",
+  "lang": "es",
+  "text": "Mantén apretado el micrófono mientras hablas, y suéltalo cuando termines."
+ },
+ {
+  "key": "es|Necesito permiso para usar el micrófono. Pídele ayuda a un adulto.",
+  "lang": "es",
+  "text": "Necesito permiso para usar el micrófono. Pídele ayuda a un adulto."
+ },
+ {
+  "key": "es|¡Qué lindo audio! Me encanta escuchar tu voz.",
+  "lang": "es",
+  "text": "¡Qué lindo audio! Me encanta escuchar tu voz."
+ },
+ {
+  "key": "es|¡Te escuché! Tienes una voz muy bonita.",
+  "lang": "es",
+  "text": "¡Te escuché! Tienes una voz muy bonita."
+ },
+ {
+  "key": "es|¡Me encantó tu audio, Martina! Mándame otro.",
+  "lang": "es",
+  "text": "¡Me encantó tu audio, Martina! Mándame otro."
+ },
+ {
+  "key": "es|¡Qué buena idea, Martina! Se la voy a contar a tu papá para que la agregue al juego.",
+  "lang": "es",
+  "text": "¡Qué buena idea, Martina! Se la voy a contar a tu papá para que la agregue al juego."
+ },
+ {
+  "key": "es|¡Me encanta tu idea! Ya se la mandé a tu papá. ¡Eres muy creativa!",
+  "lang": "es",
+  "text": "¡Me encanta tu idea! Ya se la mandé a tu papá. ¡Eres muy creativa!"
+ },
+ {
+  "key": "es|¡Toca el botón y vamos!",
+  "lang": "es",
+  "text": "¡Toca el botón y vamos!"
+ },
+ {
+  "key": "es|En inglés se dice:",
+  "lang": "es",
+  "text": "En inglés se dice:"
+ },
+ {
+  "key": "es|¿Puedes decirlo tú? Mándame un audio.",
+  "lang": "es",
+  "text": "¿Puedes decirlo tú? Mándame un audio."
+ },
+ {
+  "key": "es|¡Wow, hablaste en inglés!",
+  "lang": "es",
+  "text": "¡Wow, hablaste en inglés!"
+ },
+ {
+  "key": "es|significa",
+  "lang": "es",
+  "text": "significa"
+ },
+ {
+  "key": "es|¡Me encanta escucharte! Cuéntame más.",
+  "lang": "es",
+  "text": "¡Me encanta escucharte! Cuéntame más."
+ },
+ {
+  "key": "es|¡Qué interesante! ¿Y qué más?",
+  "lang": "es",
+  "text": "¡Qué interesante! ¿Y qué más?"
+ },
+ {
+  "key": "es|¡Wow! Eres muy inteligente, Martina.",
+  "lang": "es",
+  "text": "¡Wow! Eres muy inteligente, Martina."
+ },
+ {
+  "key": "es|¡Jaja, qué divertido!",
+  "lang": "es",
+  "text": "¡Jaja, qué divertido!"
+ },
+ {
+  "key": "es|¿Cuál es tu animal favorito?",
+  "lang": "es",
+  "text": "¿Cuál es tu animal favorito?"
+ },
+ {
+  "key": "es|¿Qué comiste hoy?",
+  "lang": "es",
+  "text": "¿Qué comiste hoy?"
+ },
+ {
+  "key": "es|¿Quieres jugar algo conmigo? Dime: quiero jugar a las burbujas.",
+  "lang": "es",
+  "text": "¿Quieres jugar algo conmigo? Dime: quiero jugar a las burbujas."
+ },
+ {
+  "key": "es|¿Qué hiciste hoy?",
+  "lang": "es",
+  "text": "¿Qué hiciste hoy?"
+ },
+ {
+  "key": "es|¡Yo también te quiero mucho, Martina! Eres mi mejor amiga.",
+  "lang": "es",
+  "text": "¡Yo también te quiero mucho, Martina! Eres mi mejor amiga."
+ },
+ {
+  "key": "es|¡Hola, Martina! ¡Qué lindo escucharte! ¿Cómo estás?",
+  "lang": "es",
+  "text": "¡Hola, Martina! ¡Qué lindo escucharte! ¿Cómo estás?"
+ },
+ {
+  "key": "es|¡Holaaa! Me alegra mucho que me hables. ¿Qué hiciste hoy?",
+  "lang": "es",
+  "text": "¡Holaaa! Me alegra mucho que me hables. ¿Qué hiciste hoy?"
+ },
+ {
+  "key": "es|¡Estoy súper feliz porque me mandaste un audio! ¿Y tú cómo estás?",
+  "lang": "es",
+  "text": "¡Estoy súper feliz porque me mandaste un audio! ¿Y tú cómo estás?"
+ },
+ {
+  "key": "es|Oh, te mando un abrazo gigante. Cuéntale a tu mamá o a tu papá cómo te sientes. ¿Quieres jugar algo para ponerte contenta?",
+  "lang": "es",
+  "text": "Oh, te mando un abrazo gigante. Cuéntale a tu mamá o a tu papá cómo te sientes. ¿Quieres jugar algo para ponerte contenta?"
+ },
+ {
+  "key": "es|Cuando estamos enojados, respiramos profundo. Toma aire por la nariz... y bótalo despacio. ¡Muy bien!",
+  "lang": "es",
+  "text": "Cuando estamos enojados, respiramos profundo. Toma aire por la nariz... y bótalo despacio. ¡Muy bien!"
+ },
+ {
+  "key": "es|Cuando tengo miedo, abrazo a alguien que quiero. ¡Tú eres muy valiente, Martina!",
+  "lang": "es",
+  "text": "Cuando tengo miedo, abrazo a alguien que quiero. ¡Tú eres muy valiente, Martina!"
+ },
+ {
+  "key": "es|Si tienes sueño, descansar es muy bueno. ¡Dulces sueños!",
+  "lang": "es",
+  "text": "Si tienes sueño, descansar es muy bueno. ¡Dulces sueños!"
+ },
+ {
+  "key": "es|¡Qué bueno! Me pone muy feliz que estés contenta.",
+  "lang": "es",
+  "text": "¡Qué bueno! Me pone muy feliz que estés contenta."
+ },
+ {
+  "key": "es|Me llamo Lumi. Soy tu amiga de las estrellas y me encanta aprender inglés contigo.",
+  "lang": "es",
+  "text": "Me llamo Lumi. Soy tu amiga de las estrellas y me encanta aprender inglés contigo."
+ },
+ {
+  "key": "es|¡Yo tengo cinco años de estrella! ¿Y tú cuántos tienes?",
+  "lang": "es",
+  "text": "¡Yo tengo cinco años de estrella! ¿Y tú cuántos tienes?"
+ },
+ {
+  "key": "es|Vivo en una estrellita muy brillante, pero ahora estoy aquí contigo.",
+  "lang": "es",
+  "text": "Vivo en una estrellita muy brillante, pero ahora estoy aquí contigo."
+ },
+ {
+  "key": "es|¡Cuatro años! En inglés se dice four. ¡Qué grande estás!",
+  "lang": "es",
+  "text": "¡Cuatro años! En inglés se dice four. ¡Qué grande estás!"
+ },
+ {
+  "key": "es|¿Qué le dijo un pato a otro pato? ¡Estamos empatados! Jajaja.",
+  "lang": "es",
+  "text": "¿Qué le dijo un pato a otro pato? ¡Estamos empatados! Jajaja."
+ },
+ {
+  "key": "es|¿Qué hace una abeja en el gimnasio? ¡Zumba! Jajaja.",
+  "lang": "es",
+  "text": "¿Qué hace una abeja en el gimnasio? ¡Zumba! Jajaja."
+ },
+ {
+  "key": "es|¿Por qué el libro de matemáticas estaba triste? ¡Porque tenía muchos problemas! Jajaja.",
+  "lang": "es",
+  "text": "¿Por qué el libro de matemáticas estaba triste? ¡Porque tenía muchos problemas! Jajaja."
+ },
+ {
+  "key": "es|Había una vez una estrellita llamada Lumi que quería tener una amiga. Un día escuchó una risa muy linda... ¡era Martina! Y desde ese día juegan juntas todos los días. Fin.",
+  "lang": "es",
+  "text": "Había una vez una estrellita llamada Lumi que quería tener una amiga. Un día escuchó una risa muy linda... ¡era Martina! Y desde ese día juegan juntas todos los días. Fin."
+ },
+ {
+  "key": "es|La la la, Lumi canta para ti. Uno, dos, tres, ¡a jugar otra vez! La la la.",
+  "lang": "es",
+  "text": "La la la, Lumi canta para ti. Uno, dos, tres, ¡a jugar otra vez! La la la."
+ },
+ {
+  "key": "es|¡De nada, Martina! Siempre estoy aquí para ti.",
+  "lang": "es",
+  "text": "¡De nada, Martina! Siempre estoy aquí para ti."
+ },
+ {
+  "key": "es|¡Chao, Martina! Mándame otro audio cuando quieras. Bye bye!",
+  "lang": "es",
+  "text": "¡Chao, Martina! Mándame otro audio cuando quieras. Bye bye!"
+ },
+ {
+  "key": "es|¡Tu mamá te quiere muchísimo! En inglés, mamá se dice mom.",
+  "lang": "es",
+  "text": "¡Tu mamá te quiere muchísimo! En inglés, mamá se dice mom."
+ },
+ {
+  "key": "es|¡Tu papá te quiere muchísimo! En inglés, papá se dice dad.",
+  "lang": "es",
+  "text": "¡Tu papá te quiere muchísimo! En inglés, papá se dice dad."
+ },
+ {
+  "key": "es|¡Qué lindo! Los abuelitos son muy especiales. Mándales un abrazo de mi parte.",
+  "lang": "es",
+  "text": "¡Qué lindo! Los abuelitos son muy especiales. Mándales un abrazo de mi parte."
+ },
+ {
+  "key": "es|¡Qué lindo tener a alguien con quien jugar! Mándale saludos de mi parte.",
+  "lang": "es",
+  "text": "¡Qué lindo tener a alguien con quien jugar! Mándale saludos de mi parte."
+ },
+ {
+  "key": "es|¡Qué buena pregunta! Esa se la podemos preguntar a tu mamá o a tu papá. ¡Eres muy curiosa!",
+  "lang": "es",
+  "text": "¡Qué buena pregunta! Esa se la podemos preguntar a tu mamá o a tu papá. ¡Eres muy curiosa!"
+ },
+ {
+  "key": "es|Me encanta el color morado, las estrellas y aprender inglés contigo.",
+  "lang": "es",
+  "text": "Me encanta el color morado, las estrellas y aprender inglés contigo."
+ },
+ {
+  "key": "es|¡Vamos a bañar a Coco!",
+  "lang": "es",
+  "text": "¡Vamos a bañar a Coco!"
+ },
+ {
+  "key": "es|¡Vamos a lavarle los dientes a Coco!",
+  "lang": "es",
+  "text": "¡Vamos a lavarle los dientes a Coco!"
+ },
+ {
+  "key": "es|¡Vamos a darle comida a Coco!",
+  "lang": "es",
+  "text": "¡Vamos a darle comida a Coco!"
+ },
+ {
+  "key": "es|¡Vamos a vestir a Coco!",
+  "lang": "es",
+  "text": "¡Vamos a vestir a Coco!"
+ },
+ {
+  "key": "es|¡Vamos a ver las emociones!",
+  "lang": "es",
+  "text": "¡Vamos a ver las emociones!"
+ },
+ {
+  "key": "es|¡Vamos a hacer dormir a Coco!",
+  "lang": "es",
+  "text": "¡Vamos a hacer dormir a Coco!"
+ },
+ {
+  "key": "es|¡Vamos a cocinar una pizza!",
+  "lang": "es",
+  "text": "¡Vamos a cocinar una pizza!"
+ },
+ {
+  "key": "es|¡Vamos a preparar una ensalada!",
+  "lang": "es",
+  "text": "¡Vamos a preparar una ensalada!"
+ },
+ {
+  "key": "es|¡Vamos a preparar un batido!",
+  "lang": "es",
+  "text": "¡Vamos a preparar un batido!"
+ },
+ {
+  "key": "es|¡Vamos a preparar un sándwich!",
+  "lang": "es",
+  "text": "¡Vamos a preparar un sándwich!"
+ },
+ {
+  "key": "es|¡Vamos a preparar una torta!",
+  "lang": "es",
+  "text": "¡Vamos a preparar una torta!"
+ },
+ {
+  "key": "es|¡Vamos a la cocina!",
+  "lang": "es",
+  "text": "¡Vamos a la cocina!"
+ },
+ {
+  "key": "es|¡Vamos a reventar burbujas!",
+  "lang": "es",
+  "text": "¡Vamos a reventar burbujas!"
+ },
+ {
+  "key": "es|¡Vamos a jugar a la memoria!",
+  "lang": "es",
+  "text": "¡Vamos a jugar a la memoria!"
+ },
+ {
+  "key": "es|¡Vamos a jugar a las sombras!",
+  "lang": "es",
+  "text": "¡Vamos a jugar a las sombras!"
+ },
+ {
+  "key": "es|¡Vamos a contar!",
+  "lang": "es",
+  "text": "¡Vamos a contar!"
+ },
+ {
+  "key": "es|¡Vamos a dibujar!",
+  "lang": "es",
+  "text": "¡Vamos a dibujar!"
+ },
+ {
+  "key": "es|¡Vamos a aprender los colores!",
+  "lang": "es",
+  "text": "¡Vamos a aprender los colores!"
+ },
+ {
+  "key": "es|¡Vamos a aprender los animales!",
+  "lang": "es",
+  "text": "¡Vamos a aprender los animales!"
+ },
+ {
+  "key": "es|¡Vamos a aprender los números!",
+  "lang": "es",
+  "text": "¡Vamos a aprender los números!"
+ },
+ {
+  "key": "es|¡Vamos a aprender las comidas!",
+  "lang": "es",
+  "text": "¡Vamos a aprender las comidas!"
+ },
+ {
+  "key": "es|¡Vamos a aprender las partes del cuerpo!",
+  "lang": "es",
+  "text": "¡Vamos a aprender las partes del cuerpo!"
+ },
+ {
+  "key": "es|¡Vamos a aprender las figuras!",
+  "lang": "es",
+  "text": "¡Vamos a aprender las figuras!"
+ },
+ {
+  "key": "es|¡Vamos a aprender la naturaleza!",
+  "lang": "es",
+  "text": "¡Vamos a aprender la naturaleza!"
+ },
+ {
+  "key": "es|¡Vamos a ver tus stickers!",
+  "lang": "es",
+  "text": "¡Vamos a ver tus stickers!"
+ },
+ {
+  "key": "es|¡Vamos a la aventura!",
+  "lang": "es",
+  "text": "¡Vamos a la aventura!"
+ },
+ {
+  "key": "es|¡Vamos a ver a Coco!",
+  "lang": "es",
+  "text": "¡Vamos a ver a Coco!"
+ },
+ {
+  "key": "es|¡Vamos a aprender inglés!",
+  "lang": "es",
+  "text": "¡Vamos a aprender inglés!"
+ },
+ {
+  "key": "es|¡Vamos a conversar!",
+  "lang": "es",
+  "text": "¡Vamos a conversar!"
+ },
+ {
+  "key": "es|¡Vamos a los juegos!",
+  "lang": "es",
+  "text": "¡Vamos a los juegos!"
  }
 ]
