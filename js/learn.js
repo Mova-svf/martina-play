@@ -97,7 +97,7 @@ function screenChat(key, done, back) {
     if (busy) return; busy = true;
     $('#opts').innerHTML = ''; if ($('#mic')) $('#mic').style.visibility = 'hidden';
     $('#kid').innerHTML = `<div class="kid-bubble pop-in">${o.color ? `<span class="swatch sm" style="background:${o.color}"></span>` : o.emoji} ${fill(o.label)}</div>`;
-    await Voice.say([['en', o.label, { pitch: 1.6, rate: 1.05 }]]);
+    await Voice.say([['en', o.label, { pitch: 1.6, rate: 1.05, kid: true }]]);
     if (!alive(my)) return;
     Sfx.good(); $('#lumi').classList.add('jump'); later(() => $('#lumi') && $('#lumi').classList.remove('jump'), 600);
     bubble(o.reply.en, o.reply.es);

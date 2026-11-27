@@ -60,8 +60,37 @@ const Voice = {
     }
     return null;
   },
-  unlock() { if (!this.supported) return; try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } catch (e) {} },
+  unlock() { this.unlockAudio(); if (!this.supported) return; try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } catch (e) {} },
+  /* Primero busca el audio grabado (ElevenLabs); si no existe, usa la voz del dispositivo */
+  audio: null, cur: null,
+  unlockAudio() {
+    if (this.audio) return;
+    this.audio = new Audio();
+    this.audio.preload = 'auto';
+    this.audio.src = 'data:audio/wav;base64,UklGRmQGAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YUAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+    this.audio.play().catch(() => {});
+  },
   one(text, lang, o = {}) {
+    const key = (o.kid ? 'kid' : lang) + '|' + text;
+    const file = window.AUDIO && window.AUDIO[key];
+    if (file && this.audio && !this.noFiles) return this.play('audio/' + file, lang, o).then((ok) => ok || this.tts(text, lang, o));
+    return this.tts(text, lang, o);
+  },
+  play(src, lang, o) {
+    return new Promise((res) => {
+      const a = this.audio;
+      let fin = false;
+      const done = (ok) => { if (fin) return; fin = true; clearTimeout(t); a.onended = a.onerror = a.onpause = null; this.cur = null; res(ok); };
+      const t = setTimeout(() => done(true), 15000);
+      this.cur = () => done(true);
+      a.onended = () => done(true); a.onerror = () => done(false); a.onpause = () => { if (!a.ended) done(true); };
+      a.preservesPitch = a.webkitPreservesPitch = !o.kid;
+      a.src = src;
+      a.playbackRate = o.kid ? 1.18 : (lang === 'en' && S.settings.slow ? 0.8 : 1);
+      a.play().then(() => { a.playbackRate = o.kid ? 1.18 : (lang === 'en' && S.settings.slow ? 0.8 : 1); }).catch(() => done(false));
+    });
+  },
+  tts(text, lang, o = {}) {
     return new Promise((res) => {
       if (!this.supported || !text) return res();
       const u = new SpeechSynthesisUtterance(text);
@@ -93,7 +122,7 @@ const Voice = {
     if (my === this.token) document.body.classList.remove('speaking');
     return my === this.token;
   },
-  stop() { this.token++; if (this.supported) speechSynthesis.cancel(); document.body.classList.remove('speaking'); },
+  stop() { this.token++; if (this.audio && !this.audio.paused) { const c = this.cur; this.audio.pause(); c && c(); } if (this.supported) speechSynthesis.cancel(); document.body.classList.remove('speaking'); },
 };
 const sayEn = (en, es) => Voice.say(es ? [['en', en], ['es', es]] : [['en', en]]);
 const sayEs = (es, en) => Voice.say(en ? [['es', es, 'force'], ['en', en]] : [['es', es, 'force']]);
