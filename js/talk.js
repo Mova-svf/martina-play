@@ -92,10 +92,13 @@ const Rec = {
     return this.live;
   },
   release() { clearTimeout(this.idleT); if (this.live) this.live.getTracks().forEach((t) => t.stop()); this.live = null; },
-  /* opts.sr = false: solo graba (sin reconocimiento de voz, que en el iPhone pide un segundo permiso) */
-  async start(lang = 'es-CL', opts = {}) {
-    this.chunks = []; this.text = ''; this.sr = null; this.mr = null; this.stream = null; this.t0 = Date.now();
-    if (Listen.SR && opts.sr !== false) {
+  /* Por defecto usa el dictado del iPhone (no pide permiso del micrófono cada vez).
+     Solo graba el audio real si en la Zona de padres está activado "Grabar su voz"
+     (Safari pide ese permiso cada vez que se abre la app) o si el dictado no existe. */
+  get recordsVoice() { return !!S.settings.recVoice || !Listen.SR; },
+  async start(lang = 'es-CL') {
+    this.chunks = []; this.text = ''; this.sr = null; this.mr = null; this.stream = null; this.t0 = Date.now(); this.srError = null;
+    if (Listen.SR) {
       try {
         const r = new Listen.SR();
         r.lang = lang; r.continuous = true; r.interimResults = true;
@@ -104,7 +107,8 @@ const Rec = {
         this.srDone = false; this.srEnd = null; this.srError = null; r.start(); this.sr = r;
       } catch (e) { this.sr = null; }
     }
-    this.stream = await this.mic();
+    if (this.recordsVoice) this.stream = await this.mic();
+    else { await sleep(250); if (this.srDone && this.srError) this.stream = await this.mic(); } // si el dictado falla, graba igual
     if (this.stream && window.MediaRecorder) {
       try {
         const mt = ['audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].find((x) => MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(x));

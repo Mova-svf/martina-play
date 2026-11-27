@@ -29,7 +29,10 @@ function screenLesson(topicKey, done, back) {
         if (!on) return; on = false; clearTimeout(stopT); mic.classList.remove('recording'); mic.textContent = '🎤';
         const r = await Rec.stop();
         if (!alive(my)) return;
-        if (!r.blob && !r.text) return Voice.say([['es', TALK.noMic, 'force']]);
+        if (!r.blob && !r.text) {
+          if (/not-allowed|service-not-allowed|audio-capture/.test(Rec.srError || '')) return Voice.say([['es', TALK.noMic, 'force']]);
+          return Voice.say([['es', `Toca el micrófono y di: ${it.en}`, 'force']]);
+        }
         if (r.blob) { await Voice.play(URL.createObjectURL(r.blob), 'es', {}); if (!alive(my)) return; }
         Sfx.good(); burstEl($('#card'));
         const heard = norm(r.text), word = norm(it.en).split(' ')[0];
@@ -39,7 +42,7 @@ function screenLesson(topicKey, done, back) {
       tapify(mic, () => {
         if (on) return stopRec();
         Voice.stop(); on = true; mic.classList.add('recording'); mic.textContent = '👂';
-        Rec.start('en-US', { sr: false }).then((ok) => { if (!ok && on) { on = false; mic.classList.remove('recording'); mic.textContent = '🎤'; Voice.say([['es', TALK.noMic, 'force']]); } });
+        Rec.start('en-US').then((ok) => { if (!ok && on) { on = false; mic.classList.remove('recording'); mic.textContent = '🎤'; Voice.say([['es', TALK.noMic, 'force']]); } });
         stopT = later(stopRec, 3500);
       });
     }

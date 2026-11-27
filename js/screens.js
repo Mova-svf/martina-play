@@ -189,6 +189,8 @@ function screenParents() {
     <label>Nombre de la mascota<input id="pPet" value="${petName()}" maxlength="20"></label>
     <label class="row"><input type="checkbox" id="pEs" ${s.spanish ? 'checked' : ''}> Traducir al español (ayuda)</label>
     <label class="row"><input type="checkbox" id="pSlow" ${s.slow ? 'checked' : ''}> Inglés más lento</label>
+    <label class="row"><input type="checkbox" id="pRec" ${s.recVoice ? 'checked' : ''}> Grabar su voz para que se escuche</label>
+    <p class="small">Apagado: la app usa el dictado del iPhone y no pide permisos. Encendido: Martina puede escuchar sus propios audios, pero Safari pedirá permiso del micrófono cada vez que se abra la app (salvo que en Ajustes › Apps › Safari › Micrófono elijas “Permitir”).</p>
     <button class="btn" id="pTest">🔊 Probar voces</button>
     <p class="small">Voz inglés: <b>${Voice.en ? Voice.en.name : 'por defecto'}</b> · Voz español: <b>${Voice.es ? Voice.es.name : 'por defecto'}</b><br>
     Tip: en el iPhone, en Ajustes › Accesibilidad › Contenido leído › Voces, puedes descargar voces “Mejoradas” (Samantha, Paulina) para que suenen más naturales. Recuerda quitar el modo silencio.</p>
@@ -212,7 +214,7 @@ function screenParents() {
   $('#pSave').onclick = () => {
     S.settings.name = $('#pName').value.trim() || 'Martina';
     S.settings.ntfy = $('#pNtfy').value.trim();
-    S.settings.spanish = $('#pEs').checked; S.settings.slow = $('#pSlow').checked;
+    S.settings.spanish = $('#pEs').checked; S.settings.slow = $('#pSlow').checked; S.settings.recVoice = $('#pRec').checked;
     if (S.pet) S.pet.name = $('#pPet').value.trim() || 'Coco';
     save(); screenHome();
   };

@@ -324,7 +324,7 @@ const PRAISE_ES = ['¡Lo hiciste genial, {name}!', '¡Muy bien, {name}!', '¡Bra
 
 const DEFAULT_STATE = {
   stars: 0, stickers: [], adv: 0, advLoops: 0, done: {},
-  settings: { name: 'Martina', spanish: true, slow: false, ntfy: '' },
+  settings: { name: 'Martina', spanish: true, slow: false, ntfy: '', recVoice: false },
   pet: null, ideas: [],
 };
 
