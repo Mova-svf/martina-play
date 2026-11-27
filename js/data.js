@@ -304,8 +304,8 @@ const ADVENTURE = [
   { type: 'lesson', topic: 'food' }, { type: 'teeth' }, { type: 'shadows' }, { type: 'calm' }, { type: 'chat', dialog: 'food' },
   { type: 'lesson', topic: 'body' }, { type: 'dress' }, { type: 'cook', recipe: 'salad' }, { type: 'chat', dialog: 'feelings' },
   { type: 'lesson', topic: 'shapes' }, { type: 'draw' }, { type: 'emotions' }, { type: 'friends' }, { type: 'chat', dialog: 'color' },
-  { type: 'lesson', topic: 'nature' }, { type: 'chat', dialog: 'weather' }, { type: 'cook', recipe: 'smoothie' },
-  { type: 'memory', topic: 'food' }, { type: 'chat', dialog: 'family' }, { type: 'sleep' },
+  { type: 'lesson', topic: 'nature' }, { type: 'lesson', topic: 'music' }, { type: 'chat', dialog: 'weather' }, { type: 'piano' }, { type: 'cook', recipe: 'smoothie' },
+  { type: 'memory', topic: 'food' }, { type: 'guess' }, { type: 'chat', dialog: 'family' }, { type: 'band' }, { type: 'sleep' },
 ];
 
 const GAMES = [
@@ -545,3 +545,99 @@ const CONVO = {
   nudge: '¿Me cuentas? Mantén apretado el micrófono y respóndeme.',
   game: '¿Y si jugamos un rato? Dime, por ejemplo: quiero jugar a las burbujas.',
 };
+
+/* ============ MÚSICA ============ */
+TOPICS.music = {
+  icon: '🎵', es: 'Instrumentos', en: 'Instruments', color: '#F97316', q: 'Find the {w}!',
+  intro: '¡Vamos a conocer los instrumentos musicales en inglés! Escucha cómo suena cada uno.',
+  items: [
+    { en: 'Piano', es: 'piano', emoji: '🎹', inst: 'piano' },
+    { en: 'Drum', es: 'tambor', emoji: '🥁', inst: 'drum' },
+    { en: 'Guitar', es: 'guitarra', emoji: '🎸', inst: 'guitar' },
+    { en: 'Trumpet', es: 'trompeta', emoji: '🎺', inst: 'trumpet' },
+    { en: 'Violin', es: 'violín', emoji: '🎻', inst: 'violin' },
+    { en: 'Flute', es: 'flauta', emoji: '🪈', inst: 'flute' },
+    { en: 'Maracas', es: 'maracas', emoji: '🪇', inst: 'maracas' },
+    { en: 'Saxophone', es: 'saxofón', emoji: '🎷', inst: 'sax' },
+    { en: 'Bell', es: 'campana', emoji: '🔔', inst: 'bell' },
+  ],
+};
+/* Canciones tradicionales (dominio público) en teclas 0-7 = do re mi fa sol la si do */
+const SONGS = [
+  { id: 'star', e: '⭐', es: 'Estrellita', en: 'Twinkle, twinkle', notes: [0, 0, 4, 4, 5, 5, 4, 3, 3, 2, 2, 1, 1, 0] },
+  { id: 'lamb', e: '🐑', es: 'La ovejita', en: 'Mary had a little lamb', notes: [2, 1, 0, 1, 2, 2, 2, 1, 1, 1, 2, 4, 4, 2, 1, 0, 1, 2, 2, 2, 2, 1, 1, 2, 1, 0] },
+  { id: 'scale', e: '🪜', es: 'La escalera', en: 'Do re mi', notes: [0, 1, 2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 3, 2, 1, 0] },
+];
+const NOTES = [
+  { n: 'Do', f: 262, c: '#EF4444' }, { n: 'Re', f: 294, c: '#FB923C' }, { n: 'Mi', f: 330, c: '#FACC15' }, { n: 'Fa', f: 349, c: '#22C55E' },
+  { n: 'Sol', f: 392, c: '#06B6D4' }, { n: 'La', f: 440, c: '#3B82F6' }, { n: 'Si', f: 494, c: '#A855F7' }, { n: 'Do', f: 523, c: '#F472B6' },
+];
+const MUSIC_TXT = {
+  menu: '¡Hagamos música! ¿Qué quieres tocar?',
+  piano: '¡Toca las teclas de colores! Cada una es una nota: do, re, mi, fa, sol, la, si, do.',
+  songPick: 'Elige una canción y toca la tecla que salta.',
+  songGo: '¡Muy bien! Toca la tecla que salta.',
+  songDone: '¡Tocaste la canción completa! ¡Eres una gran música!',
+  band: '¡Esta es tu banda! Toca los instrumentos y escucha cómo suenan.',
+  guess: '¡Escucha con atención! ¿Qué instrumento está sonando?',
+  rhythm: '¡Repite el ritmo! Escucha el tambor y después tócalo tú igual.',
+  rhythmOk: '¡Qué buen ritmo! ¡Eres una gran baterista!',
+};
+
+/* ============ PORTUGUÉS CON LUMI ============
+   pt = lo que dice Lumi en portugués · es = explicación en español · a = respuestas aceptadas (se acepta todo, es para animar) */
+const PT_THREADS = [
+  { intro: '¡Primero, los saludos!', steps: [
+    { pt: 'Bom dia!', es: 'Bom dia significa buenos días. ¡Dímelo tú!', a: ['bom dia', 'bom', 'dia'] },
+    { pt: 'Tudo bem?', es: 'Tudo bem significa ¿cómo estás? Respóndeme: tudo bem.', a: ['tudo', 'bem', 'todo'] },
+    { pt: 'Obrigada!', es: 'Obrigada significa gracias. ¡Ahora tú!', a: ['obrigada', 'obrigado', 'obligada'] },
+    { pt: 'Tchau!', es: 'Tchau significa chao. ¡Dímelo!', a: ['tchau', 'chau', 'chao'] },
+  ] },
+  { intro: '¡Ahora vamos a presentarnos!', steps: [
+    { pt: 'Qual é o seu nome?', es: 'Te pregunté cómo te llamas. Responde: meu nome é {name}.', a: ['meu', 'nome', '{name}'] },
+    { pt: 'Quantos anos você tem?', es: 'Te pregunté cuántos años tienes. Responde: eu tenho quatro anos.', a: ['tenho', 'quatro', 'anos'] },
+    { pt: 'Eu te amo!', es: 'Eu te amo significa te quiero mucho. ¡Dímelo tú!', a: ['amo', 'te amo'] },
+  ] },
+  { intro: '¡Palabras de la playa, como en Brasil!', steps: [
+    { pt: 'Praia!', es: 'Praia significa playa. Dime: praia.', a: ['praia', 'playa'] },
+    { pt: 'Sorvete!', es: 'Sorvete significa helado. ¡Mmm! Dime: sorvete.', a: ['sorvete', 'sorbete'] },
+    { pt: 'Água!', es: 'Água significa agua. ¡Fácil! Dime: água.', a: ['agua'] },
+    { pt: 'Sol!', es: 'Sol se dice igual que en español. ¡Dímelo!', a: ['sol'] },
+  ] },
+  { intro: '¡Ahora los animales!', steps: [
+    { pt: 'Cachorro!', es: 'Cachorro significa perro. ¡Qué chistoso! Dime: cachorro.', a: ['cachorro'] },
+    { pt: 'Gato!', es: 'Gato se dice igual: gato. ¡Dímelo!', a: ['gato'] },
+    { pt: 'Passarinho!', es: 'Passarinho significa pajarito. Dime: passarinho.', a: ['passarinho', 'pasarinho'] },
+    { pt: 'Macaco!', es: 'Macaco significa mono. Dime: macaco.', a: ['macaco'] },
+  ] },
+  { intro: '¡Ahora los colores!', steps: [
+    { pt: 'Vermelho!', es: 'Vermelho significa rojo. Dime: vermelho.', a: ['vermelho'] },
+    { pt: 'Azul!', es: 'Azul se dice igual: azul. ¡Dímelo!', a: ['azul'] },
+    { pt: 'Amarelo!', es: 'Amarelo significa amarillo. Dime: amarelo.', a: ['amarelo', 'amarillo'] },
+    { pt: 'Rosa!', es: 'Rosa significa rosado. Dime: rosa.', a: ['rosa'] },
+  ] },
+  { intro: '¡Vamos a contar en portugués!', steps: [
+    { pt: 'Um, dois, três!', es: 'Así se cuenta: um, dois, três. ¡Cuenta conmigo!', a: ['um', 'dois', 'tres'] },
+    { pt: 'Quatro, cinco!', es: 'Y sigue: quatro, cinco. ¡Tú puedes!', a: ['quatro', 'cinco'] },
+  ] },
+  { intro: '¡Palabras mágicas!', steps: [
+    { pt: 'Por favor!', es: 'Por favor se dice igual. ¡Dímelo!', a: ['favor'] },
+    { pt: 'Sim!', es: 'Sim significa sí. Dime: sim.', a: ['sim', 'si'] },
+    { pt: 'Não!', es: 'Não significa no. Dime: não.', a: ['nao', 'no'] },
+    { pt: 'Boa noite!', es: 'Boa noite significa buenas noches. Dime: boa noite.', a: ['boa', 'noite'] },
+  ] },
+];
+const PT_TXT = {
+  hello: '¡Hoy hablamos en portugués, como en Brasil! Yo te digo una palabra y tú la repites. Mantén apretado el micrófono para hablar.',
+  helloPt: 'Olá, {name}!',
+  back: '¡Volviste! Sigamos con el portugués.',
+  great: ['Muito bem!', 'Perfeito!', 'Isso!', 'Que lindo!'],
+  greatEs: ['¡Muy bien dicho!', '¡Lo dijiste súper!', '¡Hablas portugués!', '¡Qué bien suena!'],
+  newTopic: '¡Aprendiste muchas palabras! Sigamos con otras.',
+  allDone: '¡Aprendiste todas las palabras! ¡Eres una campeona del portugués! Empecemos otra vez.',
+};
+NAV.unshift(
+  { k: ['piano', 'teclado'], spec: { type: 'piano' }, icon: '🎹', r: '¡Vamos a tocar el piano!' },
+  { k: ['musica', 'instrumento', 'tocar', 'banda'], screen: 'music', icon: '🎵', r: '¡Vamos a hacer música!' },
+  { k: ['portugues', 'brasil'], screen: 'pt', icon: '🇧🇷', r: '¡Vamos a hablar portugués!' },
+);

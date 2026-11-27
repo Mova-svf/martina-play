@@ -13,6 +13,7 @@ OUT = os.path.join(ROOT, 'audio')
 VOICES = {
     'es':  {'voice': os.environ.get('VOZ_ESPANOL', 'es-MX-DaliaNeural'), 'rate': '+0%',  'pitch': '+6Hz'},   # Lumi, mexicana
     'en':  {'voice': os.environ.get('VOZ_INGLES', 'en-US-EmmaNeural'),      'rate': '-12%', 'pitch': '+0Hz'},   # inglés claro y lento
+    'pt':  {'voice': os.environ.get('VOZ_PORTUGUES', 'pt-BR-FranciscaNeural'), 'rate': '-8%', 'pitch': '+4Hz'},  # Lumi en portugués
     'kid': {'voice': os.environ.get('VOZ_NINA', 'en-US-AnaNeural'),         'rate': '-5%',  'pitch': '+0Hz'},   # respuestas de la niña
 }
 
@@ -29,7 +30,7 @@ async def one(p, sem, manifest, stats):
         return
     v = VOICES[p['lang']]
     text = p['text']
-    if p['lang'] != 'es' and len(text.split()) == 1 and not text.endswith(('!', '?', '.')):
+    if p['lang'] in ('en', 'kid') and len(text.split()) == 1 and not text.endswith(('!', '?', '.')):
         text += '!'
     async with sem:
         for intento in range(3):

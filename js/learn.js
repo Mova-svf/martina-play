@@ -11,7 +11,7 @@ function screenLesson(topicKey, done, back) {
   const dots = (n, on) => { $('#dots').innerHTML = Array.from({ length: n }, (_, k) => `<span class="dot ${k < on ? 'on' : ''}"></span>`).join(''); };
   const extra = (it) => (it.sound ? [['pause', 250], ['en', it.sound]] : []);
   let i = 0;
-  const speakItem = (it) => Voice.say([['en', it.en], ['pause', 200], ['es', it.es], ['pause', 200], ['en', it.en], ...extra(it)]);
+  const speakItem = (it) => Voice.say([['en', it.en], ['pause', 200], ['es', it.es], ['pause', 200], ['en', it.en], ...extra(it)]).then((ok) => { if (ok && it.inst && alive(my)) Synth.demo(it.inst); return ok; });
 
   function learn() {
     if (i >= items.length) return quizIntro();
@@ -35,9 +35,9 @@ function screenLesson(topicKey, done, back) {
         }
         if (r.blob) { await Voice.play(URL.createObjectURL(r.blob), 'es', {}); if (!alive(my)) return; }
         Sfx.good(); burstEl($('#card'));
-        const heard = norm(r.text), word = norm(it.en).split(' ')[0];
-        if (!heard || heard.includes(word)) Voice.say([['en', `Perfect! ${it.en}!`], ['es', '¡Perfecto!']]);
-        else Voice.say([['en', `Good try! ${it.en}!`], ['es', '¡Buen intento!']]);
+        // Siempre felicita: si se parece, "Perfect!"; si dijo otra cosa, igual "Yes!" (tiene 4 años)
+        if (!r.text || soundsLike(r.text, it.en)) Voice.say([['en', `Perfect! ${it.en}!`], ['es', '¡Perfecto!']]);
+        else Voice.say([['en', `Yes! ${it.en}!`], ['es', '¡Muy bien!']]);
       };
       tapify(mic, () => {
         if (on) return stopRec();
@@ -69,6 +69,7 @@ function screenLesson(topicKey, done, back) {
       if (o === it) {
         locked = true; b.classList.add('right'); Sfx.good(); burstEl(b);
         await Voice.say([['en', `Yes! ${it.en}!`], ['es', it.es]]);
+        if (it.inst) { Synth.demo(it.inst); await sleep(1400); }
         if (!alive(my)) return; round++; later(quiz, 300);
       } else {
         mistakes++; wrongHere++; b.classList.add('shake'); Sfx.oops(); later(() => b.classList.remove('shake'), 500);
@@ -129,7 +130,7 @@ function screenChat(key, done, back) {
     $('#mic').textContent = '🎤 Responder hablando';
     if (!heard) return sayEs('No te escuché. Toca un dibujo o intenta otra vez.');
     const words = (s) => fill(s).toLowerCase().replace(/[^a-z ]/g, '').split(' ').filter((w) => w.length > 2 && !['the', 'its', 'and'].includes(w));
-    const match = cur.options.find((o) => words(o.label).some((w) => heard.includes(w)));
+    const match = cur.options.find((o) => words(o.label).some((w) => soundsLike(heard, w)));
     if (match) answer(match);
     else if (cur.options.length === 1) answer(cur.options[0]);
     else { Sfx.good(); sayEn('Good try! Tap a picture too!', '¡Buen intento! Ahora toca un dibujo.'); }

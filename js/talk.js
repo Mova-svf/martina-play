@@ -67,7 +67,7 @@ function converse(text) {
   if (b.nav) return b; // va a otra parte de la app: no pregunta nada más
   if (b.idea) parts = b.parts;
   else if (step && step.a) {
-    const ok = !!text && step.a.some((a) => norm(text).includes(norm(a)));
+    const ok = !!text && step.a.some((a) => soundsLike(text, a));
     parts = [['es', ok ? step.ok : step.no], ['en', step.en]];
   } else if (!b.fb) parts = b.parts.filter((p) => p[1] !== TALK.vocab[1]);
   else if (!text) parts = [['es', pick(TALK.noText)]];
@@ -154,11 +154,32 @@ async function saveIdea(text, blob) {
 
 /* ---------- Pantalla ---------- */
 const TALK_LOG = []; // conversación de esta sesión
+const PT_LOG = [];
+/* ---------- Portugués: Lumi dice una palabra, Martina la repite (siempre se la felicita) ---------- */
+const PTC = { ti: 0, si: 0 };
+function ptAsk(newTopic) {
+  const th = PT_THREADS[PTC.ti % PT_THREADS.length], st = th.steps[PTC.si];
+  const parts = [];
+  if (newTopic) parts.push(['es', PTC.ti % PT_THREADS.length === 0 ? PT_TXT.allDone : PT_TXT.newTopic, 'force']);
+  if (PTC.si === 0) parts.push(['es', th.intro, 'force']);
+  parts.push(['pt', st.pt], ['es', st.es, 'force']);
+  return parts;
+}
+function ptConverse(text) {
+  const st = PT_THREADS[PTC.ti % PT_THREADS.length].steps[PTC.si];
+  const good = !text || st.a.some((a) => soundsLike(text, a));
+  const parts = [['pt', good ? pick(PT_TXT.great) : 'Muito bem!'], ['es', pick(PT_TXT.greatEs), 'force'], ['pt', st.pt]];
+  PTC.si++;
+  let newTopic = false;
+  if (PTC.si >= PT_THREADS[PTC.ti % PT_THREADS.length].steps.length) { PTC.si = 0; PTC.ti++; newTopic = true; }
+  return { parts: [...parts, ...ptAsk(newTopic)] };
+}
 const fmtSecs = (s) => `0:${String(Math.max(1, Math.round(s))).padStart(2, '0')}`;
-function screenTalk() {
+function screenTalk(lang = 'es') {
+  const PT = lang === 'pt', LOG = PT ? PT_LOG : TALK_LOG;
   const my = render(`<div class="talk"><div class="talk-list" id="list"></div>
     <div class="talk-bar"><div class="rec-hint" id="hint">Mantén apretado 🎤 para hablar</div><button class="rec-btn" id="rec" aria-label="Grabar"><span>🎤</span></button></div></div>`,
-    { title: '🎙️ Audios con Lumi', back: () => screenHome(), home: true, cls: 'chatbg' });
+    { title: PT ? '🇧🇷 Português com Lumi' : '🎙️ Audios con Lumi', back: () => screenHome(), home: true, cls: PT ? 'chatbg br' : 'chatbg' });
   const list = $('#list');
   const scrollDown = () => { list.scrollTop = list.scrollHeight; };
   const waveHTML = '<span class="wave">' + Array.from({ length: 14 }, (_, i) => `<i style="height:${6 + ((i * 37) % 17)}px"></i>`).join('') + '</span>';
@@ -184,18 +205,19 @@ function screenTalk() {
     list.appendChild(el); scrollDown();
     return el;
   }
-  function lumiSay(m) { TALK_LOG.push(m); const el = draw(m); m.play(); return el; }
+  function lumiSay(m) { LOG.push(m); const el = draw(m); m.play(); return el; }
   function goNav(n) {
-    const back = () => screenTalk();
+    const back = () => screenTalk(lang);
     if (n.spec) return startActivity(n.spec, back);
-    ({ kitchen: screenKitchen, stickers: screenStickers, adventure: screenAdventure, pet: screenPet, english: screenEnglish, chat: screenChatMenu, games: screenGames })[n.screen]();
+    ({ music: screenMusicMenu, pt: () => screenTalk('pt'), kitchen: screenKitchen, stickers: screenStickers, adventure: screenAdventure, pet: screenPet, english: screenEnglish, chat: screenChatMenu, games: screenGames })[n.screen]();
   }
-  TALK_LOG.forEach(draw);
+  LOG.forEach(draw);
   let nudgeT = null;
   const armNudge = () => { clearTimeout(nudgeT); nudgeT = later(() => { if (!recording && !starting) Voice.say([['es', CONVO.nudge, 'force']]); }, 25000); };
   later(() => {
     if (!alive(my)) return;
-    if (!TALK_LOG.length) lumiSay({ who: 'lumi', parts: [['es', TALK.hello], ...convAsk(false)] });
+    if (PT) lumiSay({ who: 'lumi', parts: LOG.length ? [['es', PT_TXT.back, 'force'], ...ptAsk(false)] : [['pt', PT_TXT.helloPt], ['es', PT_TXT.hello, 'force'], ...ptAsk(false)] });
+    else if (!LOG.length) lumiSay({ who: 'lumi', parts: [['es', TALK.hello], ...convAsk(false)] });
     else lumiSay({ who: 'lumi', parts: [['es', CONVO.back], ...convAsk(false)] });
     armNudge();
   }, 300);
@@ -207,7 +229,7 @@ function screenTalk() {
     if (recording || starting) return;
     clearTimeout(nudgeT); starting = true; Voice.stop(); Sfx.unlock(); Sfx.tone(880, 0.08, 'sine', 0.12);
     btn.classList.add('rec'); hint.textContent = 'Te escucho... 👂';
-    const ok = await Rec.start();
+    const ok = await Rec.start(PT ? 'pt-BR' : 'es-CL');
     starting = false;
     if (!alive(my)) return Rec.stop();
     if (!ok) { btn.classList.remove('rec'); hint.textContent = 'No puedo usar el micrófono 😢'; return Voice.say([['es', TALK.noMic, 'force']]); }
@@ -224,13 +246,13 @@ function screenTalk() {
     Sfx.tone(660, 0.08, 'sine', 0.12);
     if (r.secs < 0.8 && !r.text) { hint.textContent = '¡Mantén apretado más rato! 🎤'; return Voice.say([['es', TALK.hold, 'force']]); }
     const me = { who: 'me', url: r.blob ? URL.createObjectURL(r.blob) : null, secs: r.secs, text: r.text };
-    TALK_LOG.push(me); draw(me);
+    LOG.push(me); draw(me);
     const typing = document.createElement('div'); typing.className = 'msg lumi'; typing.innerHTML = `<div class="av">${lumiSVG()}</div><div class="mb typing"><i></i><i></i><i></i></div>`;
     list.appendChild(typing); scrollDown();
     await sleep(900);
     typing.remove();
     if (!alive(my)) return;
-    const ans = converse(r.text);
+    const ans = PT ? ptConverse(r.text) : converse(r.text);
     if (ans.idea) saveIdea(r.text, r.blob);
     lumiSay({ who: 'lumi', ...ans });
     if (!ans.nav) armNudge();

@@ -4885,6 +4885,511 @@
   "text": "Snow!"
  },
  {
+  "key": "es|¡Vamos a conocer los instrumentos musicales en inglés! Escucha cómo suena cada uno.",
+  "lang": "es",
+  "text": "¡Vamos a conocer los instrumentos musicales en inglés! Escucha cómo suena cada uno."
+ },
+ {
+  "key": "en|Instruments",
+  "lang": "en",
+  "text": "Instruments"
+ },
+ {
+  "key": "en|Piano",
+  "lang": "en",
+  "text": "Piano"
+ },
+ {
+  "key": "es|piano",
+  "lang": "es",
+  "text": "piano"
+ },
+ {
+  "key": "en|Say: Piano!",
+  "lang": "en",
+  "text": "Say: Piano!"
+ },
+ {
+  "key": "en|Perfect! Piano!",
+  "lang": "en",
+  "text": "Perfect! Piano!"
+ },
+ {
+  "key": "en|Good try! Piano!",
+  "lang": "en",
+  "text": "Good try! Piano!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Piano",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Piano"
+ },
+ {
+  "key": "en|Find the Piano!",
+  "lang": "en",
+  "text": "Find the Piano!"
+ },
+ {
+  "key": "en|Yes! Piano!",
+  "lang": "en",
+  "text": "Yes! Piano!"
+ },
+ {
+  "key": "en|That's Piano. Try again!",
+  "lang": "en",
+  "text": "That's Piano. Try again!"
+ },
+ {
+  "key": "es|Busca: piano",
+  "lang": "es",
+  "text": "Busca: piano"
+ },
+ {
+  "key": "en|Piano!",
+  "lang": "en",
+  "text": "Piano!"
+ },
+ {
+  "key": "en|Drum",
+  "lang": "en",
+  "text": "Drum"
+ },
+ {
+  "key": "es|tambor",
+  "lang": "es",
+  "text": "tambor"
+ },
+ {
+  "key": "en|Say: Drum!",
+  "lang": "en",
+  "text": "Say: Drum!"
+ },
+ {
+  "key": "en|Perfect! Drum!",
+  "lang": "en",
+  "text": "Perfect! Drum!"
+ },
+ {
+  "key": "en|Good try! Drum!",
+  "lang": "en",
+  "text": "Good try! Drum!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Drum",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Drum"
+ },
+ {
+  "key": "en|Find the Drum!",
+  "lang": "en",
+  "text": "Find the Drum!"
+ },
+ {
+  "key": "en|Yes! Drum!",
+  "lang": "en",
+  "text": "Yes! Drum!"
+ },
+ {
+  "key": "en|That's Drum. Try again!",
+  "lang": "en",
+  "text": "That's Drum. Try again!"
+ },
+ {
+  "key": "es|Busca: tambor",
+  "lang": "es",
+  "text": "Busca: tambor"
+ },
+ {
+  "key": "en|Drum!",
+  "lang": "en",
+  "text": "Drum!"
+ },
+ {
+  "key": "en|Guitar",
+  "lang": "en",
+  "text": "Guitar"
+ },
+ {
+  "key": "es|guitarra",
+  "lang": "es",
+  "text": "guitarra"
+ },
+ {
+  "key": "en|Say: Guitar!",
+  "lang": "en",
+  "text": "Say: Guitar!"
+ },
+ {
+  "key": "en|Perfect! Guitar!",
+  "lang": "en",
+  "text": "Perfect! Guitar!"
+ },
+ {
+  "key": "en|Good try! Guitar!",
+  "lang": "en",
+  "text": "Good try! Guitar!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Guitar",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Guitar"
+ },
+ {
+  "key": "en|Find the Guitar!",
+  "lang": "en",
+  "text": "Find the Guitar!"
+ },
+ {
+  "key": "en|Yes! Guitar!",
+  "lang": "en",
+  "text": "Yes! Guitar!"
+ },
+ {
+  "key": "en|That's Guitar. Try again!",
+  "lang": "en",
+  "text": "That's Guitar. Try again!"
+ },
+ {
+  "key": "es|Busca: guitarra",
+  "lang": "es",
+  "text": "Busca: guitarra"
+ },
+ {
+  "key": "en|Guitar!",
+  "lang": "en",
+  "text": "Guitar!"
+ },
+ {
+  "key": "en|Trumpet",
+  "lang": "en",
+  "text": "Trumpet"
+ },
+ {
+  "key": "es|trompeta",
+  "lang": "es",
+  "text": "trompeta"
+ },
+ {
+  "key": "en|Say: Trumpet!",
+  "lang": "en",
+  "text": "Say: Trumpet!"
+ },
+ {
+  "key": "en|Perfect! Trumpet!",
+  "lang": "en",
+  "text": "Perfect! Trumpet!"
+ },
+ {
+  "key": "en|Good try! Trumpet!",
+  "lang": "en",
+  "text": "Good try! Trumpet!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Trumpet",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Trumpet"
+ },
+ {
+  "key": "en|Find the Trumpet!",
+  "lang": "en",
+  "text": "Find the Trumpet!"
+ },
+ {
+  "key": "en|Yes! Trumpet!",
+  "lang": "en",
+  "text": "Yes! Trumpet!"
+ },
+ {
+  "key": "en|That's Trumpet. Try again!",
+  "lang": "en",
+  "text": "That's Trumpet. Try again!"
+ },
+ {
+  "key": "es|Busca: trompeta",
+  "lang": "es",
+  "text": "Busca: trompeta"
+ },
+ {
+  "key": "en|Trumpet!",
+  "lang": "en",
+  "text": "Trumpet!"
+ },
+ {
+  "key": "en|Violin",
+  "lang": "en",
+  "text": "Violin"
+ },
+ {
+  "key": "es|violín",
+  "lang": "es",
+  "text": "violín"
+ },
+ {
+  "key": "en|Say: Violin!",
+  "lang": "en",
+  "text": "Say: Violin!"
+ },
+ {
+  "key": "en|Perfect! Violin!",
+  "lang": "en",
+  "text": "Perfect! Violin!"
+ },
+ {
+  "key": "en|Good try! Violin!",
+  "lang": "en",
+  "text": "Good try! Violin!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Violin",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Violin"
+ },
+ {
+  "key": "en|Find the Violin!",
+  "lang": "en",
+  "text": "Find the Violin!"
+ },
+ {
+  "key": "en|Yes! Violin!",
+  "lang": "en",
+  "text": "Yes! Violin!"
+ },
+ {
+  "key": "en|That's Violin. Try again!",
+  "lang": "en",
+  "text": "That's Violin. Try again!"
+ },
+ {
+  "key": "es|Busca: violín",
+  "lang": "es",
+  "text": "Busca: violín"
+ },
+ {
+  "key": "en|Violin!",
+  "lang": "en",
+  "text": "Violin!"
+ },
+ {
+  "key": "en|Flute",
+  "lang": "en",
+  "text": "Flute"
+ },
+ {
+  "key": "es|flauta",
+  "lang": "es",
+  "text": "flauta"
+ },
+ {
+  "key": "en|Say: Flute!",
+  "lang": "en",
+  "text": "Say: Flute!"
+ },
+ {
+  "key": "en|Perfect! Flute!",
+  "lang": "en",
+  "text": "Perfect! Flute!"
+ },
+ {
+  "key": "en|Good try! Flute!",
+  "lang": "en",
+  "text": "Good try! Flute!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Flute",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Flute"
+ },
+ {
+  "key": "en|Find the Flute!",
+  "lang": "en",
+  "text": "Find the Flute!"
+ },
+ {
+  "key": "en|Yes! Flute!",
+  "lang": "en",
+  "text": "Yes! Flute!"
+ },
+ {
+  "key": "en|That's Flute. Try again!",
+  "lang": "en",
+  "text": "That's Flute. Try again!"
+ },
+ {
+  "key": "es|Busca: flauta",
+  "lang": "es",
+  "text": "Busca: flauta"
+ },
+ {
+  "key": "en|Flute!",
+  "lang": "en",
+  "text": "Flute!"
+ },
+ {
+  "key": "en|Maracas",
+  "lang": "en",
+  "text": "Maracas"
+ },
+ {
+  "key": "es|maracas",
+  "lang": "es",
+  "text": "maracas"
+ },
+ {
+  "key": "en|Say: Maracas!",
+  "lang": "en",
+  "text": "Say: Maracas!"
+ },
+ {
+  "key": "en|Perfect! Maracas!",
+  "lang": "en",
+  "text": "Perfect! Maracas!"
+ },
+ {
+  "key": "en|Good try! Maracas!",
+  "lang": "en",
+  "text": "Good try! Maracas!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Maracas",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Maracas"
+ },
+ {
+  "key": "en|Find the Maracas!",
+  "lang": "en",
+  "text": "Find the Maracas!"
+ },
+ {
+  "key": "en|Yes! Maracas!",
+  "lang": "en",
+  "text": "Yes! Maracas!"
+ },
+ {
+  "key": "en|That's Maracas. Try again!",
+  "lang": "en",
+  "text": "That's Maracas. Try again!"
+ },
+ {
+  "key": "es|Busca: maracas",
+  "lang": "es",
+  "text": "Busca: maracas"
+ },
+ {
+  "key": "en|Maracas!",
+  "lang": "en",
+  "text": "Maracas!"
+ },
+ {
+  "key": "en|Saxophone",
+  "lang": "en",
+  "text": "Saxophone"
+ },
+ {
+  "key": "es|saxofón",
+  "lang": "es",
+  "text": "saxofón"
+ },
+ {
+  "key": "en|Say: Saxophone!",
+  "lang": "en",
+  "text": "Say: Saxophone!"
+ },
+ {
+  "key": "en|Perfect! Saxophone!",
+  "lang": "en",
+  "text": "Perfect! Saxophone!"
+ },
+ {
+  "key": "en|Good try! Saxophone!",
+  "lang": "en",
+  "text": "Good try! Saxophone!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Saxophone",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Saxophone"
+ },
+ {
+  "key": "en|Find the Saxophone!",
+  "lang": "en",
+  "text": "Find the Saxophone!"
+ },
+ {
+  "key": "en|Yes! Saxophone!",
+  "lang": "en",
+  "text": "Yes! Saxophone!"
+ },
+ {
+  "key": "en|That's Saxophone. Try again!",
+  "lang": "en",
+  "text": "That's Saxophone. Try again!"
+ },
+ {
+  "key": "es|Busca: saxofón",
+  "lang": "es",
+  "text": "Busca: saxofón"
+ },
+ {
+  "key": "en|Saxophone!",
+  "lang": "en",
+  "text": "Saxophone!"
+ },
+ {
+  "key": "en|Bell",
+  "lang": "en",
+  "text": "Bell"
+ },
+ {
+  "key": "es|campana",
+  "lang": "es",
+  "text": "campana"
+ },
+ {
+  "key": "en|Say: Bell!",
+  "lang": "en",
+  "text": "Say: Bell!"
+ },
+ {
+  "key": "en|Perfect! Bell!",
+  "lang": "en",
+  "text": "Perfect! Bell!"
+ },
+ {
+  "key": "en|Good try! Bell!",
+  "lang": "en",
+  "text": "Good try! Bell!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Bell",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Bell"
+ },
+ {
+  "key": "en|Find the Bell!",
+  "lang": "en",
+  "text": "Find the Bell!"
+ },
+ {
+  "key": "en|Yes! Bell!",
+  "lang": "en",
+  "text": "Yes! Bell!"
+ },
+ {
+  "key": "en|That's Bell. Try again!",
+  "lang": "en",
+  "text": "That's Bell. Try again!"
+ },
+ {
+  "key": "es|Busca: campana",
+  "lang": "es",
+  "text": "Busca: campana"
+ },
+ {
+  "key": "en|Bell!",
+  "lang": "en",
+  "text": "Bell!"
+ },
+ {
   "key": "es|¡Ahora juguemos! Escucha y toca el correcto.",
   "lang": "es",
   "text": "¡Ahora juguemos! Escucha y toca el correcto."
@@ -6360,6 +6865,21 @@
   "text": "Me encanta el color morado, las estrellas y aprender inglés contigo."
  },
  {
+  "key": "es|¡Vamos a tocar el piano!",
+  "lang": "es",
+  "text": "¡Vamos a tocar el piano!"
+ },
+ {
+  "key": "es|¡Vamos a hacer música!",
+  "lang": "es",
+  "text": "¡Vamos a hacer música!"
+ },
+ {
+  "key": "es|¡Vamos a hablar portugués!",
+  "lang": "es",
+  "text": "¡Vamos a hablar portugués!"
+ },
+ {
   "key": "es|¡Vamos a bañar a Coco!",
   "lang": "es",
   "text": "¡Vamos a bañar a Coco!"
@@ -7478,5 +7998,440 @@
   "key": "es|¿Y si jugamos un rato? Dime, por ejemplo: quiero jugar a las burbujas.",
   "lang": "es",
   "text": "¿Y si jugamos un rato? Dime, por ejemplo: quiero jugar a las burbujas."
+ },
+ {
+  "key": "es|¡Hagamos música! ¿Qué quieres tocar?",
+  "lang": "es",
+  "text": "¡Hagamos música! ¿Qué quieres tocar?"
+ },
+ {
+  "key": "es|¡Toca las teclas de colores! Cada una es una nota: do, re, mi, fa, sol, la, si, do.",
+  "lang": "es",
+  "text": "¡Toca las teclas de colores! Cada una es una nota: do, re, mi, fa, sol, la, si, do."
+ },
+ {
+  "key": "es|Elige una canción y toca la tecla que salta.",
+  "lang": "es",
+  "text": "Elige una canción y toca la tecla que salta."
+ },
+ {
+  "key": "es|¡Muy bien! Toca la tecla que salta.",
+  "lang": "es",
+  "text": "¡Muy bien! Toca la tecla que salta."
+ },
+ {
+  "key": "es|¡Tocaste la canción completa! ¡Eres una gran música!",
+  "lang": "es",
+  "text": "¡Tocaste la canción completa! ¡Eres una gran música!"
+ },
+ {
+  "key": "es|¡Esta es tu banda! Toca los instrumentos y escucha cómo suenan.",
+  "lang": "es",
+  "text": "¡Esta es tu banda! Toca los instrumentos y escucha cómo suenan."
+ },
+ {
+  "key": "es|¡Escucha con atención! ¿Qué instrumento está sonando?",
+  "lang": "es",
+  "text": "¡Escucha con atención! ¿Qué instrumento está sonando?"
+ },
+ {
+  "key": "es|¡Repite el ritmo! Escucha el tambor y después tócalo tú igual.",
+  "lang": "es",
+  "text": "¡Repite el ritmo! Escucha el tambor y después tócalo tú igual."
+ },
+ {
+  "key": "es|¡Qué buen ritmo! ¡Eres una gran baterista!",
+  "lang": "es",
+  "text": "¡Qué buen ritmo! ¡Eres una gran baterista!"
+ },
+ {
+  "key": "en|Twinkle, twinkle",
+  "lang": "en",
+  "text": "Twinkle, twinkle"
+ },
+ {
+  "key": "en|Mary had a little lamb",
+  "lang": "en",
+  "text": "Mary had a little lamb"
+ },
+ {
+  "key": "en|Do re mi",
+  "lang": "en",
+  "text": "Do re mi"
+ },
+ {
+  "key": "en|Play the music!",
+  "lang": "en",
+  "text": "Play the music!"
+ },
+ {
+  "key": "en|Try again!",
+  "lang": "en",
+  "text": "Try again!"
+ },
+ {
+  "key": "en|Listen! Which instrument is it?",
+  "lang": "en",
+  "text": "Listen! Which instrument is it?"
+ },
+ {
+  "key": "en|Let's make music!",
+  "lang": "en",
+  "text": "Let's make music!"
+ },
+ {
+  "key": "es|¡Intentémoslo otra vez!",
+  "lang": "es",
+  "text": "¡Intentémoslo otra vez!"
+ },
+ {
+  "key": "es|¡Primero, los saludos!",
+  "lang": "es",
+  "text": "¡Primero, los saludos!"
+ },
+ {
+  "key": "pt|Bom dia!",
+  "lang": "pt",
+  "text": "Bom dia!"
+ },
+ {
+  "key": "es|Bom dia significa buenos días. ¡Dímelo tú!",
+  "lang": "es",
+  "text": "Bom dia significa buenos días. ¡Dímelo tú!"
+ },
+ {
+  "key": "pt|Tudo bem?",
+  "lang": "pt",
+  "text": "Tudo bem?"
+ },
+ {
+  "key": "es|Tudo bem significa ¿cómo estás? Respóndeme: tudo bem.",
+  "lang": "es",
+  "text": "Tudo bem significa ¿cómo estás? Respóndeme: tudo bem."
+ },
+ {
+  "key": "pt|Obrigada!",
+  "lang": "pt",
+  "text": "Obrigada!"
+ },
+ {
+  "key": "es|Obrigada significa gracias. ¡Ahora tú!",
+  "lang": "es",
+  "text": "Obrigada significa gracias. ¡Ahora tú!"
+ },
+ {
+  "key": "pt|Tchau!",
+  "lang": "pt",
+  "text": "Tchau!"
+ },
+ {
+  "key": "es|Tchau significa chao. ¡Dímelo!",
+  "lang": "es",
+  "text": "Tchau significa chao. ¡Dímelo!"
+ },
+ {
+  "key": "es|¡Ahora vamos a presentarnos!",
+  "lang": "es",
+  "text": "¡Ahora vamos a presentarnos!"
+ },
+ {
+  "key": "pt|Qual é o seu nome?",
+  "lang": "pt",
+  "text": "Qual é o seu nome?"
+ },
+ {
+  "key": "es|Te pregunté cómo te llamas. Responde: meu nome é Martina.",
+  "lang": "es",
+  "text": "Te pregunté cómo te llamas. Responde: meu nome é Martina."
+ },
+ {
+  "key": "pt|Quantos anos você tem?",
+  "lang": "pt",
+  "text": "Quantos anos você tem?"
+ },
+ {
+  "key": "es|Te pregunté cuántos años tienes. Responde: eu tenho quatro anos.",
+  "lang": "es",
+  "text": "Te pregunté cuántos años tienes. Responde: eu tenho quatro anos."
+ },
+ {
+  "key": "pt|Eu te amo!",
+  "lang": "pt",
+  "text": "Eu te amo!"
+ },
+ {
+  "key": "es|Eu te amo significa te quiero mucho. ¡Dímelo tú!",
+  "lang": "es",
+  "text": "Eu te amo significa te quiero mucho. ¡Dímelo tú!"
+ },
+ {
+  "key": "es|¡Palabras de la playa, como en Brasil!",
+  "lang": "es",
+  "text": "¡Palabras de la playa, como en Brasil!"
+ },
+ {
+  "key": "pt|Praia!",
+  "lang": "pt",
+  "text": "Praia!"
+ },
+ {
+  "key": "es|Praia significa playa. Dime: praia.",
+  "lang": "es",
+  "text": "Praia significa playa. Dime: praia."
+ },
+ {
+  "key": "pt|Sorvete!",
+  "lang": "pt",
+  "text": "Sorvete!"
+ },
+ {
+  "key": "es|Sorvete significa helado. ¡Mmm! Dime: sorvete.",
+  "lang": "es",
+  "text": "Sorvete significa helado. ¡Mmm! Dime: sorvete."
+ },
+ {
+  "key": "pt|Água!",
+  "lang": "pt",
+  "text": "Água!"
+ },
+ {
+  "key": "es|Água significa agua. ¡Fácil! Dime: água.",
+  "lang": "es",
+  "text": "Água significa agua. ¡Fácil! Dime: água."
+ },
+ {
+  "key": "pt|Sol!",
+  "lang": "pt",
+  "text": "Sol!"
+ },
+ {
+  "key": "es|Sol se dice igual que en español. ¡Dímelo!",
+  "lang": "es",
+  "text": "Sol se dice igual que en español. ¡Dímelo!"
+ },
+ {
+  "key": "es|¡Ahora los animales!",
+  "lang": "es",
+  "text": "¡Ahora los animales!"
+ },
+ {
+  "key": "pt|Cachorro!",
+  "lang": "pt",
+  "text": "Cachorro!"
+ },
+ {
+  "key": "es|Cachorro significa perro. ¡Qué chistoso! Dime: cachorro.",
+  "lang": "es",
+  "text": "Cachorro significa perro. ¡Qué chistoso! Dime: cachorro."
+ },
+ {
+  "key": "pt|Gato!",
+  "lang": "pt",
+  "text": "Gato!"
+ },
+ {
+  "key": "es|Gato se dice igual: gato. ¡Dímelo!",
+  "lang": "es",
+  "text": "Gato se dice igual: gato. ¡Dímelo!"
+ },
+ {
+  "key": "pt|Passarinho!",
+  "lang": "pt",
+  "text": "Passarinho!"
+ },
+ {
+  "key": "es|Passarinho significa pajarito. Dime: passarinho.",
+  "lang": "es",
+  "text": "Passarinho significa pajarito. Dime: passarinho."
+ },
+ {
+  "key": "pt|Macaco!",
+  "lang": "pt",
+  "text": "Macaco!"
+ },
+ {
+  "key": "es|Macaco significa mono. Dime: macaco.",
+  "lang": "es",
+  "text": "Macaco significa mono. Dime: macaco."
+ },
+ {
+  "key": "es|¡Ahora los colores!",
+  "lang": "es",
+  "text": "¡Ahora los colores!"
+ },
+ {
+  "key": "pt|Vermelho!",
+  "lang": "pt",
+  "text": "Vermelho!"
+ },
+ {
+  "key": "es|Vermelho significa rojo. Dime: vermelho.",
+  "lang": "es",
+  "text": "Vermelho significa rojo. Dime: vermelho."
+ },
+ {
+  "key": "pt|Azul!",
+  "lang": "pt",
+  "text": "Azul!"
+ },
+ {
+  "key": "es|Azul se dice igual: azul. ¡Dímelo!",
+  "lang": "es",
+  "text": "Azul se dice igual: azul. ¡Dímelo!"
+ },
+ {
+  "key": "pt|Amarelo!",
+  "lang": "pt",
+  "text": "Amarelo!"
+ },
+ {
+  "key": "es|Amarelo significa amarillo. Dime: amarelo.",
+  "lang": "es",
+  "text": "Amarelo significa amarillo. Dime: amarelo."
+ },
+ {
+  "key": "pt|Rosa!",
+  "lang": "pt",
+  "text": "Rosa!"
+ },
+ {
+  "key": "es|Rosa significa rosado. Dime: rosa.",
+  "lang": "es",
+  "text": "Rosa significa rosado. Dime: rosa."
+ },
+ {
+  "key": "es|¡Vamos a contar en portugués!",
+  "lang": "es",
+  "text": "¡Vamos a contar en portugués!"
+ },
+ {
+  "key": "pt|Um, dois, três!",
+  "lang": "pt",
+  "text": "Um, dois, três!"
+ },
+ {
+  "key": "es|Así se cuenta: um, dois, três. ¡Cuenta conmigo!",
+  "lang": "es",
+  "text": "Así se cuenta: um, dois, três. ¡Cuenta conmigo!"
+ },
+ {
+  "key": "pt|Quatro, cinco!",
+  "lang": "pt",
+  "text": "Quatro, cinco!"
+ },
+ {
+  "key": "es|Y sigue: quatro, cinco. ¡Tú puedes!",
+  "lang": "es",
+  "text": "Y sigue: quatro, cinco. ¡Tú puedes!"
+ },
+ {
+  "key": "es|¡Palabras mágicas!",
+  "lang": "es",
+  "text": "¡Palabras mágicas!"
+ },
+ {
+  "key": "pt|Por favor!",
+  "lang": "pt",
+  "text": "Por favor!"
+ },
+ {
+  "key": "es|Por favor se dice igual. ¡Dímelo!",
+  "lang": "es",
+  "text": "Por favor se dice igual. ¡Dímelo!"
+ },
+ {
+  "key": "pt|Sim!",
+  "lang": "pt",
+  "text": "Sim!"
+ },
+ {
+  "key": "es|Sim significa sí. Dime: sim.",
+  "lang": "es",
+  "text": "Sim significa sí. Dime: sim."
+ },
+ {
+  "key": "pt|Não!",
+  "lang": "pt",
+  "text": "Não!"
+ },
+ {
+  "key": "es|Não significa no. Dime: não.",
+  "lang": "es",
+  "text": "Não significa no. Dime: não."
+ },
+ {
+  "key": "pt|Boa noite!",
+  "lang": "pt",
+  "text": "Boa noite!"
+ },
+ {
+  "key": "es|Boa noite significa buenas noches. Dime: boa noite.",
+  "lang": "es",
+  "text": "Boa noite significa buenas noches. Dime: boa noite."
+ },
+ {
+  "key": "es|¡Hoy hablamos en portugués, como en Brasil! Yo te digo una palabra y tú la repites. Mantén apretado el micrófono para hablar.",
+  "lang": "es",
+  "text": "¡Hoy hablamos en portugués, como en Brasil! Yo te digo una palabra y tú la repites. Mantén apretado el micrófono para hablar."
+ },
+ {
+  "key": "es|¡Volviste! Sigamos con el portugués.",
+  "lang": "es",
+  "text": "¡Volviste! Sigamos con el portugués."
+ },
+ {
+  "key": "es|¡Aprendiste muchas palabras! Sigamos con otras.",
+  "lang": "es",
+  "text": "¡Aprendiste muchas palabras! Sigamos con otras."
+ },
+ {
+  "key": "es|¡Aprendiste todas las palabras! ¡Eres una campeona del portugués! Empecemos otra vez.",
+  "lang": "es",
+  "text": "¡Aprendiste todas las palabras! ¡Eres una campeona del portugués! Empecemos otra vez."
+ },
+ {
+  "key": "es|¡Muy bien dicho!",
+  "lang": "es",
+  "text": "¡Muy bien dicho!"
+ },
+ {
+  "key": "es|¡Lo dijiste súper!",
+  "lang": "es",
+  "text": "¡Lo dijiste súper!"
+ },
+ {
+  "key": "es|¡Hablas portugués!",
+  "lang": "es",
+  "text": "¡Hablas portugués!"
+ },
+ {
+  "key": "es|¡Qué bien suena!",
+  "lang": "es",
+  "text": "¡Qué bien suena!"
+ },
+ {
+  "key": "pt|Olá, Martina!",
+  "lang": "pt",
+  "text": "Olá, Martina!"
+ },
+ {
+  "key": "pt|Muito bem!",
+  "lang": "pt",
+  "text": "Muito bem!"
+ },
+ {
+  "key": "pt|Perfeito!",
+  "lang": "pt",
+  "text": "Perfeito!"
+ },
+ {
+  "key": "pt|Isso!",
+  "lang": "pt",
+  "text": "Isso!"
+ },
+ {
+  "key": "pt|Que lindo!",
+  "lang": "pt",
+  "text": "Que lindo!"
  }
 ]

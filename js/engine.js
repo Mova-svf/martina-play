@@ -44,6 +44,7 @@ const Voice = {
       const vs = speechSynthesis.getVoices().filter((v) => !NOVELTY.test(v.name));
       if (!vs.length) return;
       this.en = this.best(vs, ['en-US', 'en-GB', 'en-AU', 'en'], ['Samantha', 'Ava', 'Allison', 'Google US English', 'Karen', 'Susan', 'Zira', 'Aria', 'Jenny']);
+      this.pt = this.best(vs, ['pt-BR', 'pt'], ['Luciana', 'Francisca', 'Google português do Brasil', 'Fernanda', 'Thalita']);
       this.es = this.best(vs, ['es-CL', 'es-MX', 'es-US', 'es-419', 'es-ES', 'es'], ['Paulina', 'Mónica', 'Monica', 'Google español de Estados Unidos', 'Google español', 'Sabina', 'Helena', 'Dalia']);
     };
     load();
@@ -95,9 +96,9 @@ const Voice = {
     return new Promise((res) => {
       if (!this.supported || !text) return res();
       const u = new SpeechSynthesisUtterance(text);
-      const v = lang === 'en' ? this.en : this.es;
+      const v = lang === 'en' ? this.en : lang === 'pt' ? this.pt : this.es;
       if (v) u.voice = v;
-      u.lang = v ? v.lang : (lang === 'en' ? 'en-US' : 'es-MX');
+      u.lang = v ? v.lang : (lang === 'en' ? 'en-US' : lang === 'pt' ? 'pt-BR' : 'es-MX');
       u.rate = (lang === 'en' ? (S.settings.slow ? 0.7 : 0.85) : 0.98) * (o.rate || 1);
       u.pitch = o.pitch || 1.1;
       let fin = false;
@@ -361,3 +362,74 @@ function petSVG(pet, o = {}) {
 }
 function setMood(container, mood) { const f = container.querySelector('.face'); if (f && S.pet) f.innerHTML = petFace(S.pet, mood); }
 function petEmoji() { return S.pet ? PET_TYPES[S.pet.type].emoji : '🐶'; }
+
+/* ---------- Instrumentos sintetizados (sin archivos) ---------- */
+const Synth = {
+  noiseBuf: null,
+  noise() {
+    const c = Sfx.ctx; if (this.noiseBuf) return this.noiseBuf;
+    const b = c.createBuffer(1, c.sampleRate, c.sampleRate); const d = b.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+    return (this.noiseBuf = b);
+  },
+  env(g, t, a, peak, dur, rel = 0.15) {
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(peak, t + a);
+    g.gain.setValueAtTime(peak, t + Math.max(a, dur - rel)); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  },
+  osc(type, f, t, dur, dest, vib) {
+    const c = Sfx.ctx, o = c.createOscillator(); o.type = type; o.frequency.setValueAtTime(f, t);
+    if (vib) { const l = c.createOscillator(), lg = c.createGain(); l.frequency.value = vib[0]; lg.gain.value = vib[1]; l.connect(lg).connect(o.frequency); l.start(t); l.stop(t + dur + 0.1); }
+    o.connect(dest); o.start(t); o.stop(t + dur + 0.1); return o;
+  },
+  note(inst, f, when = 0, dur = 0.5) {
+    Sfx.unlock(); const c = Sfx.ctx; if (!c) return;
+    const t = c.currentTime + when, g = c.createGain(); g.connect(c.destination);
+    const lp = (fr) => { const fl = c.createBiquadFilter(); fl.type = 'lowpass'; fl.frequency.value = fr; fl.connect(g); return fl; };
+    switch (inst) {
+      case 'piano': g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.35, t + 0.005); g.gain.exponentialRampToValueAtTime(0.0001, t + 1.4);
+        this.osc('triangle', f, t, 1.4, g); this.osc('sine', f * 2, t, 0.8, g); break;
+      case 'bell': g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.3, t + 0.003); g.gain.exponentialRampToValueAtTime(0.0001, t + 1.8);
+        this.osc('sine', f * 2, t, 1.8, g); this.osc('sine', f * 5.4, t, 0.6, g); break;
+      case 'xylo': g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.4, t + 0.002); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.5);
+        this.osc('sine', f * 2, t, 0.5, g); this.osc('sine', f * 8, t, 0.1, g); break;
+      case 'guitar': { const fl = c.createBiquadFilter(); fl.type = 'lowpass'; fl.frequency.setValueAtTime(3500, t); fl.frequency.exponentialRampToValueAtTime(300, t + 1); fl.connect(g);
+        g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.3, t + 0.005); g.gain.exponentialRampToValueAtTime(0.0001, t + 1.3);
+        this.osc('sawtooth', f, t, 1.3, fl); break; }
+      case 'trumpet': this.env(g, t, 0.05, 0.22, dur); this.osc('sawtooth', f, t, dur, lp(1800), [5, 3]); break;
+      case 'violin': this.env(g, t, 0.15, 0.18, dur, 0.2); this.osc('sawtooth', f * 2, t, dur, lp(2600), [5.5, 5]); break;
+      case 'flute': this.env(g, t, 0.08, 0.25, dur); this.osc('sine', f * 2, t, dur, g, [5, 4]); this.osc('triangle', f * 4, t, dur, lp(1200)); break;
+      case 'sax': this.env(g, t, 0.04, 0.16, dur); this.osc('square', f, t, dur, lp(1300), [4.5, 4]); break;
+      case 'drum': { g.gain.setValueAtTime(0.9, t); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.45);
+        const o = this.osc('sine', 160, t, 0.45, g); o.frequency.exponentialRampToValueAtTime(45, t + 0.35);
+        const n = c.createBufferSource(), ng = c.createGain(); n.buffer = this.noise(); ng.gain.setValueAtTime(0.25, t); ng.gain.exponentialRampToValueAtTime(0.0001, t + 0.08); n.connect(ng).connect(c.destination); n.start(t); n.stop(t + 0.1); break; }
+      case 'maracas': { const n = c.createBufferSource(), hp = c.createBiquadFilter(); hp.type = 'highpass'; hp.frequency.value = 5000; n.buffer = this.noise();
+        g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.5, t + 0.01); g.gain.exponentialRampToValueAtTime(0.0001, t + 0.12); n.connect(hp).connect(g); n.start(t); n.stop(t + 0.15); break; }
+    }
+  },
+  /* Frase corta para escuchar cómo suena cada instrumento; devuelve la duración en segundos */
+  demo(inst) {
+    if (inst === 'drum') { [0, 0.3, 0.6, 0.75, 0.9].forEach((w) => this.note('drum', 0, w)); return 1.3; }
+    if (inst === 'maracas') { [0, 0.15, 0.3, 0.6, 0.75, 0.9].forEach((w) => this.note('maracas', 0, w)); return 1.2; }
+    const mel = [262, 330, 392, 523], sus = ['trumpet', 'violin', 'flute', 'sax'].includes(inst);
+    mel.forEach((f, i) => this.note(inst, f, i * 0.32, sus ? 0.34 : 0.6));
+    return 1.6;
+  },
+};
+
+/* ---------- Pronunciación tolerante (es una niña de 4 años) ---------- */
+function lev(a, b) {
+  const m = a.length, n = b.length, d = Array.from({ length: m + 1 }, (_, i) => [i, ...Array(n).fill(0)]);
+  for (let j = 1; j <= n; j++) d[0][j] = j;
+  for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[m][n];
+}
+const nrm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+/* ¿Lo que escuchó se parece a la palabra? Acepta errores de pronunciación */
+function soundsLike(heard, target) {
+  const h = nrm(heard), t = nrm(fill(target));
+  if (!h || !t) return false;
+  if (h.includes(t)) return true;
+  const hw = h.split(' ');
+  return t.split(' ').some((tw) => tw.length < 3 ? hw.includes(tw)
+    : hw.some((w) => lev(w, tw) <= Math.max(1, Math.round(tw.length * 0.4)) || (w.length >= 3 && tw.startsWith(w.slice(0, 3))) || (tw.length >= 4 && w.startsWith(tw.slice(0, 3)))));
+}

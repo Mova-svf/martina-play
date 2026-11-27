@@ -19,13 +19,14 @@ const ONLY_LIST = process.argv.includes('--lista');
 
 /* ---------- 1. Cargar el contenido de la app ---------- */
 const ctx = vm.createContext({});
-const D = vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/data.js'), 'utf8') + '\n;({TOPICS,DIALOGS,PET_TYPES,FOODS,WARDROBE,EMOTIONS,RECIPES,PRAISE_EN,PRAISE_ES,TALK,BRAIN,NAV,NAV_GAMES,FRIENDS,FRIENDS_TXT,THREADS,CONVO})', ctx);
-const { TOPICS, DIALOGS, PET_TYPES, FOODS, WARDROBE, EMOTIONS, RECIPES, PRAISE_EN, PRAISE_ES, TALK, BRAIN, NAV, NAV_GAMES, FRIENDS, FRIENDS_TXT, THREADS, CONVO } = D;
+const D = vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/data.js'), 'utf8') + '\n;({TOPICS,DIALOGS,PET_TYPES,FOODS,WARDROBE,EMOTIONS,RECIPES,PRAISE_EN,PRAISE_ES,TALK,BRAIN,NAV,NAV_GAMES,FRIENDS,FRIENDS_TXT,THREADS,CONVO,MUSIC_TXT,SONGS,PT_THREADS,PT_TXT})', ctx);
+const { TOPICS, DIALOGS, PET_TYPES, FOODS, WARDROBE, EMOTIONS, RECIPES, PRAISE_EN, PRAISE_ES, TALK, BRAIN, NAV, NAV_GAMES, FRIENDS, FRIENDS_TXT, THREADS, CONVO, MUSIC_TXT, SONGS, PT_THREADS, PT_TXT } = D;
 const fill = (s) => String(s || '').replace(/\{name\}/g, NAME).replace(/\{pet\}/g, PET);
 
 /* ---------- 2. Todas las frases (igual que en el código) ---------- */
 const P = new Map(); // key -> {lang, text}
 const add = (lang, text) => { if (!text) return; const t = fill(text); P.set(`${lang}|${t}`, { lang, text: t }); };
+const pt = (t) => add('pt', t);
 const en = (t) => add('en', t), es = (t) => add('es', t), kid = (t) => add('kid', t);
 const low = (s) => s.toLowerCase();
 
@@ -92,9 +93,18 @@ es('¡Aprendamos a ser buenas amigas! ¿Qué quieres hacer?');
 THREADS.forEach((t) => { es(t.intro); t.steps.forEach((s) => { es(s.q); (s.r || []).forEach(es); es(s.ok); es(s.no); en(s.en); }); });
 Object.values(CONVO).flat().forEach(es);
 
+// Música
+Object.values(MUSIC_TXT).forEach(es); SONGS.forEach((s) => en(s.en));
+['Play the music!', 'Try again!', 'You did it!', 'Listen! Which instrument is it?', "Let's make music!", 'Great job!'].forEach(en);
+['¡Intentémoslo otra vez!', '¡Muy bien!'].forEach(es);
+// Portugués
+PT_THREADS.forEach((t) => { es(t.intro); t.steps.forEach((s) => { pt(s.pt); es(s.es); }); });
+[PT_TXT.hello, PT_TXT.back, PT_TXT.newTopic, PT_TXT.allDone, ...PT_TXT.greatEs].forEach(es);
+[PT_TXT.helloPt, ...PT_TXT.great, 'Muito bem!'].forEach(pt);
+
 const all = [...P.entries()];
 const chars = all.reduce((n, [, p]) => n + p.text.length, 0);
-console.log(`Frases: ${all.length}  ·  Caracteres: ${chars}  (en: ${all.filter(([, p]) => p.lang !== 'es').length}, es: ${all.filter(([, p]) => p.lang === 'es').length})`);
+console.log(`Frases: ${all.length}  ·  Caracteres: ${chars}  (en: ${all.filter(([, p]) => p.lang === 'en' || p.lang === 'kid').length}, es: ${all.filter(([, p]) => p.lang === 'es').length}, pt: ${all.filter(([, p]) => p.lang === 'pt').length})`);
 if (ONLY_LIST) process.exit(0);
 if (process.argv.includes('--json')) { fs.writeFileSync(path.join(ROOT, 'tools/frases.json'), JSON.stringify(all.map(([k, p]) => ({ key: k, lang: p.lang, text: p.text })), null, 1)); console.log('tools/frases.json escrito'); process.exit(0); }
 
