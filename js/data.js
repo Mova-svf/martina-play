@@ -483,3 +483,65 @@ const FRIENDS_TXT = {
   calmDone: '¡Muy bien! Ahora estás más tranquila. Cuando te enojes, recuerda: para, respira y habla.',
   stop: 'Para.', breathe: 'Respira.', talk: 'Habla con palabras.',
 };
+
+/* ============ TEMAS DE CONVERSACIÓN: Lumi propone y pregunta ============
+   q = pregunta de Lumi · r = reacciones posibles a cualquier respuesta
+   a = respuestas correctas (adivinanzas / inglés) · ok / no = reacción si acierta o no · en = palabra en inglés */
+const THREADS = [
+  { intro: '¡Cuéntame de tu día!', steps: [
+    { q: '¿Qué hiciste hoy en el colegio?', r: ['¡Qué entretenido! Me encanta que me cuentes.', '¡Wow! Tu día fue muy divertido.'] },
+    { q: '¿Con quién jugaste hoy?', r: ['¡Qué lindo jugar con amigas!', '¡Qué bacán! Jugar juntas es lo mejor.'] },
+    { q: '¿Y qué fue lo más divertido de todo?', r: ['¡Jaja, me encanta! Me hubiera gustado estar ahí contigo.', '¡Qué divertido! Gracias por contarme.'] },
+  ] },
+  { intro: '¡Hablemos de animales!', steps: [
+    { q: '¿Cuál es tu animal favorito?', r: ['¡Qué buen animal! Es precioso.'] },
+    { q: '¿Y qué sonido hace? ¡Imítalo, quiero escucharlo!', r: ['¡Jajaja, qué bien lo hiciste! Pareces de verdad.', '¡Wow, sonó igualito!'] },
+    { q: 'Si tuvieras una mascota nueva, ¿cómo se llamaría?', r: ['¡Qué lindo nombre! Me encanta.', '¡Es un nombre precioso!'] },
+  ] },
+  { intro: '¡Juguemos a las adivinanzas!', steps: [
+    { q: 'Adivina, adivinador: tengo trompa larga y orejas muy grandes. ¿Quién soy?', a: ['elefante'], ok: '¡Sííí! ¡Es el elefante! ¡Eres una genia! En inglés se dice:', no: '¡Es el elefante! En inglés se dice:', en: 'Elephant!' },
+    { q: 'Otra: digo miau y me encanta tomar leche. ¿Quién soy?', a: ['gato', 'gatito', 'cat'], ok: '¡Muy bien! ¡Es el gato! En inglés se dice:', no: '¡Es el gato! En inglés se dice:', en: 'Cat!' },
+    { q: 'La última: soy amarilla, larga, y a los monos les encanto. ¿Quién soy?', a: ['platano', 'banana'], ok: '¡Sí! ¡El plátano! En inglés se dice:', no: '¡Es el plátano! En inglés se dice:', en: 'Banana!' },
+  ] },
+  { intro: '¡Vamos a jugar a imaginar!', steps: [
+    { q: 'Si pudieras volar como un pájaro, ¿adónde irías?', r: ['¡Wow, qué aventura! Yo volaría contigo.', '¡Qué lindo lugar! Llévame contigo.'] },
+    { q: 'Si fueras una princesa o una superheroína, ¿qué poder tendrías?', r: ['¡Qué poder más increíble! Serías la mejor.', '¡Wow! Con ese poder ayudarías a todos.'] },
+    { q: '¿De qué color sería tu castillo?', r: ['¡Qué castillo más lindo! Me gustaría visitarlo.'] },
+  ] },
+  { intro: '¡Hablemos de tu familia!', steps: [
+    { q: '¿Quiénes viven en tu casa?', r: ['¡Qué linda familia tienes!', '¡Qué bonito! Una familia llena de amor.'] },
+    { q: '¿Qué te gusta hacer con tu papá?', r: ['¡Qué entretenido! Tu papá te quiere mucho.'] },
+    { q: '¿Y qué te gusta hacer con tu mamá?', r: ['¡Qué lindo! Tu mamá te quiere muchísimo.'] },
+  ] },
+  { intro: '¡Hablemos de lo que sentimos!', steps: [
+    { q: '¿Qué cosas te ponen muy feliz?', r: ['¡A mí también me pondría feliz! Me encanta verte contenta.'] },
+    { q: '¿Y qué cosas te hacen enojar?', r: ['A veces todos nos enojamos, y está bien. ¿Te acuerdas qué hacemos? Paro, respiro y hablo con palabras.'] },
+    { q: 'Cuando estás triste, ¿qué te ayuda a sentirte mejor?', r: ['¡Qué buena idea! Y un abrazo de mamá o papá también ayuda mucho.'] },
+  ] },
+  { intro: '¡Hablemos de tus amigas!', steps: [
+    { q: '¿Cómo se llama tu mejor amiga?', r: ['¡Qué lindo nombre! Mándale saludos de mi parte.'] },
+    { q: '¿A qué les gusta jugar juntas?', r: ['¡Qué divertido! Jugar con amigas es lo mejor.'] },
+    { q: 'Si tu amiga está triste, ¿qué puedes hacer para ayudarla?', r: ['¡Eres una muy buena amiga! Así se hace.'] },
+  ] },
+  { intro: '¡Juguemos a hablar inglés!', steps: [
+    { q: '¿Sabes cómo se dice perro en inglés?', a: ['dog', 'dug', 'doc'], ok: '¡Sííí, lo sabías! ¡Muy bien!', no: '¡Muy bien! En inglés, perro se dice:', en: 'Dog!' },
+    { q: '¿Y cómo se dice rojo en inglés?', a: ['red', 'ret', 'rred'], ok: '¡Perfecto! ¡Hablas inglés!', no: '¡Bien! En inglés, rojo se dice:', en: 'Red!' },
+    { q: '¡Contemos en inglés! Repite conmigo: one, two, three.', r: ['¡Excelente! One, two, three. ¡Eres una campeona!'] },
+  ] },
+  { intro: '¡Hablemos de comida rica!', steps: [
+    { q: '¿Cuál es tu comida favorita?', r: ['¡Mmm, qué rico! Me dio hambre.'] },
+    { q: '¿Y hay alguna comida que no te guste?', r: ['¡Jaja! A mí tampoco me gusta mucho el brócoli, pero igual me lo como porque me hace fuerte.'] },
+    { q: '¿Te lavaste los dientes después de comer?', r: ['¡Muy bien! Los dientes limpios están felices.', 'Recuerda lavarte los dientes después de comer. ¡Así quedan brillantes!'] },
+  ] },
+  { intro: '¡Hablemos de juguetes!', steps: [
+    { q: '¿Cuál es tu juguete favorito?', r: ['¡Qué buen juguete! Me encantaría jugar con él.'] },
+    { q: '¿Le prestas tus juguetes a tus amigas?', r: ['¡Compartir es de buenas amigas! Me encanta.'] },
+    { q: 'Si pudieras inventar un juguete nuevo, ¿cómo sería?', r: ['¡Qué idea más genial! Eres muy creativa.'] },
+  ] },
+];
+const CONVO = {
+  newTopic: ['¡Me encanta conversar contigo! Ahora te pregunto otra cosa.', '¡Qué buena conversación! Cambiemos de tema.', '¡Gracias por contarme! Ahora hablemos de otra cosa.'],
+  back: '¡Volviste! Sigamos conversando.',
+  nudge: '¿Me cuentas? Mantén apretado el micrófono y respóndeme.',
+  game: '¿Y si jugamos un rato? Dime, por ejemplo: quiero jugar a las burbujas.',
+};

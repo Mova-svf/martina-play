@@ -7033,5 +7033,450 @@
   "key": "es|¡Aprendamos a ser buenas amigas! ¿Qué quieres hacer?",
   "lang": "es",
   "text": "¡Aprendamos a ser buenas amigas! ¿Qué quieres hacer?"
+ },
+ {
+  "key": "es|¡Cuéntame de tu día!",
+  "lang": "es",
+  "text": "¡Cuéntame de tu día!"
+ },
+ {
+  "key": "es|¿Qué hiciste hoy en el colegio?",
+  "lang": "es",
+  "text": "¿Qué hiciste hoy en el colegio?"
+ },
+ {
+  "key": "es|¡Qué entretenido! Me encanta que me cuentes.",
+  "lang": "es",
+  "text": "¡Qué entretenido! Me encanta que me cuentes."
+ },
+ {
+  "key": "es|¡Wow! Tu día fue muy divertido.",
+  "lang": "es",
+  "text": "¡Wow! Tu día fue muy divertido."
+ },
+ {
+  "key": "es|¿Con quién jugaste hoy?",
+  "lang": "es",
+  "text": "¿Con quién jugaste hoy?"
+ },
+ {
+  "key": "es|¡Qué lindo jugar con amigas!",
+  "lang": "es",
+  "text": "¡Qué lindo jugar con amigas!"
+ },
+ {
+  "key": "es|¡Qué bacán! Jugar juntas es lo mejor.",
+  "lang": "es",
+  "text": "¡Qué bacán! Jugar juntas es lo mejor."
+ },
+ {
+  "key": "es|¿Y qué fue lo más divertido de todo?",
+  "lang": "es",
+  "text": "¿Y qué fue lo más divertido de todo?"
+ },
+ {
+  "key": "es|¡Jaja, me encanta! Me hubiera gustado estar ahí contigo.",
+  "lang": "es",
+  "text": "¡Jaja, me encanta! Me hubiera gustado estar ahí contigo."
+ },
+ {
+  "key": "es|¡Qué divertido! Gracias por contarme.",
+  "lang": "es",
+  "text": "¡Qué divertido! Gracias por contarme."
+ },
+ {
+  "key": "es|¡Hablemos de animales!",
+  "lang": "es",
+  "text": "¡Hablemos de animales!"
+ },
+ {
+  "key": "es|¡Qué buen animal! Es precioso.",
+  "lang": "es",
+  "text": "¡Qué buen animal! Es precioso."
+ },
+ {
+  "key": "es|¿Y qué sonido hace? ¡Imítalo, quiero escucharlo!",
+  "lang": "es",
+  "text": "¿Y qué sonido hace? ¡Imítalo, quiero escucharlo!"
+ },
+ {
+  "key": "es|¡Jajaja, qué bien lo hiciste! Pareces de verdad.",
+  "lang": "es",
+  "text": "¡Jajaja, qué bien lo hiciste! Pareces de verdad."
+ },
+ {
+  "key": "es|¡Wow, sonó igualito!",
+  "lang": "es",
+  "text": "¡Wow, sonó igualito!"
+ },
+ {
+  "key": "es|Si tuvieras una mascota nueva, ¿cómo se llamaría?",
+  "lang": "es",
+  "text": "Si tuvieras una mascota nueva, ¿cómo se llamaría?"
+ },
+ {
+  "key": "es|¡Qué lindo nombre! Me encanta.",
+  "lang": "es",
+  "text": "¡Qué lindo nombre! Me encanta."
+ },
+ {
+  "key": "es|¡Es un nombre precioso!",
+  "lang": "es",
+  "text": "¡Es un nombre precioso!"
+ },
+ {
+  "key": "es|¡Juguemos a las adivinanzas!",
+  "lang": "es",
+  "text": "¡Juguemos a las adivinanzas!"
+ },
+ {
+  "key": "es|Adivina, adivinador: tengo trompa larga y orejas muy grandes. ¿Quién soy?",
+  "lang": "es",
+  "text": "Adivina, adivinador: tengo trompa larga y orejas muy grandes. ¿Quién soy?"
+ },
+ {
+  "key": "es|¡Sííí! ¡Es el elefante! ¡Eres una genia! En inglés se dice:",
+  "lang": "es",
+  "text": "¡Sííí! ¡Es el elefante! ¡Eres una genia! En inglés se dice:"
+ },
+ {
+  "key": "es|¡Es el elefante! En inglés se dice:",
+  "lang": "es",
+  "text": "¡Es el elefante! En inglés se dice:"
+ },
+ {
+  "key": "es|Otra: digo miau y me encanta tomar leche. ¿Quién soy?",
+  "lang": "es",
+  "text": "Otra: digo miau y me encanta tomar leche. ¿Quién soy?"
+ },
+ {
+  "key": "es|¡Muy bien! ¡Es el gato! En inglés se dice:",
+  "lang": "es",
+  "text": "¡Muy bien! ¡Es el gato! En inglés se dice:"
+ },
+ {
+  "key": "es|¡Es el gato! En inglés se dice:",
+  "lang": "es",
+  "text": "¡Es el gato! En inglés se dice:"
+ },
+ {
+  "key": "es|La última: soy amarilla, larga, y a los monos les encanto. ¿Quién soy?",
+  "lang": "es",
+  "text": "La última: soy amarilla, larga, y a los monos les encanto. ¿Quién soy?"
+ },
+ {
+  "key": "es|¡Sí! ¡El plátano! En inglés se dice:",
+  "lang": "es",
+  "text": "¡Sí! ¡El plátano! En inglés se dice:"
+ },
+ {
+  "key": "es|¡Es el plátano! En inglés se dice:",
+  "lang": "es",
+  "text": "¡Es el plátano! En inglés se dice:"
+ },
+ {
+  "key": "es|¡Vamos a jugar a imaginar!",
+  "lang": "es",
+  "text": "¡Vamos a jugar a imaginar!"
+ },
+ {
+  "key": "es|Si pudieras volar como un pájaro, ¿adónde irías?",
+  "lang": "es",
+  "text": "Si pudieras volar como un pájaro, ¿adónde irías?"
+ },
+ {
+  "key": "es|¡Wow, qué aventura! Yo volaría contigo.",
+  "lang": "es",
+  "text": "¡Wow, qué aventura! Yo volaría contigo."
+ },
+ {
+  "key": "es|¡Qué lindo lugar! Llévame contigo.",
+  "lang": "es",
+  "text": "¡Qué lindo lugar! Llévame contigo."
+ },
+ {
+  "key": "es|Si fueras una princesa o una superheroína, ¿qué poder tendrías?",
+  "lang": "es",
+  "text": "Si fueras una princesa o una superheroína, ¿qué poder tendrías?"
+ },
+ {
+  "key": "es|¡Qué poder más increíble! Serías la mejor.",
+  "lang": "es",
+  "text": "¡Qué poder más increíble! Serías la mejor."
+ },
+ {
+  "key": "es|¡Wow! Con ese poder ayudarías a todos.",
+  "lang": "es",
+  "text": "¡Wow! Con ese poder ayudarías a todos."
+ },
+ {
+  "key": "es|¿De qué color sería tu castillo?",
+  "lang": "es",
+  "text": "¿De qué color sería tu castillo?"
+ },
+ {
+  "key": "es|¡Qué castillo más lindo! Me gustaría visitarlo.",
+  "lang": "es",
+  "text": "¡Qué castillo más lindo! Me gustaría visitarlo."
+ },
+ {
+  "key": "es|¡Hablemos de tu familia!",
+  "lang": "es",
+  "text": "¡Hablemos de tu familia!"
+ },
+ {
+  "key": "es|¿Quiénes viven en tu casa?",
+  "lang": "es",
+  "text": "¿Quiénes viven en tu casa?"
+ },
+ {
+  "key": "es|¡Qué linda familia tienes!",
+  "lang": "es",
+  "text": "¡Qué linda familia tienes!"
+ },
+ {
+  "key": "es|¡Qué bonito! Una familia llena de amor.",
+  "lang": "es",
+  "text": "¡Qué bonito! Una familia llena de amor."
+ },
+ {
+  "key": "es|¿Qué te gusta hacer con tu papá?",
+  "lang": "es",
+  "text": "¿Qué te gusta hacer con tu papá?"
+ },
+ {
+  "key": "es|¡Qué entretenido! Tu papá te quiere mucho.",
+  "lang": "es",
+  "text": "¡Qué entretenido! Tu papá te quiere mucho."
+ },
+ {
+  "key": "es|¿Y qué te gusta hacer con tu mamá?",
+  "lang": "es",
+  "text": "¿Y qué te gusta hacer con tu mamá?"
+ },
+ {
+  "key": "es|¡Qué lindo! Tu mamá te quiere muchísimo.",
+  "lang": "es",
+  "text": "¡Qué lindo! Tu mamá te quiere muchísimo."
+ },
+ {
+  "key": "es|¡Hablemos de lo que sentimos!",
+  "lang": "es",
+  "text": "¡Hablemos de lo que sentimos!"
+ },
+ {
+  "key": "es|¿Qué cosas te ponen muy feliz?",
+  "lang": "es",
+  "text": "¿Qué cosas te ponen muy feliz?"
+ },
+ {
+  "key": "es|¡A mí también me pondría feliz! Me encanta verte contenta.",
+  "lang": "es",
+  "text": "¡A mí también me pondría feliz! Me encanta verte contenta."
+ },
+ {
+  "key": "es|¿Y qué cosas te hacen enojar?",
+  "lang": "es",
+  "text": "¿Y qué cosas te hacen enojar?"
+ },
+ {
+  "key": "es|A veces todos nos enojamos, y está bien. ¿Te acuerdas qué hacemos? Paro, respiro y hablo con palabras.",
+  "lang": "es",
+  "text": "A veces todos nos enojamos, y está bien. ¿Te acuerdas qué hacemos? Paro, respiro y hablo con palabras."
+ },
+ {
+  "key": "es|Cuando estás triste, ¿qué te ayuda a sentirte mejor?",
+  "lang": "es",
+  "text": "Cuando estás triste, ¿qué te ayuda a sentirte mejor?"
+ },
+ {
+  "key": "es|¡Qué buena idea! Y un abrazo de mamá o papá también ayuda mucho.",
+  "lang": "es",
+  "text": "¡Qué buena idea! Y un abrazo de mamá o papá también ayuda mucho."
+ },
+ {
+  "key": "es|¡Hablemos de tus amigas!",
+  "lang": "es",
+  "text": "¡Hablemos de tus amigas!"
+ },
+ {
+  "key": "es|¿Cómo se llama tu mejor amiga?",
+  "lang": "es",
+  "text": "¿Cómo se llama tu mejor amiga?"
+ },
+ {
+  "key": "es|¡Qué lindo nombre! Mándale saludos de mi parte.",
+  "lang": "es",
+  "text": "¡Qué lindo nombre! Mándale saludos de mi parte."
+ },
+ {
+  "key": "es|¿A qué les gusta jugar juntas?",
+  "lang": "es",
+  "text": "¿A qué les gusta jugar juntas?"
+ },
+ {
+  "key": "es|¡Qué divertido! Jugar con amigas es lo mejor.",
+  "lang": "es",
+  "text": "¡Qué divertido! Jugar con amigas es lo mejor."
+ },
+ {
+  "key": "es|Si tu amiga está triste, ¿qué puedes hacer para ayudarla?",
+  "lang": "es",
+  "text": "Si tu amiga está triste, ¿qué puedes hacer para ayudarla?"
+ },
+ {
+  "key": "es|¡Eres una muy buena amiga! Así se hace.",
+  "lang": "es",
+  "text": "¡Eres una muy buena amiga! Así se hace."
+ },
+ {
+  "key": "es|¡Juguemos a hablar inglés!",
+  "lang": "es",
+  "text": "¡Juguemos a hablar inglés!"
+ },
+ {
+  "key": "es|¿Sabes cómo se dice perro en inglés?",
+  "lang": "es",
+  "text": "¿Sabes cómo se dice perro en inglés?"
+ },
+ {
+  "key": "es|¡Sííí, lo sabías! ¡Muy bien!",
+  "lang": "es",
+  "text": "¡Sííí, lo sabías! ¡Muy bien!"
+ },
+ {
+  "key": "es|¡Muy bien! En inglés, perro se dice:",
+  "lang": "es",
+  "text": "¡Muy bien! En inglés, perro se dice:"
+ },
+ {
+  "key": "es|¿Y cómo se dice rojo en inglés?",
+  "lang": "es",
+  "text": "¿Y cómo se dice rojo en inglés?"
+ },
+ {
+  "key": "es|¡Perfecto! ¡Hablas inglés!",
+  "lang": "es",
+  "text": "¡Perfecto! ¡Hablas inglés!"
+ },
+ {
+  "key": "es|¡Bien! En inglés, rojo se dice:",
+  "lang": "es",
+  "text": "¡Bien! En inglés, rojo se dice:"
+ },
+ {
+  "key": "es|¡Contemos en inglés! Repite conmigo: one, two, three.",
+  "lang": "es",
+  "text": "¡Contemos en inglés! Repite conmigo: one, two, three."
+ },
+ {
+  "key": "es|¡Excelente! One, two, three. ¡Eres una campeona!",
+  "lang": "es",
+  "text": "¡Excelente! One, two, three. ¡Eres una campeona!"
+ },
+ {
+  "key": "es|¡Hablemos de comida rica!",
+  "lang": "es",
+  "text": "¡Hablemos de comida rica!"
+ },
+ {
+  "key": "es|¿Cuál es tu comida favorita?",
+  "lang": "es",
+  "text": "¿Cuál es tu comida favorita?"
+ },
+ {
+  "key": "es|¡Mmm, qué rico! Me dio hambre.",
+  "lang": "es",
+  "text": "¡Mmm, qué rico! Me dio hambre."
+ },
+ {
+  "key": "es|¿Y hay alguna comida que no te guste?",
+  "lang": "es",
+  "text": "¿Y hay alguna comida que no te guste?"
+ },
+ {
+  "key": "es|¡Jaja! A mí tampoco me gusta mucho el brócoli, pero igual me lo como porque me hace fuerte.",
+  "lang": "es",
+  "text": "¡Jaja! A mí tampoco me gusta mucho el brócoli, pero igual me lo como porque me hace fuerte."
+ },
+ {
+  "key": "es|¿Te lavaste los dientes después de comer?",
+  "lang": "es",
+  "text": "¿Te lavaste los dientes después de comer?"
+ },
+ {
+  "key": "es|¡Muy bien! Los dientes limpios están felices.",
+  "lang": "es",
+  "text": "¡Muy bien! Los dientes limpios están felices."
+ },
+ {
+  "key": "es|Recuerda lavarte los dientes después de comer. ¡Así quedan brillantes!",
+  "lang": "es",
+  "text": "Recuerda lavarte los dientes después de comer. ¡Así quedan brillantes!"
+ },
+ {
+  "key": "es|¡Hablemos de juguetes!",
+  "lang": "es",
+  "text": "¡Hablemos de juguetes!"
+ },
+ {
+  "key": "es|¿Cuál es tu juguete favorito?",
+  "lang": "es",
+  "text": "¿Cuál es tu juguete favorito?"
+ },
+ {
+  "key": "es|¡Qué buen juguete! Me encantaría jugar con él.",
+  "lang": "es",
+  "text": "¡Qué buen juguete! Me encantaría jugar con él."
+ },
+ {
+  "key": "es|¿Le prestas tus juguetes a tus amigas?",
+  "lang": "es",
+  "text": "¿Le prestas tus juguetes a tus amigas?"
+ },
+ {
+  "key": "es|¡Compartir es de buenas amigas! Me encanta.",
+  "lang": "es",
+  "text": "¡Compartir es de buenas amigas! Me encanta."
+ },
+ {
+  "key": "es|Si pudieras inventar un juguete nuevo, ¿cómo sería?",
+  "lang": "es",
+  "text": "Si pudieras inventar un juguete nuevo, ¿cómo sería?"
+ },
+ {
+  "key": "es|¡Qué idea más genial! Eres muy creativa.",
+  "lang": "es",
+  "text": "¡Qué idea más genial! Eres muy creativa."
+ },
+ {
+  "key": "es|¡Me encanta conversar contigo! Ahora te pregunto otra cosa.",
+  "lang": "es",
+  "text": "¡Me encanta conversar contigo! Ahora te pregunto otra cosa."
+ },
+ {
+  "key": "es|¡Qué buena conversación! Cambiemos de tema.",
+  "lang": "es",
+  "text": "¡Qué buena conversación! Cambiemos de tema."
+ },
+ {
+  "key": "es|¡Gracias por contarme! Ahora hablemos de otra cosa.",
+  "lang": "es",
+  "text": "¡Gracias por contarme! Ahora hablemos de otra cosa."
+ },
+ {
+  "key": "es|¡Volviste! Sigamos conversando.",
+  "lang": "es",
+  "text": "¡Volviste! Sigamos conversando."
+ },
+ {
+  "key": "es|¿Me cuentas? Mantén apretado el micrófono y respóndeme.",
+  "lang": "es",
+  "text": "¿Me cuentas? Mantén apretado el micrófono y respóndeme."
+ },
+ {
+  "key": "es|¿Y si jugamos un rato? Dime, por ejemplo: quiero jugar a las burbujas.",
+  "lang": "es",
+  "text": "¿Y si jugamos un rato? Dime, por ejemplo: quiero jugar a las burbujas."
  }
 ]

@@ -9,7 +9,7 @@ const vocabItems = () => ['animals', 'colors', 'food', 'body', 'nature', 'shapes
 
 function brain(text) {
   const t = norm(text);
-  if (!t) return { parts: [['es', pick(TALK.noText)]] };
+  if (!t) return { parts: [['es', pick(TALK.noText)]], fb: true };
   const toks = t.split(' ');
   const exact = (w) => toks.includes(w) || (w.includes(' ') && (' ' + t + ' ').includes(' ' + w + ' '));
   const hasVerb = CMD_VERBS.some(exact);
@@ -33,7 +33,50 @@ function brain(text) {
   const esW = vocabItems().find((it) => { const w = norm(it.es); return w.length > 2 && plural(w).some((p) => toks.includes(p)); });
   if (esW) return { parts: [['es', esW.es], ['es', TALK.vocab[0]], ['en', esW.en], ['es', TALK.vocab[1]]] };
   // 6. Seguir la conversación
-  return { parts: [['es', pick(TALK.fallback)], ['es', pick(TALK.ask)]] };
+  return { parts: [['es', pick(TALK.fallback)], ['es', pick(TALK.ask)]], fb: true };
+}
+
+/* ---------- Lumi lleva la conversación: temas con preguntas ---------- */
+const CONV = { order: [], ti: 0, si: 0, pending: null, topics: 0 };
+function convStep() {
+  if (!CONV.order.length) CONV.order = shuffle(THREADS.map((_, i) => i));
+  const th = THREADS[CONV.order[CONV.ti % CONV.order.length]];
+  return { th, step: th.steps[CONV.si], first: CONV.si === 0 };
+}
+/* Siguiente pregunta (con la introducción del tema si es nuevo) */
+function convAsk(isNewTopic) {
+  const { th, step, first } = convStep();
+  CONV.pending = step;
+  const parts = [];
+  if (isNewTopic) parts.push(['es', pick(CONVO.newTopic)]);
+  if (first) parts.push(['es', th.intro]);
+  parts.push(['es', step.q]);
+  return parts;
+}
+function convAdvance() {
+  CONV.si++;
+  const { th } = convStep();
+  if (CONV.si >= th.steps.length) { CONV.ti++; CONV.si = 0; CONV.topics++; return true; }
+  return false;
+}
+/* Respuesta de Lumi a lo que dijo Martina + la próxima pregunta */
+function converse(text) {
+  const step = CONV.pending;
+  const b = brain(text);
+  let parts;
+  if (b.nav) return b; // va a otra parte de la app: no pregunta nada más
+  if (b.idea) parts = b.parts;
+  else if (step && step.a) {
+    const ok = !!text && step.a.some((a) => norm(text).includes(norm(a)));
+    parts = [['es', ok ? step.ok : step.no], ['en', step.en]];
+  } else if (!b.fb) parts = b.parts.filter((p) => p[1] !== TALK.vocab[1]);
+  else if (!text) parts = [['es', pick(TALK.noText)]];
+  else parts = [['es', pick((step && step.r) || TALK.fallback)]];
+  if (!step) return { ...b, parts: [...parts, ...convAsk(false)] };
+  const newTopic = convAdvance();
+  const extra = newTopic && CONV.topics % 3 === 0 ? [['es', CONVO.game]] : convAsk(newTopic);
+  if (newTopic && CONV.topics % 3 === 0) CONV.pending = null;
+  return { ...b, parts: [...parts, ...extra] };
 }
 
 /* ---------- Grabar (micrófono + reconocimiento de voz del teléfono) ---------- */
@@ -133,14 +176,21 @@ function screenTalk() {
     ({ kitchen: screenKitchen, stickers: screenStickers, adventure: screenAdventure, pet: screenPet, english: screenEnglish, chat: screenChatMenu, games: screenGames })[n.screen]();
   }
   TALK_LOG.forEach(draw);
-  if (!TALK_LOG.length) later(() => alive(my) && lumiSay({ who: 'lumi', parts: [['es', TALK.hello]] }), 300);
+  let nudgeT = null;
+  const armNudge = () => { clearTimeout(nudgeT); nudgeT = later(() => { if (!recording && !starting) Voice.say([['es', CONVO.nudge, 'force']]); }, 25000); };
+  later(() => {
+    if (!alive(my)) return;
+    if (!TALK_LOG.length) lumiSay({ who: 'lumi', parts: [['es', TALK.hello], ...convAsk(false)] });
+    else lumiSay({ who: 'lumi', parts: [['es', CONVO.back], ...convAsk(false)] });
+    armNudge();
+  }, 300);
 
   /* Botón de grabar: mantener apretado (o tocar para empezar y tocar para enviar) */
   const btn = $('#rec'), hint = $('#hint');
   let recording = false, starting = false, downAt = 0, mode = null, maxT = null;
   async function begin() {
     if (recording || starting) return;
-    starting = true; Voice.stop(); Sfx.unlock(); Sfx.tone(880, 0.08, 'sine', 0.12);
+    clearTimeout(nudgeT); starting = true; Voice.stop(); Sfx.unlock(); Sfx.tone(880, 0.08, 'sine', 0.12);
     btn.classList.add('rec'); hint.textContent = 'Te escucho... 👂';
     const ok = await Rec.start();
     starting = false;
@@ -165,10 +215,10 @@ function screenTalk() {
     await sleep(900);
     typing.remove();
     if (!alive(my)) return;
-    const ans = brain(r.text);
-    if (!r.text && r.blob) ans.parts = [['es', pick(TALK.noText)]];
+    const ans = converse(r.text);
     if (ans.idea) saveIdea(r.text, r.blob);
     lumiSay({ who: 'lumi', ...ans });
+    if (!ans.nav) armNudge();
     S.done.talk = (S.done.talk || 0) + 1;
     if (S.done.talk % 5 === 0) { S.stars++; $('#starCount').textContent = S.stars; Sfx.good(); burstEl(btn, ['⭐'], 6); }
     save();

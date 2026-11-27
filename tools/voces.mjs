@@ -19,8 +19,8 @@ const ONLY_LIST = process.argv.includes('--lista');
 
 /* ---------- 1. Cargar el contenido de la app ---------- */
 const ctx = vm.createContext({});
-const D = vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/data.js'), 'utf8') + '\n;({TOPICS,DIALOGS,PET_TYPES,FOODS,WARDROBE,EMOTIONS,RECIPES,PRAISE_EN,PRAISE_ES,TALK,BRAIN,NAV,NAV_GAMES,FRIENDS,FRIENDS_TXT})', ctx);
-const { TOPICS, DIALOGS, PET_TYPES, FOODS, WARDROBE, EMOTIONS, RECIPES, PRAISE_EN, PRAISE_ES, TALK, BRAIN, NAV, NAV_GAMES, FRIENDS, FRIENDS_TXT } = D;
+const D = vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/data.js'), 'utf8') + '\n;({TOPICS,DIALOGS,PET_TYPES,FOODS,WARDROBE,EMOTIONS,RECIPES,PRAISE_EN,PRAISE_ES,TALK,BRAIN,NAV,NAV_GAMES,FRIENDS,FRIENDS_TXT,THREADS,CONVO})', ctx);
+const { TOPICS, DIALOGS, PET_TYPES, FOODS, WARDROBE, EMOTIONS, RECIPES, PRAISE_EN, PRAISE_ES, TALK, BRAIN, NAV, NAV_GAMES, FRIENDS, FRIENDS_TXT, THREADS, CONVO } = D;
 const fill = (s) => String(s || '').replace(/\{name\}/g, NAME).replace(/\{pet\}/g, PET);
 
 /* ---------- 2. Todas las frases (igual que en el código) ---------- */
@@ -87,6 +87,10 @@ FRIENDS.forEach((f) => { es(f.story); en(f.en[0]); es(f.en[1]); f.options.forEac
 Object.values(FRIENDS_TXT).forEach(es);
 ['Breathe in...', 'Breathe out...', "Let's be friends!"].forEach(en);
 es('¡Aprendamos a ser buenas amigas! ¿Qué quieres hacer?');
+
+// Temas de conversación
+THREADS.forEach((t) => { es(t.intro); t.steps.forEach((s) => { es(s.q); (s.r || []).forEach(es); es(s.ok); es(s.no); en(s.en); }); });
+Object.values(CONVO).flat().forEach(es);
 
 const all = [...P.entries()];
 const chars = all.reduce((n, [, p]) => n + p.text.length, 0);

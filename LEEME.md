@@ -4,7 +4,7 @@ App web tipo juego para aprender inglés, cuidar una mascota y crear. Sin pagos,
 Funciona en Safari del iPhone y se puede dejar como "app" en la pantalla de inicio.
 
 ## Qué tiene
-- **🎙️ Audios con Lumi**: como en WhatsApp, mantiene apretado el micrófono y le manda audios a Lumi, que le responde con voz. Puede ir a otras partes de la app hablando ("quiero bañar a Coco", "juguemos a las burbujas"). Si propone algo nuevo ("quiero un juego de dinosaurios"), la idea queda guardada con su audio en la Zona de padres, y opcionalmente llega como aviso al celular con la app gratis **ntfy**.
+- **🎙️ Audios con Lumi**: como en WhatsApp, mantiene apretado el micrófono y le manda audios a Lumi. Lumi lleva la conversación: propone temas (su día, animales, familia, amigas, emociones, imaginar, comida, juguetes), le hace preguntas, comenta sus respuestas, le cuenta adivinanzas y le pregunta palabras en inglés. Puede ir a otras partes de la app hablando ("quiero bañar a Coco", "juguemos a las burbujas"). Si propone algo nuevo ("quiero un juego de dinosaurios"), la idea queda guardada con su audio en la Zona de padres, y opcionalmente llega como aviso al celular con la app gratis **ntfy**.
 - **🤝 Amigos**: 12 situaciones del colegio (le quitan un juguete, pierde un juego y siente rabia, una amiga llora...). Lumi lee las opciones, explica con cariño por qué una opción no está bien y deja intentar otra vez. Enseña la regla 🛑 Paro · 🌬️ Respiro · 🗣️ Hablo y frases en inglés (Please, Sorry, Share...). Incluye el **Rincón de la calma**, donde respira inflando un globo.
 - **🗺️ Aventura**: un camino de 30 misiones en el que se van alternando lección, mascota, conversación y juego.
 - **🔤 Inglés**: 7 temas (colores, animales, números, comida, cuerpo, figuras y naturaleza). Primero aprende cada palabra (en inglés, después en español y de nuevo en inglés) y luego viene un quiz.
@@ -41,5 +41,5 @@ Para cambiar de voz: `VOZ_ESPANOL=es-CL-CatalinaNeural python3 tools/voces_grati
 ## Consejos
 - Quitar el **modo silencio** del iPhone para que se escuchen los sonidos.
 - La primera vez que use los audios, Safari pide permiso para el micrófono y para el reconocimiento de voz: hay que tocar **Permitir**.
-- Lo que Lumi entiende y responde está en `TALK`, `BRAIN` y `NAV` al final de `js/data.js`.
+- Los temas y preguntas de Lumi están en `THREADS`; lo que entiende y responde, en `TALK`, `BRAIN` y `NAV` al final de `js/data.js`.
 - Para agregar palabras, diálogos o recetas se edita `js/data.js`.
