@@ -38,8 +38,18 @@ function brain(text) {
 
 /* ---------- Grabar (micrófono + reconocimiento de voz del teléfono) ---------- */
 const Rec = {
-  async start() {
+  /* IMPORTANTE: llamar directo desde el toque (el iPhone bloquea el micrófono si se enciende después) */
+  async start(lang = 'es-CL') {
     this.chunks = []; this.text = ''; this.sr = null; this.mr = null; this.stream = null; this.t0 = Date.now();
+    if (Listen.SR) {
+      try {
+        const r = new Listen.SR();
+        r.lang = lang; r.continuous = true; r.interimResults = true;
+        r.onresult = (e) => { this.text = [...e.results].map((x) => x[0].transcript).join(' ').trim(); };
+        r.onerror = (e) => { this.srError = e.error; }; r.onend = () => { this.srDone = true; this.srEnd && this.srEnd(); };
+        this.srDone = false; this.srEnd = null; this.srError = null; r.start(); this.sr = r;
+      } catch (e) { this.sr = null; }
+    }
     try { this.stream = await navigator.mediaDevices.getUserMedia({ audio: true }); } catch (e) { this.stream = null; }
     if (this.stream && window.MediaRecorder) {
       try {
@@ -49,15 +59,7 @@ const Rec = {
         this.mr.start();
       } catch (e) { this.mr = null; }
     }
-    if (Listen.SR) {
-      try {
-        const r = new Listen.SR();
-        r.lang = 'es-CL'; r.continuous = true; r.interimResults = true;
-        r.onresult = (e) => { this.text = [...e.results].map((x) => x[0].transcript).join(' ').trim(); };
-        r.onerror = () => {}; r.onend = () => { this.srDone = true; this.srEnd && this.srEnd(); };
-        this.srDone = false; this.srEnd = null; r.start(); this.sr = r;
-      } catch (e) { this.sr = null; }
-    }
+    if (this.sr && this.srDone && this.srError) this.sr = null;
     return !!(this.mr || this.sr);
   },
   async stop() {

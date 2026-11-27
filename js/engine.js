@@ -78,6 +78,7 @@ const Voice = {
   },
   play(src, lang, o) {
     return new Promise((res) => {
+      if (!this.audio) this.unlockAudio();
       const a = this.audio;
       let fin = false;
       const done = (ok) => { if (fin) return; fin = true; clearTimeout(t); a.onended = a.onerror = a.onpause = null; this.cur = null; res(ok); };

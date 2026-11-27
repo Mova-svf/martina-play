@@ -18,19 +18,31 @@ function screenLesson(topicKey, done, back) {
     dots(items.length, i + 1);
     const it = items[i];
     stage.innerHTML = `<button class="card-learn pop-in" id="card"><span class="vis xl">${itemVisual(it)}</span><span class="word-en">${it.en}</span>${S.settings.spanish ? `<span class="word-es">${it.es}</span>` : ''}</button>
-      <div class="row-btns"><button class="btn-circle" id="rep">🔊</button>${Listen.ok ? '<button class="btn-circle mic" id="mic">🎤</button>' : ''}<button class="btn-circle next" id="next">➡</button></div>`;
+      <div class="row-btns"><button class="btn-circle" id="rep">🔊</button>${Listen.ok || (navigator.mediaDevices && window.MediaRecorder) ? '<button class="btn-circle mic" id="mic">🎤</button>' : ''}<button class="btn-circle next" id="next">➡</button></div>`;
     speakItem(it).then((ok) => { if (ok && alive(my) && $('#next')) $('#next').classList.add('pulse'); });
     tapify($('#card'), () => { $('#card').classList.remove('wiggle'); void $('#card').offsetWidth; $('#card').classList.add('wiggle'); speakItem(it); });
     tapify($('#rep'), () => speakItem(it));
     tapify($('#next'), () => { i++; learn(); });
-    if ($('#mic')) tapify($('#mic'), async () => {
-      await Voice.say([['en', `Say: ${it.en}!`]]);
-      const heard = await Listen.hear('en-US');
-      if (!alive(my)) return;
-      if (heard && heard.includes(it.en.toLowerCase().split(' ')[0])) { Sfx.good(); burstEl($('#card')); sayEn(`Perfect! ${it.en}!`, '¡Perfecto!'); }
-      else if (heard) { Sfx.good(); sayEn(`Good try! ${it.en}!`, '¡Buen intento!'); }
-      else sayEs(`Toca el micrófono y di: ${it.en}`);
-    });
+    if ($('#mic')) {
+      const mic = $('#mic'); let on = false, stopT = null;
+      const stopRec = async () => {
+        if (!on) return; on = false; clearTimeout(stopT); mic.classList.remove('recording'); mic.textContent = '🎤';
+        const r = await Rec.stop();
+        if (!alive(my)) return;
+        if (!r.blob && !r.text) return Voice.say([['es', TALK.noMic, 'force']]);
+        if (r.blob) { await Voice.play(URL.createObjectURL(r.blob), 'es', {}); if (!alive(my)) return; }
+        Sfx.good(); burstEl($('#card'));
+        const heard = norm(r.text), word = norm(it.en).split(' ')[0];
+        if (!heard || heard.includes(word)) Voice.say([['en', `Perfect! ${it.en}!`], ['es', '¡Perfecto!']]);
+        else Voice.say([['en', `Good try! ${it.en}!`], ['es', '¡Buen intento!']]);
+      };
+      tapify(mic, () => {
+        if (on) return stopRec();
+        Voice.stop(); on = true; mic.classList.add('recording'); mic.textContent = '👂';
+        Rec.start('en-US').then((ok) => { if (!ok && on) { on = false; mic.classList.remove('recording'); mic.textContent = '🎤'; Voice.say([['es', TALK.noMic, 'force']]); } });
+        stopT = later(stopRec, 3500);
+      });
+    }
   }
   let round = 0, mistakes = 0, wrongHere = 0;
   const order = shuffle(items);

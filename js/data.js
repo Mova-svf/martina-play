@@ -299,11 +299,11 @@ const RECIPES = {
 /* ---------- Aventura (camino de misiones) ---------- */
 const ADVENTURE = [
   { type: 'lesson', topic: 'colors' }, { type: 'bath' }, { type: 'chat', dialog: 'hello' }, { type: 'bubbles' },
-  { type: 'lesson', topic: 'animals' }, { type: 'feed' }, { type: 'memory', topic: 'animals' }, { type: 'chat', dialog: 'animal' },
+  { type: 'lesson', topic: 'animals' }, { type: 'feed' }, { type: 'memory', topic: 'animals' }, { type: 'friends' }, { type: 'chat', dialog: 'animal' },
   { type: 'lesson', topic: 'numbers' }, { type: 'cook', recipe: 'pizza' }, { type: 'counting' }, { type: 'chat', dialog: 'age' },
-  { type: 'lesson', topic: 'food' }, { type: 'teeth' }, { type: 'shadows' }, { type: 'chat', dialog: 'food' },
+  { type: 'lesson', topic: 'food' }, { type: 'teeth' }, { type: 'shadows' }, { type: 'calm' }, { type: 'chat', dialog: 'food' },
   { type: 'lesson', topic: 'body' }, { type: 'dress' }, { type: 'cook', recipe: 'salad' }, { type: 'chat', dialog: 'feelings' },
-  { type: 'lesson', topic: 'shapes' }, { type: 'draw' }, { type: 'emotions' }, { type: 'chat', dialog: 'color' },
+  { type: 'lesson', topic: 'shapes' }, { type: 'draw' }, { type: 'emotions' }, { type: 'friends' }, { type: 'chat', dialog: 'color' },
   { type: 'lesson', topic: 'nature' }, { type: 'chat', dialog: 'weather' }, { type: 'cook', recipe: 'smoothie' },
   { type: 'memory', topic: 'food' }, { type: 'chat', dialog: 'family' }, { type: 'sleep' },
 ];
@@ -402,3 +402,84 @@ const NAV = [
 ];
 const NAV_GAMES = { k: ['juego', 'jugar', 'juguemos'], screen: 'games', icon: '🎮', r: '¡Vamos a los juegos!' };
 const IDEA_WORDS = ['quiero', 'quero', 'me gustaria', 'ojala', 'puedes', 'podrias', 'agrega', 'agregar', 'pon ', 'ponle', 'crea', 'inventa', 'hazme', 'haz ', 'nuevo', 'nueva', 'que haya', 'idea'];
+
+/* ============ AMIGOS: situaciones para aprender a convivir ============
+   Mensaje central: enojarse es normal; lo importante es qué hacemos con el enojo.
+   Regla de 3 pasos: 🛑 Paro · 🌬️ Respiro · 🗣️ Hablo con palabras (o pido ayuda a un adulto). */
+const FRIENDS = [
+  { scene: '👧 🧸 👧', story: 'Sofía tomó tu muñeca sin pedírtela. ¿Qué haces?', en: ['Please!', 'por favor'],
+    options: [
+      { e: '👊', es: 'Le pego y se la quito.', ok: false, fb: 'Si pegamos, a Sofía le duele y se pone triste. Las manos son para jugar, no para pegar.' },
+      { e: '🗣️', es: 'Le digo: ¿me la devuelves, por favor?', ok: true, fb: '¡Muy bien! Pedir las cosas con palabras siempre funciona mejor.' },
+      { e: '🧑‍🏫', es: 'Le pido ayuda a la tía.', ok: true, fb: '¡Bien pensado! Pedir ayuda a un adulto es muy inteligente.' },
+    ] },
+  { scene: '🎲 😠 💥', story: 'Perdiste en un juego y sientes mucha rabia. ¿Qué haces?', en: ['Breathe!', 'respira'],
+    options: [
+      { e: '💥', es: 'Tiro las cosas al suelo.', ok: false, fb: 'Si tiramos las cosas, se pueden romper o le pueden pegar a alguien. El enojo se calma de otra forma.' },
+      { e: '🌬️', es: 'Respiro profundo y cuento hasta cinco.', ok: true, fb: '¡Excelente! Respirar profundo nos ayuda a calmarnos.' },
+      { e: '🗣️', es: 'Digo: estoy enojada.', ok: true, fb: '¡Eso es! Decir lo que sentimos con palabras nos ayuda mucho.' },
+    ] },
+  { scene: '🖍️ 👦 😔', story: 'Tienes muchos lápices de colores y Tomás no tiene ninguno. ¿Qué haces?', en: ['Share!', 'compartir'],
+    options: [
+      { e: '🙅', es: 'No le presto nada.', ok: false, fb: 'Si no compartimos, Tomás se siente triste y solito. ¡Compartir nos hace buenos amigos!' },
+      { e: '🤝', es: 'Le presto y dibujamos juntos.', ok: true, fb: '¡Qué buena amiga eres! Compartir hace feliz a todos.' },
+    ] },
+  { scene: '👧 😢 🌳', story: 'Emilia está llorando solita en el recreo. ¿Qué haces?', en: ['Are you okay?', '¿estás bien?'],
+    options: [
+      { e: '🤗', es: 'Le pregunto qué le pasa.', ok: true, fb: '¡Muy bien! Cuando alguien está triste, nuestra ayuda es muy importante.' },
+      { e: '😂', es: 'Me río de ella.', ok: false, fb: 'Si nos reímos, Emilia se siente peor. A nadie le gusta que se rían cuando está triste.' },
+      { e: '🏃', es: 'Me voy a jugar sin mirarla.', ok: false, fb: 'Mmm, Emilia necesita una amiga. ¿Qué podrías hacer para ayudarla?' },
+    ] },
+  { scene: '🛝 👧👦👧', story: 'Todos quieren subirse al tobogán. ¿Qué haces?', en: ['Wait your turn!', 'espera tu turno'],
+    options: [
+      { e: '🫸', es: 'Empujo para pasar primero.', ok: false, fb: 'Si empujamos, alguien se puede caer y lastimar. ¡Cuidado!' },
+      { e: '🧍', es: 'Hago la fila y espero mi turno.', ok: true, fb: '¡Perfecto! Esperar el turno es ser muy buena compañera.' },
+    ] },
+  { scene: '🧱 💥 👦', story: 'Sin querer, botaste la torre de bloques de Lucas. ¿Qué haces?', en: ['Sorry!', 'perdón'],
+    options: [
+      { e: '🙈', es: 'Me escondo para que no me vea.', ok: false, fb: 'Todos nos equivocamos. Lo importante es pedir perdón y ayudar.' },
+      { e: '🙏', es: 'Le digo: perdón, te ayudo a armarla.', ok: true, fb: '¡Muy bien! Pedir perdón y ayudar es de buenas amigas.' },
+    ] },
+  { scene: '👧👧 ⚽ 👧', story: 'Unas niñas están jugando y tú quieres jugar con ellas. ¿Qué haces?', en: ['Can I play?', '¿puedo jugar?'],
+    options: [
+      { e: '🗣️', es: 'Les pregunto: ¿puedo jugar?', ok: true, fb: '¡Genial! Preguntar con amabilidad es la mejor forma de hacer amigas.' },
+      { e: '😤', es: 'Les desarmo el juego.', ok: false, fb: 'Si les desarmamos el juego, se enojan y no quieren jugar con nosotros.' },
+    ] },
+  { scene: '👧 💬 😣', story: 'Una compañera te dijo algo feo. ¿Qué haces?', en: ['Stop, please!', 'para, por favor'],
+    options: [
+      { e: '👊', es: 'Le pego.', ok: false, fb: 'Pegar nunca es la solución, aunque estemos muy enojadas. Mejor usamos palabras.' },
+      { e: '✋', es: 'Le digo: eso no me gusta.', ok: true, fb: '¡Muy valiente! Decir lo que no nos gusta con calma es lo correcto.' },
+      { e: '🧑‍🏫', es: 'Le cuento a la tía.', ok: true, fb: '¡Bien hecho! Los adultos nos pueden ayudar.' },
+    ] },
+  { scene: '👧 🎒 ❓', story: 'Llegó una niña nueva al curso y no conoce a nadie. ¿Qué haces?', en: ["Hello! What's your name?", 'hola, ¿cómo te llamas?'],
+    options: [
+      { e: '👋', es: 'La saludo y la invito a jugar.', ok: true, fb: '¡Qué lindo! Así la niña nueva se siente feliz y acompañada.' },
+      { e: '🙄', es: 'No la miro.', ok: false, fb: 'La niña nueva se puede sentir solita. Un saludo la puede hacer muy feliz.' },
+    ] },
+  { scene: '👧 🎠 👧', story: 'Tú y Sofía quieren el mismo columpio al mismo tiempo. ¿Qué haces?', en: ["Let's take turns!", 'turnémonos'],
+    options: [
+      { e: '😠', es: 'Le grito: ¡es mío!', ok: false, fb: 'Si gritamos, Sofía se asusta o se enoja. Hay una mejor forma.' },
+      { e: '⏱️', es: 'Le digo: juguemos por turnos.', ok: true, fb: '¡Excelente idea! Por turnos, las dos pueden jugar.' },
+    ] },
+  { scene: '👧 ✏️ 👧', story: 'Isidora te prestó su goma de borrar. ¿Qué le dices?', en: ['Thank you!', 'gracias'],
+    options: [
+      { e: '😊', es: '¡Gracias!', ok: true, fb: '¡Muy bien! Decir gracias hace felices a los demás.' },
+      { e: '🤐', es: 'No le digo nada.', ok: false, fb: 'Mmm, Isidora fue amable contigo. ¿Qué palabra mágica le puedes decir?' },
+    ] },
+  { scene: '👦 🤕 🩹', story: 'Tomás se cayó y se raspó la rodilla. ¿Qué haces?', en: ['Are you okay?', '¿estás bien?'],
+    options: [
+      { e: '🩹', es: 'Lo ayudo y llamo a la tía.', ok: true, fb: '¡Eres muy buena amiga! Ayudar a quien se lastima es lo mejor.' },
+      { e: '😂', es: 'Me río.', ok: false, fb: 'A Tomás le duele, y si nos reímos se siente peor. ¿Cómo lo podrías ayudar?' },
+    ] },
+];
+const FRIENDS_TXT = {
+  intro: '¡Vamos a aprender a ser buenas amigas! Te voy a contar algo que pasó, y tú me dices qué harías.',
+  listen: 'Escucha las opciones:',
+  retry: '¿Qué otra cosa podríamos hacer?',
+  english: 'En inglés se dice:',
+  rule: 'Recuerda: enojarse es normal. Cuando te enojes: para, respira, y habla con palabras. ¡Y si necesitas ayuda, busca a un adulto!',
+  calmIntro: 'Cuando sentimos mucha rabia, venimos al rincón de la calma. Vamos a inflar un globo con nuestra respiración.',
+  inhale: 'Toma aire por la nariz...', exhale: 'Y bótalo despacito por la boca...',
+  calmDone: '¡Muy bien! Ahora estás más tranquila. Cuando te enojes, recuerda: para, respira y habla.',
+  stop: 'Para.', breathe: 'Respira.', talk: 'Habla con palabras.',
+};

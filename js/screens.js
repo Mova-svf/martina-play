@@ -31,13 +31,15 @@ const ACTIVITIES = {
   shadows: (p, done, back) => screenShadows(done, back),
   counting: (p, done, back) => screenCounting(done, back),
   draw: (p, done, back) => screenDraw(done, back),
+  friends: (p, done, back) => screenSituations(done, back),
+  calm: (p, done, back) => screenCalm(done, back),
 };
 function activityInfo(sp) {
   if (sp.type === 'lesson') { const t = TOPICS[sp.topic]; return { icon: t.icon, es: t.es }; }
   if (sp.type === 'chat') { const d = DIALOGS[sp.dialog]; return { icon: '💬', es: 'Hablar: ' + d.es, sub: d.icon }; }
   if (sp.type === 'cook') { const r = RECIPES[sp.recipe]; return { icon: r.e, es: 'Cocinar ' + r.es }; }
   const m = { bath: ['🛁', 'Bañar'], teeth: ['🪥', 'Dientes'], feed: ['🍎', 'Comer'], dress: ['👕', 'Vestir'], emotions: ['😊', 'Emociones'],
-    sleep: ['🌙', 'Dormir'], memory: ['🃏', 'Memoria'], bubbles: ['🫧', 'Burbujas'], shadows: ['👤', 'Sombras'], counting: ['🔢', 'Contar'], draw: ['🖍️', 'Dibujar'] }[sp.type];
+    sleep: ['🌙', 'Dormir'], memory: ['🃏', 'Memoria'], bubbles: ['🫧', 'Burbujas'], shadows: ['👤', 'Sombras'], counting: ['🔢', 'Contar'], draw: ['🖍️', 'Dibujar'], friends: ['🤝', 'Amigos'], calm: ['🧘', 'Calma'] }[sp.type];
   return { icon: m[0], es: m[1] };
 }
 function startActivity(spec, back, onComplete) {
@@ -67,6 +69,7 @@ function screenSplash() {
 
 const ZONES = [
   { icon: '🎙️', es: 'Audios con Lumi', en: 'Voice chat', color: '#25D366', fn: () => screenTalk() },
+  { icon: '🤝', es: 'Amigos', en: 'Friends', color: '#FF8FAB', fn: () => screenFriendsMenu() },
   { icon: '🗺️', es: 'Aventura', en: 'Adventure', color: '#FFC83D', fn: () => screenAdventure() },
   { icon: '🔤', es: 'Inglés', en: 'English', color: '#FF6FAE', fn: () => screenEnglish() },
   { icon: 'PET', es: 'Mi mascota', en: 'My pet', color: '#3DDC84', fn: () => screenPet() },

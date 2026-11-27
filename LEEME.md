@@ -5,6 +5,7 @@ Funciona en Safari del iPhone y se puede dejar como "app" en la pantalla de inic
 
 ## Qué tiene
 - **🎙️ Audios con Lumi**: como en WhatsApp, mantiene apretado el micrófono y le manda audios a Lumi, que le responde con voz. Puede ir a otras partes de la app hablando ("quiero bañar a Coco", "juguemos a las burbujas"). Si propone algo nuevo ("quiero un juego de dinosaurios"), la idea queda guardada con su audio en la Zona de padres, y opcionalmente llega como aviso al celular con la app gratis **ntfy**.
+- **🤝 Amigos**: 12 situaciones del colegio (le quitan un juguete, pierde un juego y siente rabia, una amiga llora...). Lumi lee las opciones, explica con cariño por qué una opción no está bien y deja intentar otra vez. Enseña la regla 🛑 Paro · 🌬️ Respiro · 🗣️ Hablo y frases en inglés (Please, Sorry, Share...). Incluye el **Rincón de la calma**, donde respira inflando un globo.
 - **🗺️ Aventura**: un camino de 30 misiones en el que se van alternando lección, mascota, conversación y juego.
 - **🔤 Inglés**: 7 temas (colores, animales, números, comida, cuerpo, figuras y naturaleza). Primero aprende cada palabra (en inglés, después en español y de nuevo en inglés) y luego viene un quiz.
 - **💬 Hablar con Lumi**: 8 conversaciones guiadas (saludar, edad, colores, animales, comida, emociones, clima y familia). Se responde tocando dibujos o con el micrófono.

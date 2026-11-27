@@ -6508,5 +6508,530 @@
   "key": "es|¡Vamos a los juegos!",
   "lang": "es",
   "text": "¡Vamos a los juegos!"
+ },
+ {
+  "key": "es|Sofía tomó tu muñeca sin pedírtela. ¿Qué haces?",
+  "lang": "es",
+  "text": "Sofía tomó tu muñeca sin pedírtela. ¿Qué haces?"
+ },
+ {
+  "key": "en|Please!",
+  "lang": "en",
+  "text": "Please!"
+ },
+ {
+  "key": "es|por favor",
+  "lang": "es",
+  "text": "por favor"
+ },
+ {
+  "key": "es|Le pego y se la quito.",
+  "lang": "es",
+  "text": "Le pego y se la quito."
+ },
+ {
+  "key": "es|Si pegamos, a Sofía le duele y se pone triste. Las manos son para jugar, no para pegar.",
+  "lang": "es",
+  "text": "Si pegamos, a Sofía le duele y se pone triste. Las manos son para jugar, no para pegar."
+ },
+ {
+  "key": "es|Le digo: ¿me la devuelves, por favor?",
+  "lang": "es",
+  "text": "Le digo: ¿me la devuelves, por favor?"
+ },
+ {
+  "key": "es|¡Muy bien! Pedir las cosas con palabras siempre funciona mejor.",
+  "lang": "es",
+  "text": "¡Muy bien! Pedir las cosas con palabras siempre funciona mejor."
+ },
+ {
+  "key": "es|Le pido ayuda a la tía.",
+  "lang": "es",
+  "text": "Le pido ayuda a la tía."
+ },
+ {
+  "key": "es|¡Bien pensado! Pedir ayuda a un adulto es muy inteligente.",
+  "lang": "es",
+  "text": "¡Bien pensado! Pedir ayuda a un adulto es muy inteligente."
+ },
+ {
+  "key": "es|Perdiste en un juego y sientes mucha rabia. ¿Qué haces?",
+  "lang": "es",
+  "text": "Perdiste en un juego y sientes mucha rabia. ¿Qué haces?"
+ },
+ {
+  "key": "en|Breathe!",
+  "lang": "en",
+  "text": "Breathe!"
+ },
+ {
+  "key": "es|respira",
+  "lang": "es",
+  "text": "respira"
+ },
+ {
+  "key": "es|Tiro las cosas al suelo.",
+  "lang": "es",
+  "text": "Tiro las cosas al suelo."
+ },
+ {
+  "key": "es|Si tiramos las cosas, se pueden romper o le pueden pegar a alguien. El enojo se calma de otra forma.",
+  "lang": "es",
+  "text": "Si tiramos las cosas, se pueden romper o le pueden pegar a alguien. El enojo se calma de otra forma."
+ },
+ {
+  "key": "es|Respiro profundo y cuento hasta cinco.",
+  "lang": "es",
+  "text": "Respiro profundo y cuento hasta cinco."
+ },
+ {
+  "key": "es|¡Excelente! Respirar profundo nos ayuda a calmarnos.",
+  "lang": "es",
+  "text": "¡Excelente! Respirar profundo nos ayuda a calmarnos."
+ },
+ {
+  "key": "es|Digo: estoy enojada.",
+  "lang": "es",
+  "text": "Digo: estoy enojada."
+ },
+ {
+  "key": "es|¡Eso es! Decir lo que sentimos con palabras nos ayuda mucho.",
+  "lang": "es",
+  "text": "¡Eso es! Decir lo que sentimos con palabras nos ayuda mucho."
+ },
+ {
+  "key": "es|Tienes muchos lápices de colores y Tomás no tiene ninguno. ¿Qué haces?",
+  "lang": "es",
+  "text": "Tienes muchos lápices de colores y Tomás no tiene ninguno. ¿Qué haces?"
+ },
+ {
+  "key": "en|Share!",
+  "lang": "en",
+  "text": "Share!"
+ },
+ {
+  "key": "es|compartir",
+  "lang": "es",
+  "text": "compartir"
+ },
+ {
+  "key": "es|No le presto nada.",
+  "lang": "es",
+  "text": "No le presto nada."
+ },
+ {
+  "key": "es|Si no compartimos, Tomás se siente triste y solito. ¡Compartir nos hace buenos amigos!",
+  "lang": "es",
+  "text": "Si no compartimos, Tomás se siente triste y solito. ¡Compartir nos hace buenos amigos!"
+ },
+ {
+  "key": "es|Le presto y dibujamos juntos.",
+  "lang": "es",
+  "text": "Le presto y dibujamos juntos."
+ },
+ {
+  "key": "es|¡Qué buena amiga eres! Compartir hace feliz a todos.",
+  "lang": "es",
+  "text": "¡Qué buena amiga eres! Compartir hace feliz a todos."
+ },
+ {
+  "key": "es|Emilia está llorando solita en el recreo. ¿Qué haces?",
+  "lang": "es",
+  "text": "Emilia está llorando solita en el recreo. ¿Qué haces?"
+ },
+ {
+  "key": "en|Are you okay?",
+  "lang": "en",
+  "text": "Are you okay?"
+ },
+ {
+  "key": "es|¿estás bien?",
+  "lang": "es",
+  "text": "¿estás bien?"
+ },
+ {
+  "key": "es|Le pregunto qué le pasa.",
+  "lang": "es",
+  "text": "Le pregunto qué le pasa."
+ },
+ {
+  "key": "es|¡Muy bien! Cuando alguien está triste, nuestra ayuda es muy importante.",
+  "lang": "es",
+  "text": "¡Muy bien! Cuando alguien está triste, nuestra ayuda es muy importante."
+ },
+ {
+  "key": "es|Me río de ella.",
+  "lang": "es",
+  "text": "Me río de ella."
+ },
+ {
+  "key": "es|Si nos reímos, Emilia se siente peor. A nadie le gusta que se rían cuando está triste.",
+  "lang": "es",
+  "text": "Si nos reímos, Emilia se siente peor. A nadie le gusta que se rían cuando está triste."
+ },
+ {
+  "key": "es|Me voy a jugar sin mirarla.",
+  "lang": "es",
+  "text": "Me voy a jugar sin mirarla."
+ },
+ {
+  "key": "es|Mmm, Emilia necesita una amiga. ¿Qué podrías hacer para ayudarla?",
+  "lang": "es",
+  "text": "Mmm, Emilia necesita una amiga. ¿Qué podrías hacer para ayudarla?"
+ },
+ {
+  "key": "es|Todos quieren subirse al tobogán. ¿Qué haces?",
+  "lang": "es",
+  "text": "Todos quieren subirse al tobogán. ¿Qué haces?"
+ },
+ {
+  "key": "en|Wait your turn!",
+  "lang": "en",
+  "text": "Wait your turn!"
+ },
+ {
+  "key": "es|espera tu turno",
+  "lang": "es",
+  "text": "espera tu turno"
+ },
+ {
+  "key": "es|Empujo para pasar primero.",
+  "lang": "es",
+  "text": "Empujo para pasar primero."
+ },
+ {
+  "key": "es|Si empujamos, alguien se puede caer y lastimar. ¡Cuidado!",
+  "lang": "es",
+  "text": "Si empujamos, alguien se puede caer y lastimar. ¡Cuidado!"
+ },
+ {
+  "key": "es|Hago la fila y espero mi turno.",
+  "lang": "es",
+  "text": "Hago la fila y espero mi turno."
+ },
+ {
+  "key": "es|¡Perfecto! Esperar el turno es ser muy buena compañera.",
+  "lang": "es",
+  "text": "¡Perfecto! Esperar el turno es ser muy buena compañera."
+ },
+ {
+  "key": "es|Sin querer, botaste la torre de bloques de Lucas. ¿Qué haces?",
+  "lang": "es",
+  "text": "Sin querer, botaste la torre de bloques de Lucas. ¿Qué haces?"
+ },
+ {
+  "key": "en|Sorry!",
+  "lang": "en",
+  "text": "Sorry!"
+ },
+ {
+  "key": "es|perdón",
+  "lang": "es",
+  "text": "perdón"
+ },
+ {
+  "key": "es|Me escondo para que no me vea.",
+  "lang": "es",
+  "text": "Me escondo para que no me vea."
+ },
+ {
+  "key": "es|Todos nos equivocamos. Lo importante es pedir perdón y ayudar.",
+  "lang": "es",
+  "text": "Todos nos equivocamos. Lo importante es pedir perdón y ayudar."
+ },
+ {
+  "key": "es|Le digo: perdón, te ayudo a armarla.",
+  "lang": "es",
+  "text": "Le digo: perdón, te ayudo a armarla."
+ },
+ {
+  "key": "es|¡Muy bien! Pedir perdón y ayudar es de buenas amigas.",
+  "lang": "es",
+  "text": "¡Muy bien! Pedir perdón y ayudar es de buenas amigas."
+ },
+ {
+  "key": "es|Unas niñas están jugando y tú quieres jugar con ellas. ¿Qué haces?",
+  "lang": "es",
+  "text": "Unas niñas están jugando y tú quieres jugar con ellas. ¿Qué haces?"
+ },
+ {
+  "key": "en|Can I play?",
+  "lang": "en",
+  "text": "Can I play?"
+ },
+ {
+  "key": "es|¿puedo jugar?",
+  "lang": "es",
+  "text": "¿puedo jugar?"
+ },
+ {
+  "key": "es|Les pregunto: ¿puedo jugar?",
+  "lang": "es",
+  "text": "Les pregunto: ¿puedo jugar?"
+ },
+ {
+  "key": "es|¡Genial! Preguntar con amabilidad es la mejor forma de hacer amigas.",
+  "lang": "es",
+  "text": "¡Genial! Preguntar con amabilidad es la mejor forma de hacer amigas."
+ },
+ {
+  "key": "es|Les desarmo el juego.",
+  "lang": "es",
+  "text": "Les desarmo el juego."
+ },
+ {
+  "key": "es|Si les desarmamos el juego, se enojan y no quieren jugar con nosotros.",
+  "lang": "es",
+  "text": "Si les desarmamos el juego, se enojan y no quieren jugar con nosotros."
+ },
+ {
+  "key": "es|Una compañera te dijo algo feo. ¿Qué haces?",
+  "lang": "es",
+  "text": "Una compañera te dijo algo feo. ¿Qué haces?"
+ },
+ {
+  "key": "en|Stop, please!",
+  "lang": "en",
+  "text": "Stop, please!"
+ },
+ {
+  "key": "es|para, por favor",
+  "lang": "es",
+  "text": "para, por favor"
+ },
+ {
+  "key": "es|Le pego.",
+  "lang": "es",
+  "text": "Le pego."
+ },
+ {
+  "key": "es|Pegar nunca es la solución, aunque estemos muy enojadas. Mejor usamos palabras.",
+  "lang": "es",
+  "text": "Pegar nunca es la solución, aunque estemos muy enojadas. Mejor usamos palabras."
+ },
+ {
+  "key": "es|Le digo: eso no me gusta.",
+  "lang": "es",
+  "text": "Le digo: eso no me gusta."
+ },
+ {
+  "key": "es|¡Muy valiente! Decir lo que no nos gusta con calma es lo correcto.",
+  "lang": "es",
+  "text": "¡Muy valiente! Decir lo que no nos gusta con calma es lo correcto."
+ },
+ {
+  "key": "es|Le cuento a la tía.",
+  "lang": "es",
+  "text": "Le cuento a la tía."
+ },
+ {
+  "key": "es|¡Bien hecho! Los adultos nos pueden ayudar.",
+  "lang": "es",
+  "text": "¡Bien hecho! Los adultos nos pueden ayudar."
+ },
+ {
+  "key": "es|Llegó una niña nueva al curso y no conoce a nadie. ¿Qué haces?",
+  "lang": "es",
+  "text": "Llegó una niña nueva al curso y no conoce a nadie. ¿Qué haces?"
+ },
+ {
+  "key": "en|Hello! What's your name?",
+  "lang": "en",
+  "text": "Hello! What's your name?"
+ },
+ {
+  "key": "es|hola, ¿cómo te llamas?",
+  "lang": "es",
+  "text": "hola, ¿cómo te llamas?"
+ },
+ {
+  "key": "es|La saludo y la invito a jugar.",
+  "lang": "es",
+  "text": "La saludo y la invito a jugar."
+ },
+ {
+  "key": "es|¡Qué lindo! Así la niña nueva se siente feliz y acompañada.",
+  "lang": "es",
+  "text": "¡Qué lindo! Así la niña nueva se siente feliz y acompañada."
+ },
+ {
+  "key": "es|No la miro.",
+  "lang": "es",
+  "text": "No la miro."
+ },
+ {
+  "key": "es|La niña nueva se puede sentir solita. Un saludo la puede hacer muy feliz.",
+  "lang": "es",
+  "text": "La niña nueva se puede sentir solita. Un saludo la puede hacer muy feliz."
+ },
+ {
+  "key": "es|Tú y Sofía quieren el mismo columpio al mismo tiempo. ¿Qué haces?",
+  "lang": "es",
+  "text": "Tú y Sofía quieren el mismo columpio al mismo tiempo. ¿Qué haces?"
+ },
+ {
+  "key": "en|Let's take turns!",
+  "lang": "en",
+  "text": "Let's take turns!"
+ },
+ {
+  "key": "es|turnémonos",
+  "lang": "es",
+  "text": "turnémonos"
+ },
+ {
+  "key": "es|Le grito: ¡es mío!",
+  "lang": "es",
+  "text": "Le grito: ¡es mío!"
+ },
+ {
+  "key": "es|Si gritamos, Sofía se asusta o se enoja. Hay una mejor forma.",
+  "lang": "es",
+  "text": "Si gritamos, Sofía se asusta o se enoja. Hay una mejor forma."
+ },
+ {
+  "key": "es|Le digo: juguemos por turnos.",
+  "lang": "es",
+  "text": "Le digo: juguemos por turnos."
+ },
+ {
+  "key": "es|¡Excelente idea! Por turnos, las dos pueden jugar.",
+  "lang": "es",
+  "text": "¡Excelente idea! Por turnos, las dos pueden jugar."
+ },
+ {
+  "key": "es|Isidora te prestó su goma de borrar. ¿Qué le dices?",
+  "lang": "es",
+  "text": "Isidora te prestó su goma de borrar. ¿Qué le dices?"
+ },
+ {
+  "key": "en|Thank you!",
+  "lang": "en",
+  "text": "Thank you!"
+ },
+ {
+  "key": "es|gracias",
+  "lang": "es",
+  "text": "gracias"
+ },
+ {
+  "key": "es|¡Gracias!",
+  "lang": "es",
+  "text": "¡Gracias!"
+ },
+ {
+  "key": "es|¡Muy bien! Decir gracias hace felices a los demás.",
+  "lang": "es",
+  "text": "¡Muy bien! Decir gracias hace felices a los demás."
+ },
+ {
+  "key": "es|No le digo nada.",
+  "lang": "es",
+  "text": "No le digo nada."
+ },
+ {
+  "key": "es|Mmm, Isidora fue amable contigo. ¿Qué palabra mágica le puedes decir?",
+  "lang": "es",
+  "text": "Mmm, Isidora fue amable contigo. ¿Qué palabra mágica le puedes decir?"
+ },
+ {
+  "key": "es|Tomás se cayó y se raspó la rodilla. ¿Qué haces?",
+  "lang": "es",
+  "text": "Tomás se cayó y se raspó la rodilla. ¿Qué haces?"
+ },
+ {
+  "key": "es|Lo ayudo y llamo a la tía.",
+  "lang": "es",
+  "text": "Lo ayudo y llamo a la tía."
+ },
+ {
+  "key": "es|¡Eres muy buena amiga! Ayudar a quien se lastima es lo mejor.",
+  "lang": "es",
+  "text": "¡Eres muy buena amiga! Ayudar a quien se lastima es lo mejor."
+ },
+ {
+  "key": "es|Me río.",
+  "lang": "es",
+  "text": "Me río."
+ },
+ {
+  "key": "es|A Tomás le duele, y si nos reímos se siente peor. ¿Cómo lo podrías ayudar?",
+  "lang": "es",
+  "text": "A Tomás le duele, y si nos reímos se siente peor. ¿Cómo lo podrías ayudar?"
+ },
+ {
+  "key": "es|¡Vamos a aprender a ser buenas amigas! Te voy a contar algo que pasó, y tú me dices qué harías.",
+  "lang": "es",
+  "text": "¡Vamos a aprender a ser buenas amigas! Te voy a contar algo que pasó, y tú me dices qué harías."
+ },
+ {
+  "key": "es|Escucha las opciones:",
+  "lang": "es",
+  "text": "Escucha las opciones:"
+ },
+ {
+  "key": "es|¿Qué otra cosa podríamos hacer?",
+  "lang": "es",
+  "text": "¿Qué otra cosa podríamos hacer?"
+ },
+ {
+  "key": "es|Recuerda: enojarse es normal. Cuando te enojes: para, respira, y habla con palabras. ¡Y si necesitas ayuda, busca a un adulto!",
+  "lang": "es",
+  "text": "Recuerda: enojarse es normal. Cuando te enojes: para, respira, y habla con palabras. ¡Y si necesitas ayuda, busca a un adulto!"
+ },
+ {
+  "key": "es|Cuando sentimos mucha rabia, venimos al rincón de la calma. Vamos a inflar un globo con nuestra respiración.",
+  "lang": "es",
+  "text": "Cuando sentimos mucha rabia, venimos al rincón de la calma. Vamos a inflar un globo con nuestra respiración."
+ },
+ {
+  "key": "es|Toma aire por la nariz...",
+  "lang": "es",
+  "text": "Toma aire por la nariz..."
+ },
+ {
+  "key": "es|Y bótalo despacito por la boca...",
+  "lang": "es",
+  "text": "Y bótalo despacito por la boca..."
+ },
+ {
+  "key": "es|¡Muy bien! Ahora estás más tranquila. Cuando te enojes, recuerda: para, respira y habla.",
+  "lang": "es",
+  "text": "¡Muy bien! Ahora estás más tranquila. Cuando te enojes, recuerda: para, respira y habla."
+ },
+ {
+  "key": "es|Para.",
+  "lang": "es",
+  "text": "Para."
+ },
+ {
+  "key": "es|Respira.",
+  "lang": "es",
+  "text": "Respira."
+ },
+ {
+  "key": "es|Habla con palabras.",
+  "lang": "es",
+  "text": "Habla con palabras."
+ },
+ {
+  "key": "en|Breathe in...",
+  "lang": "en",
+  "text": "Breathe in..."
+ },
+ {
+  "key": "en|Breathe out...",
+  "lang": "en",
+  "text": "Breathe out..."
+ },
+ {
+  "key": "en|Let's be friends!",
+  "lang": "en",
+  "text": "Let's be friends!"
+ },
+ {
+  "key": "es|¡Aprendamos a ser buenas amigas! ¿Qué quieres hacer?",
+  "lang": "es",
+  "text": "¡Aprendamos a ser buenas amigas! ¿Qué quieres hacer?"
  }
 ]
