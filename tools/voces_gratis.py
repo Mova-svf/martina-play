@@ -11,7 +11,7 @@ import edge_tts
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'audio')
 VOICES = {
-    'es':  {'voice': os.environ.get('VOZ_ESPANOL', 'es-CL-CatalinaNeural'), 'rate': '+0%',  'pitch': '+6Hz'},   # Lumi, chilena
+    'es':  {'voice': os.environ.get('VOZ_ESPANOL', 'es-MX-DaliaNeural'), 'rate': '+0%',  'pitch': '+6Hz'},   # Lumi, mexicana
     'en':  {'voice': os.environ.get('VOZ_INGLES', 'en-US-EmmaNeural'),      'rate': '-12%', 'pitch': '+0Hz'},   # inglés claro y lento
     'kid': {'voice': os.environ.get('VOZ_NINA', 'en-US-AnaNeural'),         'rate': '-5%',  'pitch': '+0Hz'},   # respuestas de la niña
 }

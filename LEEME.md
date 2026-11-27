@@ -28,12 +28,12 @@ El iPhone necesita una dirección web (https). La opción más fácil y gratis:
 Después de la primera visita también funciona sin internet.
 
 ## Voces
-Todas las frases están grabadas con voces neuronales gratis de Microsoft: **Lumi habla con acento chileno** (Catalina), el inglés usa a Emma y la niña que responde en las conversaciones es Ana. Si alguna frase no tiene audio, la app usa la voz del iPhone.
+Todas las frases están grabadas con voces neuronales gratis de Microsoft: **Lumi habla con acento mexicano** (Dalia), el inglés usa a Emma y la niña que responde en las conversaciones es Ana. Si alguna frase no tiene audio, la app usa la voz del iPhone.
 Para volver a generarlas (por ejemplo, después de agregar frases en `js/data.js`):
 ```bash
 python3 -m pip install edge-tts && node tools/voces.mjs --json && python3 tools/voces_gratis.py
 ```
-Para cambiar de voz: `VOZ_ESPANOL=es-MX-DaliaNeural python3 tools/voces_gratis.py`
+Para cambiar de voz: `VOZ_ESPANOL=es-CL-CatalinaNeural python3 tools/voces_gratis.py`
 (`tools/voces.mjs` también puede usar ElevenLabs si algún día tienes una clave).
 
 ## Consejos
