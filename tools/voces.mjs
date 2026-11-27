@@ -15,6 +15,7 @@ const env = Object.fromEntries((fs.existsSync(path.join(ROOT, '.env')) ? fs.read
 const KEY = env.ELEVENLABS_API_KEY || process.env.ELEVENLABS_API_KEY;
 const NAME = env.NOMBRE || 'Martina', PET = env.MASCOTA || 'Coco';
 const ONLY_LIST = process.argv.includes('--lista');
+// Para la versión gratis (voces de Microsoft): node tools/voces.mjs --json  y luego  python3 tools/voces_gratis.py
 
 /* ---------- 1. Cargar el contenido de la app ---------- */
 const ctx = vm.createContext({});
@@ -80,6 +81,7 @@ const all = [...P.entries()];
 const chars = all.reduce((n, [, p]) => n + p.text.length, 0);
 console.log(`Frases: ${all.length}  ·  Caracteres: ${chars}  (en: ${all.filter(([, p]) => p.lang !== 'es').length}, es: ${all.filter(([, p]) => p.lang === 'es').length})`);
 if (ONLY_LIST) process.exit(0);
+if (process.argv.includes('--json')) { fs.writeFileSync(path.join(ROOT, 'tools/frases.json'), JSON.stringify(all.map(([k, p]) => ({ key: k, lang: p.lang, text: p.text })), null, 1)); console.log('tools/frases.json escrito'); process.exit(0); }
 
 /* ---------- 3. ElevenLabs ---------- */
 if (!KEY) { console.error('Falta ELEVENLABS_API_KEY en el archivo .env'); process.exit(1); }

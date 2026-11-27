@@ -1,0 +1,6127 @@
+[
+ {
+  "key": "en|Hi Martina! I'm Lumi!",
+  "lang": "en",
+  "text": "Hi Martina! I'm Lumi!"
+ },
+ {
+  "key": "en|Let's play!",
+  "lang": "en",
+  "text": "Let's play!"
+ },
+ {
+  "key": "en|You are my best friend!",
+  "lang": "en",
+  "text": "You are my best friend!"
+ },
+ {
+  "key": "en|Hee hee! That tickles!",
+  "lang": "en",
+  "text": "Hee hee! That tickles!"
+ },
+ {
+  "key": "en|Hello, Martina! Let's play!",
+  "lang": "en",
+  "text": "Hello, Martina! Let's play!"
+ },
+ {
+  "key": "en|Let's go!",
+  "lang": "en",
+  "text": "Let's go!"
+ },
+ {
+  "key": "en|Let's learn English!",
+  "lang": "en",
+  "text": "Let's learn English!"
+ },
+ {
+  "key": "en|Let's play a game!",
+  "lang": "en",
+  "text": "Let's play a game!"
+ },
+ {
+  "key": "en|Let's cook!",
+  "lang": "en",
+  "text": "Let's cook!"
+ },
+ {
+  "key": "en|Let's talk!",
+  "lang": "en",
+  "text": "Let's talk!"
+ },
+ {
+  "key": "en|Hello! I am Lumi.",
+  "lang": "en",
+  "text": "Hello! I am Lumi."
+ },
+ {
+  "key": "es|¡Hola! Soy Lumi.",
+  "lang": "es",
+  "text": "¡Hola! Soy Lumi."
+ },
+ {
+  "key": "es|¡Juguemos!",
+  "lang": "es",
+  "text": "¡Juguemos!"
+ },
+ {
+  "key": "es|¡Eres mi mejor amiga!",
+  "lang": "es",
+  "text": "¡Eres mi mejor amiga!"
+ },
+ {
+  "key": "es|¡Me haces cosquillas!",
+  "lang": "es",
+  "text": "¡Me haces cosquillas!"
+ },
+ {
+  "key": "es|¡Hola, Martina! ¿Qué quieres hacer hoy?",
+  "lang": "es",
+  "text": "¡Hola, Martina! ¿Qué quieres hacer hoy?"
+ },
+ {
+  "key": "es|¡Primero termina la misión que salta!",
+  "lang": "es",
+  "text": "¡Primero termina la misión que salta!"
+ },
+ {
+  "key": "es|¡Completaste la aventura! ¡Vamos otra vez!",
+  "lang": "es",
+  "text": "¡Completaste la aventura! ¡Vamos otra vez!"
+ },
+ {
+  "key": "es|¡Sigue el camino, Martina! Toca la misión que salta.",
+  "lang": "es",
+  "text": "¡Sigue el camino, Martina! Toca la misión que salta."
+ },
+ {
+  "key": "es|¿Qué quieres aprender en inglés?",
+  "lang": "es",
+  "text": "¿Qué quieres aprender en inglés?"
+ },
+ {
+  "key": "es|¿A qué jugamos?",
+  "lang": "es",
+  "text": "¿A qué jugamos?"
+ },
+ {
+  "key": "es|¿Qué cocinamos hoy?",
+  "lang": "es",
+  "text": "¿Qué cocinamos hoy?"
+ },
+ {
+  "key": "es|¿De qué quieres conversar conmigo?",
+  "lang": "es",
+  "text": "¿De qué quieres conversar conmigo?"
+ },
+ {
+  "key": "es|¡Mira todos tus stickers! Completa misiones para ganar más.",
+  "lang": "es",
+  "text": "¡Mira todos tus stickers! Completa misiones para ganar más."
+ },
+ {
+  "key": "es|Juega y completa misiones para ganar stickers.",
+  "lang": "es",
+  "text": "Juega y completa misiones para ganar stickers."
+ },
+ {
+  "key": "en|Great job!",
+  "lang": "en",
+  "text": "Great job!"
+ },
+ {
+  "key": "en|Amazing!",
+  "lang": "en",
+  "text": "Amazing!"
+ },
+ {
+  "key": "en|You did it!",
+  "lang": "en",
+  "text": "You did it!"
+ },
+ {
+  "key": "en|Super!",
+  "lang": "en",
+  "text": "Super!"
+ },
+ {
+  "key": "en|Fantastic!",
+  "lang": "en",
+  "text": "Fantastic!"
+ },
+ {
+  "key": "en|Well done!",
+  "lang": "en",
+  "text": "Well done!"
+ },
+ {
+  "key": "en|Wonderful!",
+  "lang": "en",
+  "text": "Wonderful!"
+ },
+ {
+  "key": "es|¡Lo hiciste genial, Martina!",
+  "lang": "es",
+  "text": "¡Lo hiciste genial, Martina!"
+ },
+ {
+  "key": "es|¡Muy bien, Martina!",
+  "lang": "es",
+  "text": "¡Muy bien, Martina!"
+ },
+ {
+  "key": "es|¡Bravo, Martina!",
+  "lang": "es",
+  "text": "¡Bravo, Martina!"
+ },
+ {
+  "key": "es|¡Eres una campeona, Martina!",
+  "lang": "es",
+  "text": "¡Eres una campeona, Martina!"
+ },
+ {
+  "key": "en|Puppy",
+  "lang": "en",
+  "text": "Puppy"
+ },
+ {
+  "key": "es|Perrito",
+  "lang": "es",
+  "text": "Perrito"
+ },
+ {
+  "key": "en|Kitty",
+  "lang": "en",
+  "text": "Kitty"
+ },
+ {
+  "key": "es|Gatito",
+  "lang": "es",
+  "text": "Gatito"
+ },
+ {
+  "key": "en|Bunny",
+  "lang": "en",
+  "text": "Bunny"
+ },
+ {
+  "key": "es|Conejito",
+  "lang": "es",
+  "text": "Conejito"
+ },
+ {
+  "key": "en|Teddy",
+  "lang": "en",
+  "text": "Teddy"
+ },
+ {
+  "key": "es|Osito",
+  "lang": "es",
+  "text": "Osito"
+ },
+ {
+  "key": "en|Choose your pet!",
+  "lang": "en",
+  "text": "Choose your pet!"
+ },
+ {
+  "key": "en|Hee hee!",
+  "lang": "en",
+  "text": "Hee hee!"
+ },
+ {
+  "key": "en|I love you, Martina!",
+  "lang": "en",
+  "text": "I love you, Martina!"
+ },
+ {
+  "key": "en|That tickles!",
+  "lang": "en",
+  "text": "That tickles!"
+ },
+ {
+  "key": "en|Hello, Martina!",
+  "lang": "en",
+  "text": "Hello, Martina!"
+ },
+ {
+  "key": "en|I'm hungry!",
+  "lang": "en",
+  "text": "I'm hungry!"
+ },
+ {
+  "key": "en|I'm dirty! Bath time!",
+  "lang": "en",
+  "text": "I'm dirty! Bath time!"
+ },
+ {
+  "key": "en|I'm sleepy...",
+  "lang": "en",
+  "text": "I'm sleepy..."
+ },
+ {
+  "key": "en|Hi Martina! Let's play!",
+  "lang": "en",
+  "text": "Hi Martina! Let's play!"
+ },
+ {
+  "key": "en|Scrub, scrub, scrub!",
+  "lang": "en",
+  "text": "Scrub, scrub, scrub!"
+ },
+ {
+  "key": "en|Now rinse!",
+  "lang": "en",
+  "text": "Now rinse!"
+ },
+ {
+  "key": "en|So clean! Thank you, Martina!",
+  "lang": "en",
+  "text": "So clean! Thank you, Martina!"
+ },
+ {
+  "key": "en|Bath time!",
+  "lang": "en",
+  "text": "Bath time!"
+ },
+ {
+  "key": "en|Brush, brush, brush your teeth!",
+  "lang": "en",
+  "text": "Brush, brush, brush your teeth!"
+ },
+ {
+  "key": "en|Sparkling clean teeth!",
+  "lang": "en",
+  "text": "Sparkling clean teeth!"
+ },
+ {
+  "key": "en|Let's brush our teeth!",
+  "lang": "en",
+  "text": "Let's brush our teeth!"
+ },
+ {
+  "key": "en|I'm full! Thank you, Martina!",
+  "lang": "en",
+  "text": "I'm full! Thank you, Martina!"
+ },
+ {
+  "key": "en|I look great!",
+  "lang": "en",
+  "text": "I look great!"
+ },
+ {
+  "key": "en|Dress up time!",
+  "lang": "en",
+  "text": "Dress up time!"
+ },
+ {
+  "key": "en|How does Coco feel?",
+  "lang": "en",
+  "text": "How does Coco feel?"
+ },
+ {
+  "key": "en|Hmm, look at Coco's face!",
+  "lang": "en",
+  "text": "Hmm, look at Coco's face!"
+ },
+ {
+  "key": "en|How do you feel?",
+  "lang": "en",
+  "text": "How do you feel?"
+ },
+ {
+  "key": "en|Good night, Coco! Sweet dreams!",
+  "lang": "en",
+  "text": "Good night, Coco! Sweet dreams!"
+ },
+ {
+  "key": "en|Good morning, Martina!",
+  "lang": "en",
+  "text": "Good morning, Martina!"
+ },
+ {
+  "key": "en|Time for bed!",
+  "lang": "en",
+  "text": "Time for bed!"
+ },
+ {
+  "key": "en|Delicious! Thank you, Martina!",
+  "lang": "en",
+  "text": "Delicious! Thank you, Martina!"
+ },
+ {
+  "key": "es|¡Elige tu mascota y su color!",
+  "lang": "es",
+  "text": "¡Elige tu mascota y su color!"
+ },
+ {
+  "key": "es|¡Tengo hambre! Dame comida.",
+  "lang": "es",
+  "text": "¡Tengo hambre! Dame comida."
+ },
+ {
+  "key": "es|¡Estoy sucio! ¿Me bañas?",
+  "lang": "es",
+  "text": "¡Estoy sucio! ¿Me bañas?"
+ },
+ {
+  "key": "es|Tengo sueño...",
+  "lang": "es",
+  "text": "Tengo sueño..."
+ },
+ {
+  "key": "es|¡Hola Martina! ¡Juguemos!",
+  "lang": "es",
+  "text": "¡Hola Martina! ¡Juguemos!"
+ },
+ {
+  "key": "es|¡Ahora enjuaga con la ducha!",
+  "lang": "es",
+  "text": "¡Ahora enjuaga con la ducha!"
+ },
+ {
+  "key": "es|¡Coco quedó brillante! Bañarse nos mantiene sanos.",
+  "lang": "es",
+  "text": "¡Coco quedó brillante! Bañarse nos mantiene sanos."
+ },
+ {
+  "key": "es|¡Oh! Coco está sucio. ¡Vamos a bañarlo! Arrastra la esponja.",
+  "lang": "es",
+  "text": "¡Oh! Coco está sucio. ¡Vamos a bañarlo! Arrastra la esponja."
+ },
+ {
+  "key": "es|¡Dientes súper limpios! Hay que lavarse los dientes después de comer y antes de dormir.",
+  "lang": "es",
+  "text": "¡Dientes súper limpios! Hay que lavarse los dientes después de comer y antes de dormir."
+ },
+ {
+  "key": "es|¡Oh no! Los dientes de Coco tienen bichitos. ¡Ayúdame a cepillarlos!",
+  "lang": "es",
+  "text": "¡Oh no! Los dientes de Coco tienen bichitos. ¡Ayúdame a cepillarlos!"
+ },
+ {
+  "key": "es|Los dulces, solo un poquito. ¡Así cuidamos los dientes!",
+  "lang": "es",
+  "text": "Los dulces, solo un poquito. ¡Así cuidamos los dientes!"
+ },
+ {
+  "key": "es|¡Estoy lleno! ¡Gracias! Las frutas y verduras nos hacen crecer fuertes.",
+  "lang": "es",
+  "text": "¡Estoy lleno! ¡Gracias! Las frutas y verduras nos hacen crecer fuertes."
+ },
+ {
+  "key": "es|Coco tiene hambre. Arrastra la comida a su boca.",
+  "lang": "es",
+  "text": "Coco tiene hambre. Arrastra la comida a su boca."
+ },
+ {
+  "key": "es|¡Me veo genial!",
+  "lang": "es",
+  "text": "¡Me veo genial!"
+ },
+ {
+  "key": "es|¡Vamos a vestir a Coco! Elige ropa y accesorios.",
+  "lang": "es",
+  "text": "¡Vamos a vestir a Coco! Elige ropa y accesorios."
+ },
+ {
+  "key": "es|Escucha la historia y adivina cómo se siente.",
+  "lang": "es",
+  "text": "Escucha la historia y adivina cómo se siente."
+ },
+ {
+  "key": "es|Toca una carita para ver cómo se siente Coco.",
+  "lang": "es",
+  "text": "Toca una carita para ver cómo se siente Coco."
+ },
+ {
+  "key": "es|¡Buenas noches! ¡Dulces sueños! Dormir nos da energía.",
+  "lang": "es",
+  "text": "¡Buenas noches! ¡Dulces sueños! Dormir nos da energía."
+ },
+ {
+  "key": "es|¡Ya es de día! Toca el sol para despertar a Coco.",
+  "lang": "es",
+  "text": "¡Ya es de día! Toca el sol para despertar a Coco."
+ },
+ {
+  "key": "es|¡Buenos días! ¡Tengo mucha energía!",
+  "lang": "es",
+  "text": "¡Buenos días! ¡Tengo mucha energía!"
+ },
+ {
+  "key": "es|Coco tiene sueño. Apaga la luz.",
+  "lang": "es",
+  "text": "Coco tiene sueño. Apaga la luz."
+ },
+ {
+  "key": "es|¡Delicioso! ¡Gracias, Martina!",
+  "lang": "es",
+  "text": "¡Delicioso! ¡Gracias, Martina!"
+ },
+ {
+  "key": "en|Yummy! Apple!",
+  "lang": "en",
+  "text": "Yummy! Apple!"
+ },
+ {
+  "key": "es|manzana",
+  "lang": "es",
+  "text": "manzana"
+ },
+ {
+  "key": "en|Yummy! Banana!",
+  "lang": "en",
+  "text": "Yummy! Banana!"
+ },
+ {
+  "key": "es|plátano",
+  "lang": "es",
+  "text": "plátano"
+ },
+ {
+  "key": "en|Yummy! Carrot!",
+  "lang": "en",
+  "text": "Yummy! Carrot!"
+ },
+ {
+  "key": "es|zanahoria",
+  "lang": "es",
+  "text": "zanahoria"
+ },
+ {
+  "key": "en|Yummy! Broccoli!",
+  "lang": "en",
+  "text": "Yummy! Broccoli!"
+ },
+ {
+  "key": "es|brócoli",
+  "lang": "es",
+  "text": "brócoli"
+ },
+ {
+  "key": "en|Yummy! Grapes!",
+  "lang": "en",
+  "text": "Yummy! Grapes!"
+ },
+ {
+  "key": "es|uvas",
+  "lang": "es",
+  "text": "uvas"
+ },
+ {
+  "key": "en|Yummy! Milk!",
+  "lang": "en",
+  "text": "Yummy! Milk!"
+ },
+ {
+  "key": "es|leche",
+  "lang": "es",
+  "text": "leche"
+ },
+ {
+  "key": "en|Yummy! Strawberry!",
+  "lang": "en",
+  "text": "Yummy! Strawberry!"
+ },
+ {
+  "key": "es|frutilla",
+  "lang": "es",
+  "text": "frutilla"
+ },
+ {
+  "key": "en|Yummy! Cheese!",
+  "lang": "en",
+  "text": "Yummy! Cheese!"
+ },
+ {
+  "key": "es|queso",
+  "lang": "es",
+  "text": "queso"
+ },
+ {
+  "key": "en|Candy! Mmm, just a little bit.",
+  "lang": "en",
+  "text": "Candy! Mmm, just a little bit."
+ },
+ {
+  "key": "en|Cake! Mmm, just a little bit.",
+  "lang": "en",
+  "text": "Cake! Mmm, just a little bit."
+ },
+ {
+  "key": "es|Gorros",
+  "lang": "es",
+  "text": "Gorros"
+ },
+ {
+  "key": "en|Cap!",
+  "lang": "en",
+  "text": "Cap!"
+ },
+ {
+  "key": "es|jockey",
+  "lang": "es",
+  "text": "jockey"
+ },
+ {
+  "key": "en|Bow!",
+  "lang": "en",
+  "text": "Bow!"
+ },
+ {
+  "key": "es|cintillo",
+  "lang": "es",
+  "text": "cintillo"
+ },
+ {
+  "key": "en|Top hat!",
+  "lang": "en",
+  "text": "Top hat!"
+ },
+ {
+  "key": "es|sombrero de copa",
+  "lang": "es",
+  "text": "sombrero de copa"
+ },
+ {
+  "key": "en|Sun hat!",
+  "lang": "en",
+  "text": "Sun hat!"
+ },
+ {
+  "key": "es|sombrero",
+  "lang": "es",
+  "text": "sombrero"
+ },
+ {
+  "key": "es|Necesitas 5 estrellas para esto. ¡Sigue jugando para ganar más!",
+  "lang": "es",
+  "text": "Necesitas 5 estrellas para esto. ¡Sigue jugando para ganar más!"
+ },
+ {
+  "key": "en|Crown!",
+  "lang": "en",
+  "text": "Crown!"
+ },
+ {
+  "key": "es|corona",
+  "lang": "es",
+  "text": "corona"
+ },
+ {
+  "key": "es|Necesitas 10 estrellas para esto. ¡Sigue jugando para ganar más!",
+  "lang": "es",
+  "text": "Necesitas 10 estrellas para esto. ¡Sigue jugando para ganar más!"
+ },
+ {
+  "key": "en|Graduation cap!",
+  "lang": "en",
+  "text": "Graduation cap!"
+ },
+ {
+  "key": "es|birrete",
+  "lang": "es",
+  "text": "birrete"
+ },
+ {
+  "key": "es|Necesitas 30 estrellas para esto. ¡Sigue jugando para ganar más!",
+  "lang": "es",
+  "text": "Necesitas 30 estrellas para esto. ¡Sigue jugando para ganar más!"
+ },
+ {
+  "key": "es|Lentes",
+  "lang": "es",
+  "text": "Lentes"
+ },
+ {
+  "key": "en|Glasses!",
+  "lang": "en",
+  "text": "Glasses!"
+ },
+ {
+  "key": "es|lentes",
+  "lang": "es",
+  "text": "lentes"
+ },
+ {
+  "key": "en|Sunglasses!",
+  "lang": "en",
+  "text": "Sunglasses!"
+ },
+ {
+  "key": "es|lentes de sol",
+  "lang": "es",
+  "text": "lentes de sol"
+ },
+ {
+  "key": "en|Goggles!",
+  "lang": "en",
+  "text": "Goggles!"
+ },
+ {
+  "key": "es|antiparras",
+  "lang": "es",
+  "text": "antiparras"
+ },
+ {
+  "key": "es|Necesitas 15 estrellas para esto. ¡Sigue jugando para ganar más!",
+  "lang": "es",
+  "text": "Necesitas 15 estrellas para esto. ¡Sigue jugando para ganar más!"
+ },
+ {
+  "key": "es|Poleras",
+  "lang": "es",
+  "text": "Poleras"
+ },
+ {
+  "key": "en|Red T-shirt!",
+  "lang": "en",
+  "text": "Red T-shirt!"
+ },
+ {
+  "key": "es|polera de color rojo",
+  "lang": "es",
+  "text": "polera de color rojo"
+ },
+ {
+  "key": "en|Blue T-shirt!",
+  "lang": "en",
+  "text": "Blue T-shirt!"
+ },
+ {
+  "key": "es|polera de color azul",
+  "lang": "es",
+  "text": "polera de color azul"
+ },
+ {
+  "key": "en|Yellow T-shirt!",
+  "lang": "en",
+  "text": "Yellow T-shirt!"
+ },
+ {
+  "key": "es|polera de color amarillo",
+  "lang": "es",
+  "text": "polera de color amarillo"
+ },
+ {
+  "key": "en|Green T-shirt!",
+  "lang": "en",
+  "text": "Green T-shirt!"
+ },
+ {
+  "key": "es|polera de color verde",
+  "lang": "es",
+  "text": "polera de color verde"
+ },
+ {
+  "key": "en|Pink T-shirt!",
+  "lang": "en",
+  "text": "Pink T-shirt!"
+ },
+ {
+  "key": "es|polera de color rosado",
+  "lang": "es",
+  "text": "polera de color rosado"
+ },
+ {
+  "key": "es|Necesitas 8 estrellas para esto. ¡Sigue jugando para ganar más!",
+  "lang": "es",
+  "text": "Necesitas 8 estrellas para esto. ¡Sigue jugando para ganar más!"
+ },
+ {
+  "key": "en|Purple T-shirt!",
+  "lang": "en",
+  "text": "Purple T-shirt!"
+ },
+ {
+  "key": "es|polera de color morado",
+  "lang": "es",
+  "text": "polera de color morado"
+ },
+ {
+  "key": "en|Orange T-shirt!",
+  "lang": "en",
+  "text": "Orange T-shirt!"
+ },
+ {
+  "key": "es|polera de color naranjo",
+  "lang": "es",
+  "text": "polera de color naranjo"
+ },
+ {
+  "key": "es|Accesorios",
+  "lang": "es",
+  "text": "Accesorios"
+ },
+ {
+  "key": "en|Scarf!",
+  "lang": "en",
+  "text": "Scarf!"
+ },
+ {
+  "key": "es|bufanda",
+  "lang": "es",
+  "text": "bufanda"
+ },
+ {
+  "key": "en|Tie!",
+  "lang": "en",
+  "text": "Tie!"
+ },
+ {
+  "key": "es|corbata",
+  "lang": "es",
+  "text": "corbata"
+ },
+ {
+  "key": "en|Necklace!",
+  "lang": "en",
+  "text": "Necklace!"
+ },
+ {
+  "key": "es|collar",
+  "lang": "es",
+  "text": "collar"
+ },
+ {
+  "key": "en|Medal!",
+  "lang": "en",
+  "text": "Medal!"
+ },
+ {
+  "key": "es|medalla",
+  "lang": "es",
+  "text": "medalla"
+ },
+ {
+  "key": "es|Necesitas 20 estrellas para esto. ¡Sigue jugando para ganar más!",
+  "lang": "es",
+  "text": "Necesitas 20 estrellas para esto. ¡Sigue jugando para ganar más!"
+ },
+ {
+  "key": "en|Happy! I feel happy.",
+  "lang": "en",
+  "text": "Happy! I feel happy."
+ },
+ {
+  "key": "es|Coco se siente feliz.",
+  "lang": "es",
+  "text": "Coco se siente feliz."
+ },
+ {
+  "key": "en|Coco got a present!",
+  "lang": "en",
+  "text": "Coco got a present!"
+ },
+ {
+  "key": "es|¡Coco recibió un regalo!",
+  "lang": "es",
+  "text": "¡Coco recibió un regalo!"
+ },
+ {
+  "key": "en|Yes! Happy!",
+  "lang": "en",
+  "text": "Yes! Happy!"
+ },
+ {
+  "key": "es|feliz",
+  "lang": "es",
+  "text": "feliz"
+ },
+ {
+  "key": "en|Sad! I feel sad.",
+  "lang": "en",
+  "text": "Sad! I feel sad."
+ },
+ {
+  "key": "es|Coco se siente triste.",
+  "lang": "es",
+  "text": "Coco se siente triste."
+ },
+ {
+  "key": "es|Cuando estamos tristes, un abrazo nos ayuda.",
+  "lang": "es",
+  "text": "Cuando estamos tristes, un abrazo nos ayuda."
+ },
+ {
+  "key": "en|Oh no! Coco's ice cream fell down.",
+  "lang": "en",
+  "text": "Oh no! Coco's ice cream fell down."
+ },
+ {
+  "key": "es|¡Oh no! Se le cayó el helado a Coco.",
+  "lang": "es",
+  "text": "¡Oh no! Se le cayó el helado a Coco."
+ },
+ {
+  "key": "en|Yes! Sad!",
+  "lang": "en",
+  "text": "Yes! Sad!"
+ },
+ {
+  "key": "es|triste",
+  "lang": "es",
+  "text": "triste"
+ },
+ {
+  "key": "en|Angry! I feel angry.",
+  "lang": "en",
+  "text": "Angry! I feel angry."
+ },
+ {
+  "key": "es|Coco se siente enojado.",
+  "lang": "es",
+  "text": "Coco se siente enojado."
+ },
+ {
+  "key": "es|Cuando estamos enojados, respiramos profundo.",
+  "lang": "es",
+  "text": "Cuando estamos enojados, respiramos profundo."
+ },
+ {
+  "key": "en|Someone took Coco's toy!",
+  "lang": "en",
+  "text": "Someone took Coco's toy!"
+ },
+ {
+  "key": "es|¡Alguien le quitó el juguete a Coco!",
+  "lang": "es",
+  "text": "¡Alguien le quitó el juguete a Coco!"
+ },
+ {
+  "key": "en|Yes! Angry!",
+  "lang": "en",
+  "text": "Yes! Angry!"
+ },
+ {
+  "key": "es|enojado",
+  "lang": "es",
+  "text": "enojado"
+ },
+ {
+  "key": "en|Surprised! I feel surprised.",
+  "lang": "en",
+  "text": "Surprised! I feel surprised."
+ },
+ {
+  "key": "es|Coco se siente sorprendido.",
+  "lang": "es",
+  "text": "Coco se siente sorprendido."
+ },
+ {
+  "key": "en|Wow! A big surprise!",
+  "lang": "en",
+  "text": "Wow! A big surprise!"
+ },
+ {
+  "key": "es|¡Guau! ¡Una gran sorpresa!",
+  "lang": "es",
+  "text": "¡Guau! ¡Una gran sorpresa!"
+ },
+ {
+  "key": "en|Yes! Surprised!",
+  "lang": "en",
+  "text": "Yes! Surprised!"
+ },
+ {
+  "key": "es|sorprendido",
+  "lang": "es",
+  "text": "sorprendido"
+ },
+ {
+  "key": "en|Sleepy! I feel sleepy.",
+  "lang": "en",
+  "text": "Sleepy! I feel sleepy."
+ },
+ {
+  "key": "es|Coco se siente con sueño.",
+  "lang": "es",
+  "text": "Coco se siente con sueño."
+ },
+ {
+  "key": "en|It's very late at night.",
+  "lang": "en",
+  "text": "It's very late at night."
+ },
+ {
+  "key": "es|Es muy tarde en la noche.",
+  "lang": "es",
+  "text": "Es muy tarde en la noche."
+ },
+ {
+  "key": "en|Yes! Sleepy!",
+  "lang": "en",
+  "text": "Yes! Sleepy!"
+ },
+ {
+  "key": "es|con sueño",
+  "lang": "es",
+  "text": "con sueño"
+ },
+ {
+  "key": "en|Scared! I feel scared.",
+  "lang": "en",
+  "text": "Scared! I feel scared."
+ },
+ {
+  "key": "es|Coco se siente con miedo.",
+  "lang": "es",
+  "text": "Coco se siente con miedo."
+ },
+ {
+  "key": "es|Cuando tenemos miedo, buscamos a mamá o papá.",
+  "lang": "es",
+  "text": "Cuando tenemos miedo, buscamos a mamá o papá."
+ },
+ {
+  "key": "en|A big storm! Boom boom!",
+  "lang": "en",
+  "text": "A big storm! Boom boom!"
+ },
+ {
+  "key": "es|¡Una tormenta muy fuerte! ¡Bum bum!",
+  "lang": "es",
+  "text": "¡Una tormenta muy fuerte! ¡Bum bum!"
+ },
+ {
+  "key": "en|Yes! Scared!",
+  "lang": "en",
+  "text": "Yes! Scared!"
+ },
+ {
+  "key": "es|con miedo",
+  "lang": "es",
+  "text": "con miedo"
+ },
+ {
+  "key": "en|Tomato",
+  "lang": "en",
+  "text": "Tomato"
+ },
+ {
+  "key": "es|tomate",
+  "lang": "es",
+  "text": "tomate"
+ },
+ {
+  "key": "en|Cheese",
+  "lang": "en",
+  "text": "Cheese"
+ },
+ {
+  "key": "en|Mushroom",
+  "lang": "en",
+  "text": "Mushroom"
+ },
+ {
+  "key": "es|champiñón",
+  "lang": "es",
+  "text": "champiñón"
+ },
+ {
+  "key": "en|Pepper",
+  "lang": "en",
+  "text": "Pepper"
+ },
+ {
+  "key": "es|pimentón",
+  "lang": "es",
+  "text": "pimentón"
+ },
+ {
+  "key": "en|Olive",
+  "lang": "en",
+  "text": "Olive"
+ },
+ {
+  "key": "es|aceituna",
+  "lang": "es",
+  "text": "aceituna"
+ },
+ {
+  "key": "en|Bake it!",
+  "lang": "en",
+  "text": "Bake it!"
+ },
+ {
+  "key": "es|¡Al horno!",
+  "lang": "es",
+  "text": "¡Al horno!"
+ },
+ {
+  "key": "en|Yummy! Pizza!",
+  "lang": "en",
+  "text": "Yummy! Pizza!"
+ },
+ {
+  "key": "es|¡Qué rico! ¡Hiciste pizza!",
+  "lang": "es",
+  "text": "¡Qué rico! ¡Hiciste pizza!"
+ },
+ {
+  "key": "es|¡Vamos a preparar pizza! Arrastra los ingredientes.",
+  "lang": "es",
+  "text": "¡Vamos a preparar pizza! Arrastra los ingredientes."
+ },
+ {
+  "key": "en|Let's make pizza!",
+  "lang": "en",
+  "text": "Let's make pizza!"
+ },
+ {
+  "key": "en|Lettuce",
+  "lang": "en",
+  "text": "Lettuce"
+ },
+ {
+  "key": "es|lechuga",
+  "lang": "es",
+  "text": "lechuga"
+ },
+ {
+  "key": "en|Cucumber",
+  "lang": "en",
+  "text": "Cucumber"
+ },
+ {
+  "key": "es|pepino",
+  "lang": "es",
+  "text": "pepino"
+ },
+ {
+  "key": "en|Carrot",
+  "lang": "en",
+  "text": "Carrot"
+ },
+ {
+  "key": "en|Corn",
+  "lang": "en",
+  "text": "Corn"
+ },
+ {
+  "key": "es|choclo",
+  "lang": "es",
+  "text": "choclo"
+ },
+ {
+  "key": "en|Mix it!",
+  "lang": "en",
+  "text": "Mix it!"
+ },
+ {
+  "key": "es|¡Mezclar!",
+  "lang": "es",
+  "text": "¡Mezclar!"
+ },
+ {
+  "key": "en|Yummy! Salad!",
+  "lang": "en",
+  "text": "Yummy! Salad!"
+ },
+ {
+  "key": "es|¡Qué rico! ¡Hiciste ensalada!",
+  "lang": "es",
+  "text": "¡Qué rico! ¡Hiciste ensalada!"
+ },
+ {
+  "key": "es|¡Vamos a preparar ensalada! Arrastra los ingredientes.",
+  "lang": "es",
+  "text": "¡Vamos a preparar ensalada! Arrastra los ingredientes."
+ },
+ {
+  "key": "en|Let's make salad!",
+  "lang": "en",
+  "text": "Let's make salad!"
+ },
+ {
+  "key": "en|Strawberry",
+  "lang": "en",
+  "text": "Strawberry"
+ },
+ {
+  "key": "en|Banana",
+  "lang": "en",
+  "text": "Banana"
+ },
+ {
+  "key": "en|Milk",
+  "lang": "en",
+  "text": "Milk"
+ },
+ {
+  "key": "en|Blueberries",
+  "lang": "en",
+  "text": "Blueberries"
+ },
+ {
+  "key": "es|arándanos",
+  "lang": "es",
+  "text": "arándanos"
+ },
+ {
+  "key": "en|Honey",
+  "lang": "en",
+  "text": "Honey"
+ },
+ {
+  "key": "es|miel",
+  "lang": "es",
+  "text": "miel"
+ },
+ {
+  "key": "en|Blend it!",
+  "lang": "en",
+  "text": "Blend it!"
+ },
+ {
+  "key": "es|¡Licuar!",
+  "lang": "es",
+  "text": "¡Licuar!"
+ },
+ {
+  "key": "en|Yummy! Smoothie!",
+  "lang": "en",
+  "text": "Yummy! Smoothie!"
+ },
+ {
+  "key": "es|¡Qué rico! ¡Hiciste batido!",
+  "lang": "es",
+  "text": "¡Qué rico! ¡Hiciste batido!"
+ },
+ {
+  "key": "es|¡Vamos a preparar batido! Arrastra los ingredientes.",
+  "lang": "es",
+  "text": "¡Vamos a preparar batido! Arrastra los ingredientes."
+ },
+ {
+  "key": "en|Let's make smoothie!",
+  "lang": "en",
+  "text": "Let's make smoothie!"
+ },
+ {
+  "key": "en|Bread",
+  "lang": "en",
+  "text": "Bread"
+ },
+ {
+  "key": "es|pan",
+  "lang": "es",
+  "text": "pan"
+ },
+ {
+  "key": "en|Avocado",
+  "lang": "en",
+  "text": "Avocado"
+ },
+ {
+  "key": "es|palta",
+  "lang": "es",
+  "text": "palta"
+ },
+ {
+  "key": "en|Ready!",
+  "lang": "en",
+  "text": "Ready!"
+ },
+ {
+  "key": "es|¡Armar!",
+  "lang": "es",
+  "text": "¡Armar!"
+ },
+ {
+  "key": "en|Yummy! Sandwich!",
+  "lang": "en",
+  "text": "Yummy! Sandwich!"
+ },
+ {
+  "key": "es|¡Qué rico! ¡Hiciste sándwich!",
+  "lang": "es",
+  "text": "¡Qué rico! ¡Hiciste sándwich!"
+ },
+ {
+  "key": "es|¡Vamos a preparar sándwich! Arrastra los ingredientes.",
+  "lang": "es",
+  "text": "¡Vamos a preparar sándwich! Arrastra los ingredientes."
+ },
+ {
+  "key": "en|Let's make sandwich!",
+  "lang": "en",
+  "text": "Let's make sandwich!"
+ },
+ {
+  "key": "en|Egg",
+  "lang": "en",
+  "text": "Egg"
+ },
+ {
+  "key": "es|huevo",
+  "lang": "es",
+  "text": "huevo"
+ },
+ {
+  "key": "en|Flour",
+  "lang": "en",
+  "text": "Flour"
+ },
+ {
+  "key": "es|harina",
+  "lang": "es",
+  "text": "harina"
+ },
+ {
+  "key": "en|Butter",
+  "lang": "en",
+  "text": "Butter"
+ },
+ {
+  "key": "es|mantequilla",
+  "lang": "es",
+  "text": "mantequilla"
+ },
+ {
+  "key": "en|Yummy! Cake!",
+  "lang": "en",
+  "text": "Yummy! Cake!"
+ },
+ {
+  "key": "es|¡Qué rico! ¡Hiciste torta!",
+  "lang": "es",
+  "text": "¡Qué rico! ¡Hiciste torta!"
+ },
+ {
+  "key": "es|¡Vamos a preparar torta! Arrastra los ingredientes.",
+  "lang": "es",
+  "text": "¡Vamos a preparar torta! Arrastra los ingredientes."
+ },
+ {
+  "key": "en|Let's make cake!",
+  "lang": "en",
+  "text": "Let's make cake!"
+ },
+ {
+  "key": "es|¡Vamos a aprender los colores en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a aprender los colores en inglés!"
+ },
+ {
+  "key": "en|Colors",
+  "lang": "en",
+  "text": "Colors"
+ },
+ {
+  "key": "en|Red",
+  "lang": "en",
+  "text": "Red"
+ },
+ {
+  "key": "es|rojo",
+  "lang": "es",
+  "text": "rojo"
+ },
+ {
+  "key": "en|Say: Red!",
+  "lang": "en",
+  "text": "Say: Red!"
+ },
+ {
+  "key": "en|Perfect! Red!",
+  "lang": "en",
+  "text": "Perfect! Red!"
+ },
+ {
+  "key": "en|Good try! Red!",
+  "lang": "en",
+  "text": "Good try! Red!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Red",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Red"
+ },
+ {
+  "key": "en|Find the color Red!",
+  "lang": "en",
+  "text": "Find the color Red!"
+ },
+ {
+  "key": "en|Yes! Red!",
+  "lang": "en",
+  "text": "Yes! Red!"
+ },
+ {
+  "key": "en|That's Red. Try again!",
+  "lang": "en",
+  "text": "That's Red. Try again!"
+ },
+ {
+  "key": "es|Busca: rojo",
+  "lang": "es",
+  "text": "Busca: rojo"
+ },
+ {
+  "key": "en|Red!",
+  "lang": "en",
+  "text": "Red!"
+ },
+ {
+  "key": "en|Blue",
+  "lang": "en",
+  "text": "Blue"
+ },
+ {
+  "key": "es|azul",
+  "lang": "es",
+  "text": "azul"
+ },
+ {
+  "key": "en|Say: Blue!",
+  "lang": "en",
+  "text": "Say: Blue!"
+ },
+ {
+  "key": "en|Perfect! Blue!",
+  "lang": "en",
+  "text": "Perfect! Blue!"
+ },
+ {
+  "key": "en|Good try! Blue!",
+  "lang": "en",
+  "text": "Good try! Blue!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Blue",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Blue"
+ },
+ {
+  "key": "en|Find the color Blue!",
+  "lang": "en",
+  "text": "Find the color Blue!"
+ },
+ {
+  "key": "en|Yes! Blue!",
+  "lang": "en",
+  "text": "Yes! Blue!"
+ },
+ {
+  "key": "en|That's Blue. Try again!",
+  "lang": "en",
+  "text": "That's Blue. Try again!"
+ },
+ {
+  "key": "es|Busca: azul",
+  "lang": "es",
+  "text": "Busca: azul"
+ },
+ {
+  "key": "en|Blue!",
+  "lang": "en",
+  "text": "Blue!"
+ },
+ {
+  "key": "en|Yellow",
+  "lang": "en",
+  "text": "Yellow"
+ },
+ {
+  "key": "es|amarillo",
+  "lang": "es",
+  "text": "amarillo"
+ },
+ {
+  "key": "en|Say: Yellow!",
+  "lang": "en",
+  "text": "Say: Yellow!"
+ },
+ {
+  "key": "en|Perfect! Yellow!",
+  "lang": "en",
+  "text": "Perfect! Yellow!"
+ },
+ {
+  "key": "en|Good try! Yellow!",
+  "lang": "en",
+  "text": "Good try! Yellow!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Yellow",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Yellow"
+ },
+ {
+  "key": "en|Find the color Yellow!",
+  "lang": "en",
+  "text": "Find the color Yellow!"
+ },
+ {
+  "key": "en|Yes! Yellow!",
+  "lang": "en",
+  "text": "Yes! Yellow!"
+ },
+ {
+  "key": "en|That's Yellow. Try again!",
+  "lang": "en",
+  "text": "That's Yellow. Try again!"
+ },
+ {
+  "key": "es|Busca: amarillo",
+  "lang": "es",
+  "text": "Busca: amarillo"
+ },
+ {
+  "key": "en|Yellow!",
+  "lang": "en",
+  "text": "Yellow!"
+ },
+ {
+  "key": "en|Green",
+  "lang": "en",
+  "text": "Green"
+ },
+ {
+  "key": "es|verde",
+  "lang": "es",
+  "text": "verde"
+ },
+ {
+  "key": "en|Say: Green!",
+  "lang": "en",
+  "text": "Say: Green!"
+ },
+ {
+  "key": "en|Perfect! Green!",
+  "lang": "en",
+  "text": "Perfect! Green!"
+ },
+ {
+  "key": "en|Good try! Green!",
+  "lang": "en",
+  "text": "Good try! Green!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Green",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Green"
+ },
+ {
+  "key": "en|Find the color Green!",
+  "lang": "en",
+  "text": "Find the color Green!"
+ },
+ {
+  "key": "en|Yes! Green!",
+  "lang": "en",
+  "text": "Yes! Green!"
+ },
+ {
+  "key": "en|That's Green. Try again!",
+  "lang": "en",
+  "text": "That's Green. Try again!"
+ },
+ {
+  "key": "es|Busca: verde",
+  "lang": "es",
+  "text": "Busca: verde"
+ },
+ {
+  "key": "en|Green!",
+  "lang": "en",
+  "text": "Green!"
+ },
+ {
+  "key": "en|Orange",
+  "lang": "en",
+  "text": "Orange"
+ },
+ {
+  "key": "es|naranjo",
+  "lang": "es",
+  "text": "naranjo"
+ },
+ {
+  "key": "en|Say: Orange!",
+  "lang": "en",
+  "text": "Say: Orange!"
+ },
+ {
+  "key": "en|Perfect! Orange!",
+  "lang": "en",
+  "text": "Perfect! Orange!"
+ },
+ {
+  "key": "en|Good try! Orange!",
+  "lang": "en",
+  "text": "Good try! Orange!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Orange",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Orange"
+ },
+ {
+  "key": "en|Find the color Orange!",
+  "lang": "en",
+  "text": "Find the color Orange!"
+ },
+ {
+  "key": "en|Yes! Orange!",
+  "lang": "en",
+  "text": "Yes! Orange!"
+ },
+ {
+  "key": "en|That's Orange. Try again!",
+  "lang": "en",
+  "text": "That's Orange. Try again!"
+ },
+ {
+  "key": "es|Busca: naranjo",
+  "lang": "es",
+  "text": "Busca: naranjo"
+ },
+ {
+  "key": "en|Orange!",
+  "lang": "en",
+  "text": "Orange!"
+ },
+ {
+  "key": "en|Purple",
+  "lang": "en",
+  "text": "Purple"
+ },
+ {
+  "key": "es|morado",
+  "lang": "es",
+  "text": "morado"
+ },
+ {
+  "key": "en|Say: Purple!",
+  "lang": "en",
+  "text": "Say: Purple!"
+ },
+ {
+  "key": "en|Perfect! Purple!",
+  "lang": "en",
+  "text": "Perfect! Purple!"
+ },
+ {
+  "key": "en|Good try! Purple!",
+  "lang": "en",
+  "text": "Good try! Purple!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Purple",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Purple"
+ },
+ {
+  "key": "en|Find the color Purple!",
+  "lang": "en",
+  "text": "Find the color Purple!"
+ },
+ {
+  "key": "en|Yes! Purple!",
+  "lang": "en",
+  "text": "Yes! Purple!"
+ },
+ {
+  "key": "en|That's Purple. Try again!",
+  "lang": "en",
+  "text": "That's Purple. Try again!"
+ },
+ {
+  "key": "es|Busca: morado",
+  "lang": "es",
+  "text": "Busca: morado"
+ },
+ {
+  "key": "en|Purple!",
+  "lang": "en",
+  "text": "Purple!"
+ },
+ {
+  "key": "en|Pink",
+  "lang": "en",
+  "text": "Pink"
+ },
+ {
+  "key": "es|rosado",
+  "lang": "es",
+  "text": "rosado"
+ },
+ {
+  "key": "en|Say: Pink!",
+  "lang": "en",
+  "text": "Say: Pink!"
+ },
+ {
+  "key": "en|Perfect! Pink!",
+  "lang": "en",
+  "text": "Perfect! Pink!"
+ },
+ {
+  "key": "en|Good try! Pink!",
+  "lang": "en",
+  "text": "Good try! Pink!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Pink",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Pink"
+ },
+ {
+  "key": "en|Find the color Pink!",
+  "lang": "en",
+  "text": "Find the color Pink!"
+ },
+ {
+  "key": "en|Yes! Pink!",
+  "lang": "en",
+  "text": "Yes! Pink!"
+ },
+ {
+  "key": "en|That's Pink. Try again!",
+  "lang": "en",
+  "text": "That's Pink. Try again!"
+ },
+ {
+  "key": "es|Busca: rosado",
+  "lang": "es",
+  "text": "Busca: rosado"
+ },
+ {
+  "key": "en|Pink!",
+  "lang": "en",
+  "text": "Pink!"
+ },
+ {
+  "key": "en|Brown",
+  "lang": "en",
+  "text": "Brown"
+ },
+ {
+  "key": "es|café",
+  "lang": "es",
+  "text": "café"
+ },
+ {
+  "key": "en|Say: Brown!",
+  "lang": "en",
+  "text": "Say: Brown!"
+ },
+ {
+  "key": "en|Perfect! Brown!",
+  "lang": "en",
+  "text": "Perfect! Brown!"
+ },
+ {
+  "key": "en|Good try! Brown!",
+  "lang": "en",
+  "text": "Good try! Brown!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Brown",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Brown"
+ },
+ {
+  "key": "en|Find the color Brown!",
+  "lang": "en",
+  "text": "Find the color Brown!"
+ },
+ {
+  "key": "en|Yes! Brown!",
+  "lang": "en",
+  "text": "Yes! Brown!"
+ },
+ {
+  "key": "en|That's Brown. Try again!",
+  "lang": "en",
+  "text": "That's Brown. Try again!"
+ },
+ {
+  "key": "es|Busca: café",
+  "lang": "es",
+  "text": "Busca: café"
+ },
+ {
+  "key": "en|Brown!",
+  "lang": "en",
+  "text": "Brown!"
+ },
+ {
+  "key": "en|Black",
+  "lang": "en",
+  "text": "Black"
+ },
+ {
+  "key": "es|negro",
+  "lang": "es",
+  "text": "negro"
+ },
+ {
+  "key": "en|Say: Black!",
+  "lang": "en",
+  "text": "Say: Black!"
+ },
+ {
+  "key": "en|Perfect! Black!",
+  "lang": "en",
+  "text": "Perfect! Black!"
+ },
+ {
+  "key": "en|Good try! Black!",
+  "lang": "en",
+  "text": "Good try! Black!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Black",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Black"
+ },
+ {
+  "key": "en|Find the color Black!",
+  "lang": "en",
+  "text": "Find the color Black!"
+ },
+ {
+  "key": "en|Yes! Black!",
+  "lang": "en",
+  "text": "Yes! Black!"
+ },
+ {
+  "key": "en|That's Black. Try again!",
+  "lang": "en",
+  "text": "That's Black. Try again!"
+ },
+ {
+  "key": "es|Busca: negro",
+  "lang": "es",
+  "text": "Busca: negro"
+ },
+ {
+  "key": "en|Black!",
+  "lang": "en",
+  "text": "Black!"
+ },
+ {
+  "key": "en|White",
+  "lang": "en",
+  "text": "White"
+ },
+ {
+  "key": "es|blanco",
+  "lang": "es",
+  "text": "blanco"
+ },
+ {
+  "key": "en|Say: White!",
+  "lang": "en",
+  "text": "Say: White!"
+ },
+ {
+  "key": "en|Perfect! White!",
+  "lang": "en",
+  "text": "Perfect! White!"
+ },
+ {
+  "key": "en|Good try! White!",
+  "lang": "en",
+  "text": "Good try! White!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: White",
+  "lang": "es",
+  "text": "Toca el micrófono y di: White"
+ },
+ {
+  "key": "en|Find the color White!",
+  "lang": "en",
+  "text": "Find the color White!"
+ },
+ {
+  "key": "en|Yes! White!",
+  "lang": "en",
+  "text": "Yes! White!"
+ },
+ {
+  "key": "en|That's White. Try again!",
+  "lang": "en",
+  "text": "That's White. Try again!"
+ },
+ {
+  "key": "es|Busca: blanco",
+  "lang": "es",
+  "text": "Busca: blanco"
+ },
+ {
+  "key": "en|White!",
+  "lang": "en",
+  "text": "White!"
+ },
+ {
+  "key": "es|¡Vamos a conocer a los animales en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a conocer a los animales en inglés!"
+ },
+ {
+  "key": "en|Animals",
+  "lang": "en",
+  "text": "Animals"
+ },
+ {
+  "key": "en|Dog",
+  "lang": "en",
+  "text": "Dog"
+ },
+ {
+  "key": "es|perro",
+  "lang": "es",
+  "text": "perro"
+ },
+ {
+  "key": "en|The dog says woof woof!",
+  "lang": "en",
+  "text": "The dog says woof woof!"
+ },
+ {
+  "key": "en|Say: Dog!",
+  "lang": "en",
+  "text": "Say: Dog!"
+ },
+ {
+  "key": "en|Perfect! Dog!",
+  "lang": "en",
+  "text": "Perfect! Dog!"
+ },
+ {
+  "key": "en|Good try! Dog!",
+  "lang": "en",
+  "text": "Good try! Dog!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Dog",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Dog"
+ },
+ {
+  "key": "en|Where is the Dog?",
+  "lang": "en",
+  "text": "Where is the Dog?"
+ },
+ {
+  "key": "en|Yes! Dog!",
+  "lang": "en",
+  "text": "Yes! Dog!"
+ },
+ {
+  "key": "en|That's Dog. Try again!",
+  "lang": "en",
+  "text": "That's Dog. Try again!"
+ },
+ {
+  "key": "es|Busca: perro",
+  "lang": "es",
+  "text": "Busca: perro"
+ },
+ {
+  "key": "en|Dog!",
+  "lang": "en",
+  "text": "Dog!"
+ },
+ {
+  "key": "en|Cat",
+  "lang": "en",
+  "text": "Cat"
+ },
+ {
+  "key": "es|gato",
+  "lang": "es",
+  "text": "gato"
+ },
+ {
+  "key": "en|The cat says meow!",
+  "lang": "en",
+  "text": "The cat says meow!"
+ },
+ {
+  "key": "en|Say: Cat!",
+  "lang": "en",
+  "text": "Say: Cat!"
+ },
+ {
+  "key": "en|Perfect! Cat!",
+  "lang": "en",
+  "text": "Perfect! Cat!"
+ },
+ {
+  "key": "en|Good try! Cat!",
+  "lang": "en",
+  "text": "Good try! Cat!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Cat",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Cat"
+ },
+ {
+  "key": "en|Where is the Cat?",
+  "lang": "en",
+  "text": "Where is the Cat?"
+ },
+ {
+  "key": "en|Yes! Cat!",
+  "lang": "en",
+  "text": "Yes! Cat!"
+ },
+ {
+  "key": "en|That's Cat. Try again!",
+  "lang": "en",
+  "text": "That's Cat. Try again!"
+ },
+ {
+  "key": "es|Busca: gato",
+  "lang": "es",
+  "text": "Busca: gato"
+ },
+ {
+  "key": "en|Cat!",
+  "lang": "en",
+  "text": "Cat!"
+ },
+ {
+  "key": "en|Cow",
+  "lang": "en",
+  "text": "Cow"
+ },
+ {
+  "key": "es|vaca",
+  "lang": "es",
+  "text": "vaca"
+ },
+ {
+  "key": "en|The cow says moo!",
+  "lang": "en",
+  "text": "The cow says moo!"
+ },
+ {
+  "key": "en|Say: Cow!",
+  "lang": "en",
+  "text": "Say: Cow!"
+ },
+ {
+  "key": "en|Perfect! Cow!",
+  "lang": "en",
+  "text": "Perfect! Cow!"
+ },
+ {
+  "key": "en|Good try! Cow!",
+  "lang": "en",
+  "text": "Good try! Cow!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Cow",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Cow"
+ },
+ {
+  "key": "en|Where is the Cow?",
+  "lang": "en",
+  "text": "Where is the Cow?"
+ },
+ {
+  "key": "en|Yes! Cow!",
+  "lang": "en",
+  "text": "Yes! Cow!"
+ },
+ {
+  "key": "en|That's Cow. Try again!",
+  "lang": "en",
+  "text": "That's Cow. Try again!"
+ },
+ {
+  "key": "es|Busca: vaca",
+  "lang": "es",
+  "text": "Busca: vaca"
+ },
+ {
+  "key": "en|Cow!",
+  "lang": "en",
+  "text": "Cow!"
+ },
+ {
+  "key": "en|Duck",
+  "lang": "en",
+  "text": "Duck"
+ },
+ {
+  "key": "es|pato",
+  "lang": "es",
+  "text": "pato"
+ },
+ {
+  "key": "en|The duck says quack quack!",
+  "lang": "en",
+  "text": "The duck says quack quack!"
+ },
+ {
+  "key": "en|Say: Duck!",
+  "lang": "en",
+  "text": "Say: Duck!"
+ },
+ {
+  "key": "en|Perfect! Duck!",
+  "lang": "en",
+  "text": "Perfect! Duck!"
+ },
+ {
+  "key": "en|Good try! Duck!",
+  "lang": "en",
+  "text": "Good try! Duck!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Duck",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Duck"
+ },
+ {
+  "key": "en|Where is the Duck?",
+  "lang": "en",
+  "text": "Where is the Duck?"
+ },
+ {
+  "key": "en|Yes! Duck!",
+  "lang": "en",
+  "text": "Yes! Duck!"
+ },
+ {
+  "key": "en|That's Duck. Try again!",
+  "lang": "en",
+  "text": "That's Duck. Try again!"
+ },
+ {
+  "key": "es|Busca: pato",
+  "lang": "es",
+  "text": "Busca: pato"
+ },
+ {
+  "key": "en|Duck!",
+  "lang": "en",
+  "text": "Duck!"
+ },
+ {
+  "key": "en|Pig",
+  "lang": "en",
+  "text": "Pig"
+ },
+ {
+  "key": "es|cerdito",
+  "lang": "es",
+  "text": "cerdito"
+ },
+ {
+  "key": "en|The pig says oink oink!",
+  "lang": "en",
+  "text": "The pig says oink oink!"
+ },
+ {
+  "key": "en|Say: Pig!",
+  "lang": "en",
+  "text": "Say: Pig!"
+ },
+ {
+  "key": "en|Perfect! Pig!",
+  "lang": "en",
+  "text": "Perfect! Pig!"
+ },
+ {
+  "key": "en|Good try! Pig!",
+  "lang": "en",
+  "text": "Good try! Pig!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Pig",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Pig"
+ },
+ {
+  "key": "en|Where is the Pig?",
+  "lang": "en",
+  "text": "Where is the Pig?"
+ },
+ {
+  "key": "en|Yes! Pig!",
+  "lang": "en",
+  "text": "Yes! Pig!"
+ },
+ {
+  "key": "en|That's Pig. Try again!",
+  "lang": "en",
+  "text": "That's Pig. Try again!"
+ },
+ {
+  "key": "es|Busca: cerdito",
+  "lang": "es",
+  "text": "Busca: cerdito"
+ },
+ {
+  "key": "en|Pig!",
+  "lang": "en",
+  "text": "Pig!"
+ },
+ {
+  "key": "en|Lion",
+  "lang": "en",
+  "text": "Lion"
+ },
+ {
+  "key": "es|león",
+  "lang": "es",
+  "text": "león"
+ },
+ {
+  "key": "en|The lion says roar!",
+  "lang": "en",
+  "text": "The lion says roar!"
+ },
+ {
+  "key": "en|Say: Lion!",
+  "lang": "en",
+  "text": "Say: Lion!"
+ },
+ {
+  "key": "en|Perfect! Lion!",
+  "lang": "en",
+  "text": "Perfect! Lion!"
+ },
+ {
+  "key": "en|Good try! Lion!",
+  "lang": "en",
+  "text": "Good try! Lion!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Lion",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Lion"
+ },
+ {
+  "key": "en|Where is the Lion?",
+  "lang": "en",
+  "text": "Where is the Lion?"
+ },
+ {
+  "key": "en|Yes! Lion!",
+  "lang": "en",
+  "text": "Yes! Lion!"
+ },
+ {
+  "key": "en|That's Lion. Try again!",
+  "lang": "en",
+  "text": "That's Lion. Try again!"
+ },
+ {
+  "key": "es|Busca: león",
+  "lang": "es",
+  "text": "Busca: león"
+ },
+ {
+  "key": "en|Lion!",
+  "lang": "en",
+  "text": "Lion!"
+ },
+ {
+  "key": "en|Elephant",
+  "lang": "en",
+  "text": "Elephant"
+ },
+ {
+  "key": "es|elefante",
+  "lang": "es",
+  "text": "elefante"
+ },
+ {
+  "key": "en|The elephant is very big!",
+  "lang": "en",
+  "text": "The elephant is very big!"
+ },
+ {
+  "key": "en|Say: Elephant!",
+  "lang": "en",
+  "text": "Say: Elephant!"
+ },
+ {
+  "key": "en|Perfect! Elephant!",
+  "lang": "en",
+  "text": "Perfect! Elephant!"
+ },
+ {
+  "key": "en|Good try! Elephant!",
+  "lang": "en",
+  "text": "Good try! Elephant!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Elephant",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Elephant"
+ },
+ {
+  "key": "en|Where is the Elephant?",
+  "lang": "en",
+  "text": "Where is the Elephant?"
+ },
+ {
+  "key": "en|Yes! Elephant!",
+  "lang": "en",
+  "text": "Yes! Elephant!"
+ },
+ {
+  "key": "en|That's Elephant. Try again!",
+  "lang": "en",
+  "text": "That's Elephant. Try again!"
+ },
+ {
+  "key": "es|Busca: elefante",
+  "lang": "es",
+  "text": "Busca: elefante"
+ },
+ {
+  "key": "en|Elephant!",
+  "lang": "en",
+  "text": "Elephant!"
+ },
+ {
+  "key": "en|Monkey",
+  "lang": "en",
+  "text": "Monkey"
+ },
+ {
+  "key": "es|mono",
+  "lang": "es",
+  "text": "mono"
+ },
+ {
+  "key": "en|The monkey says oo oo ah ah!",
+  "lang": "en",
+  "text": "The monkey says oo oo ah ah!"
+ },
+ {
+  "key": "en|Say: Monkey!",
+  "lang": "en",
+  "text": "Say: Monkey!"
+ },
+ {
+  "key": "en|Perfect! Monkey!",
+  "lang": "en",
+  "text": "Perfect! Monkey!"
+ },
+ {
+  "key": "en|Good try! Monkey!",
+  "lang": "en",
+  "text": "Good try! Monkey!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Monkey",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Monkey"
+ },
+ {
+  "key": "en|Where is the Monkey?",
+  "lang": "en",
+  "text": "Where is the Monkey?"
+ },
+ {
+  "key": "en|Yes! Monkey!",
+  "lang": "en",
+  "text": "Yes! Monkey!"
+ },
+ {
+  "key": "en|That's Monkey. Try again!",
+  "lang": "en",
+  "text": "That's Monkey. Try again!"
+ },
+ {
+  "key": "es|Busca: mono",
+  "lang": "es",
+  "text": "Busca: mono"
+ },
+ {
+  "key": "en|Monkey!",
+  "lang": "en",
+  "text": "Monkey!"
+ },
+ {
+  "key": "en|Fish",
+  "lang": "en",
+  "text": "Fish"
+ },
+ {
+  "key": "es|pez",
+  "lang": "es",
+  "text": "pez"
+ },
+ {
+  "key": "en|The fish swims, swim swim!",
+  "lang": "en",
+  "text": "The fish swims, swim swim!"
+ },
+ {
+  "key": "en|Say: Fish!",
+  "lang": "en",
+  "text": "Say: Fish!"
+ },
+ {
+  "key": "en|Perfect! Fish!",
+  "lang": "en",
+  "text": "Perfect! Fish!"
+ },
+ {
+  "key": "en|Good try! Fish!",
+  "lang": "en",
+  "text": "Good try! Fish!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Fish",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Fish"
+ },
+ {
+  "key": "en|Where is the Fish?",
+  "lang": "en",
+  "text": "Where is the Fish?"
+ },
+ {
+  "key": "en|Yes! Fish!",
+  "lang": "en",
+  "text": "Yes! Fish!"
+ },
+ {
+  "key": "en|That's Fish. Try again!",
+  "lang": "en",
+  "text": "That's Fish. Try again!"
+ },
+ {
+  "key": "es|Busca: pez",
+  "lang": "es",
+  "text": "Busca: pez"
+ },
+ {
+  "key": "en|Fish!",
+  "lang": "en",
+  "text": "Fish!"
+ },
+ {
+  "key": "en|Bird",
+  "lang": "en",
+  "text": "Bird"
+ },
+ {
+  "key": "es|pájaro",
+  "lang": "es",
+  "text": "pájaro"
+ },
+ {
+  "key": "en|The bird says tweet tweet!",
+  "lang": "en",
+  "text": "The bird says tweet tweet!"
+ },
+ {
+  "key": "en|Say: Bird!",
+  "lang": "en",
+  "text": "Say: Bird!"
+ },
+ {
+  "key": "en|Perfect! Bird!",
+  "lang": "en",
+  "text": "Perfect! Bird!"
+ },
+ {
+  "key": "en|Good try! Bird!",
+  "lang": "en",
+  "text": "Good try! Bird!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Bird",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Bird"
+ },
+ {
+  "key": "en|Where is the Bird?",
+  "lang": "en",
+  "text": "Where is the Bird?"
+ },
+ {
+  "key": "en|Yes! Bird!",
+  "lang": "en",
+  "text": "Yes! Bird!"
+ },
+ {
+  "key": "en|That's Bird. Try again!",
+  "lang": "en",
+  "text": "That's Bird. Try again!"
+ },
+ {
+  "key": "es|Busca: pájaro",
+  "lang": "es",
+  "text": "Busca: pájaro"
+ },
+ {
+  "key": "en|Bird!",
+  "lang": "en",
+  "text": "Bird!"
+ },
+ {
+  "key": "en|Horse",
+  "lang": "en",
+  "text": "Horse"
+ },
+ {
+  "key": "es|caballo",
+  "lang": "es",
+  "text": "caballo"
+ },
+ {
+  "key": "en|The horse says neigh!",
+  "lang": "en",
+  "text": "The horse says neigh!"
+ },
+ {
+  "key": "en|Say: Horse!",
+  "lang": "en",
+  "text": "Say: Horse!"
+ },
+ {
+  "key": "en|Perfect! Horse!",
+  "lang": "en",
+  "text": "Perfect! Horse!"
+ },
+ {
+  "key": "en|Good try! Horse!",
+  "lang": "en",
+  "text": "Good try! Horse!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Horse",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Horse"
+ },
+ {
+  "key": "en|Where is the Horse?",
+  "lang": "en",
+  "text": "Where is the Horse?"
+ },
+ {
+  "key": "en|Yes! Horse!",
+  "lang": "en",
+  "text": "Yes! Horse!"
+ },
+ {
+  "key": "en|That's Horse. Try again!",
+  "lang": "en",
+  "text": "That's Horse. Try again!"
+ },
+ {
+  "key": "es|Busca: caballo",
+  "lang": "es",
+  "text": "Busca: caballo"
+ },
+ {
+  "key": "en|Horse!",
+  "lang": "en",
+  "text": "Horse!"
+ },
+ {
+  "key": "en|Frog",
+  "lang": "en",
+  "text": "Frog"
+ },
+ {
+  "key": "es|rana",
+  "lang": "es",
+  "text": "rana"
+ },
+ {
+  "key": "en|The frog says ribbit!",
+  "lang": "en",
+  "text": "The frog says ribbit!"
+ },
+ {
+  "key": "en|Say: Frog!",
+  "lang": "en",
+  "text": "Say: Frog!"
+ },
+ {
+  "key": "en|Perfect! Frog!",
+  "lang": "en",
+  "text": "Perfect! Frog!"
+ },
+ {
+  "key": "en|Good try! Frog!",
+  "lang": "en",
+  "text": "Good try! Frog!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Frog",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Frog"
+ },
+ {
+  "key": "en|Where is the Frog?",
+  "lang": "en",
+  "text": "Where is the Frog?"
+ },
+ {
+  "key": "en|Yes! Frog!",
+  "lang": "en",
+  "text": "Yes! Frog!"
+ },
+ {
+  "key": "en|That's Frog. Try again!",
+  "lang": "en",
+  "text": "That's Frog. Try again!"
+ },
+ {
+  "key": "es|Busca: rana",
+  "lang": "es",
+  "text": "Busca: rana"
+ },
+ {
+  "key": "en|Frog!",
+  "lang": "en",
+  "text": "Frog!"
+ },
+ {
+  "key": "es|¡Vamos a contar en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a contar en inglés!"
+ },
+ {
+  "key": "en|Numbers",
+  "lang": "en",
+  "text": "Numbers"
+ },
+ {
+  "key": "en|One",
+  "lang": "en",
+  "text": "One"
+ },
+ {
+  "key": "es|uno",
+  "lang": "es",
+  "text": "uno"
+ },
+ {
+  "key": "en|Say: One!",
+  "lang": "en",
+  "text": "Say: One!"
+ },
+ {
+  "key": "en|Perfect! One!",
+  "lang": "en",
+  "text": "Perfect! One!"
+ },
+ {
+  "key": "en|Good try! One!",
+  "lang": "en",
+  "text": "Good try! One!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: One",
+  "lang": "es",
+  "text": "Toca el micrófono y di: One"
+ },
+ {
+  "key": "en|Find number One!",
+  "lang": "en",
+  "text": "Find number One!"
+ },
+ {
+  "key": "en|Yes! One!",
+  "lang": "en",
+  "text": "Yes! One!"
+ },
+ {
+  "key": "en|That's One. Try again!",
+  "lang": "en",
+  "text": "That's One. Try again!"
+ },
+ {
+  "key": "es|Busca: uno",
+  "lang": "es",
+  "text": "Busca: uno"
+ },
+ {
+  "key": "en|One!",
+  "lang": "en",
+  "text": "One!"
+ },
+ {
+  "key": "en|Two",
+  "lang": "en",
+  "text": "Two"
+ },
+ {
+  "key": "es|dos",
+  "lang": "es",
+  "text": "dos"
+ },
+ {
+  "key": "en|Say: Two!",
+  "lang": "en",
+  "text": "Say: Two!"
+ },
+ {
+  "key": "en|Perfect! Two!",
+  "lang": "en",
+  "text": "Perfect! Two!"
+ },
+ {
+  "key": "en|Good try! Two!",
+  "lang": "en",
+  "text": "Good try! Two!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Two",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Two"
+ },
+ {
+  "key": "en|Find number Two!",
+  "lang": "en",
+  "text": "Find number Two!"
+ },
+ {
+  "key": "en|Yes! Two!",
+  "lang": "en",
+  "text": "Yes! Two!"
+ },
+ {
+  "key": "en|That's Two. Try again!",
+  "lang": "en",
+  "text": "That's Two. Try again!"
+ },
+ {
+  "key": "es|Busca: dos",
+  "lang": "es",
+  "text": "Busca: dos"
+ },
+ {
+  "key": "en|Two!",
+  "lang": "en",
+  "text": "Two!"
+ },
+ {
+  "key": "en|Three",
+  "lang": "en",
+  "text": "Three"
+ },
+ {
+  "key": "es|tres",
+  "lang": "es",
+  "text": "tres"
+ },
+ {
+  "key": "en|Say: Three!",
+  "lang": "en",
+  "text": "Say: Three!"
+ },
+ {
+  "key": "en|Perfect! Three!",
+  "lang": "en",
+  "text": "Perfect! Three!"
+ },
+ {
+  "key": "en|Good try! Three!",
+  "lang": "en",
+  "text": "Good try! Three!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Three",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Three"
+ },
+ {
+  "key": "en|Find number Three!",
+  "lang": "en",
+  "text": "Find number Three!"
+ },
+ {
+  "key": "en|Yes! Three!",
+  "lang": "en",
+  "text": "Yes! Three!"
+ },
+ {
+  "key": "en|That's Three. Try again!",
+  "lang": "en",
+  "text": "That's Three. Try again!"
+ },
+ {
+  "key": "es|Busca: tres",
+  "lang": "es",
+  "text": "Busca: tres"
+ },
+ {
+  "key": "en|Three!",
+  "lang": "en",
+  "text": "Three!"
+ },
+ {
+  "key": "en|Four",
+  "lang": "en",
+  "text": "Four"
+ },
+ {
+  "key": "es|cuatro",
+  "lang": "es",
+  "text": "cuatro"
+ },
+ {
+  "key": "en|Say: Four!",
+  "lang": "en",
+  "text": "Say: Four!"
+ },
+ {
+  "key": "en|Perfect! Four!",
+  "lang": "en",
+  "text": "Perfect! Four!"
+ },
+ {
+  "key": "en|Good try! Four!",
+  "lang": "en",
+  "text": "Good try! Four!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Four",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Four"
+ },
+ {
+  "key": "en|Find number Four!",
+  "lang": "en",
+  "text": "Find number Four!"
+ },
+ {
+  "key": "en|Yes! Four!",
+  "lang": "en",
+  "text": "Yes! Four!"
+ },
+ {
+  "key": "en|That's Four. Try again!",
+  "lang": "en",
+  "text": "That's Four. Try again!"
+ },
+ {
+  "key": "es|Busca: cuatro",
+  "lang": "es",
+  "text": "Busca: cuatro"
+ },
+ {
+  "key": "en|Four!",
+  "lang": "en",
+  "text": "Four!"
+ },
+ {
+  "key": "en|Five",
+  "lang": "en",
+  "text": "Five"
+ },
+ {
+  "key": "es|cinco",
+  "lang": "es",
+  "text": "cinco"
+ },
+ {
+  "key": "en|Say: Five!",
+  "lang": "en",
+  "text": "Say: Five!"
+ },
+ {
+  "key": "en|Perfect! Five!",
+  "lang": "en",
+  "text": "Perfect! Five!"
+ },
+ {
+  "key": "en|Good try! Five!",
+  "lang": "en",
+  "text": "Good try! Five!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Five",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Five"
+ },
+ {
+  "key": "en|Find number Five!",
+  "lang": "en",
+  "text": "Find number Five!"
+ },
+ {
+  "key": "en|Yes! Five!",
+  "lang": "en",
+  "text": "Yes! Five!"
+ },
+ {
+  "key": "en|That's Five. Try again!",
+  "lang": "en",
+  "text": "That's Five. Try again!"
+ },
+ {
+  "key": "es|Busca: cinco",
+  "lang": "es",
+  "text": "Busca: cinco"
+ },
+ {
+  "key": "en|Five!",
+  "lang": "en",
+  "text": "Five!"
+ },
+ {
+  "key": "en|Six",
+  "lang": "en",
+  "text": "Six"
+ },
+ {
+  "key": "es|seis",
+  "lang": "es",
+  "text": "seis"
+ },
+ {
+  "key": "en|Say: Six!",
+  "lang": "en",
+  "text": "Say: Six!"
+ },
+ {
+  "key": "en|Perfect! Six!",
+  "lang": "en",
+  "text": "Perfect! Six!"
+ },
+ {
+  "key": "en|Good try! Six!",
+  "lang": "en",
+  "text": "Good try! Six!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Six",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Six"
+ },
+ {
+  "key": "en|Find number Six!",
+  "lang": "en",
+  "text": "Find number Six!"
+ },
+ {
+  "key": "en|Yes! Six!",
+  "lang": "en",
+  "text": "Yes! Six!"
+ },
+ {
+  "key": "en|That's Six. Try again!",
+  "lang": "en",
+  "text": "That's Six. Try again!"
+ },
+ {
+  "key": "es|Busca: seis",
+  "lang": "es",
+  "text": "Busca: seis"
+ },
+ {
+  "key": "en|Six!",
+  "lang": "en",
+  "text": "Six!"
+ },
+ {
+  "key": "en|Seven",
+  "lang": "en",
+  "text": "Seven"
+ },
+ {
+  "key": "es|siete",
+  "lang": "es",
+  "text": "siete"
+ },
+ {
+  "key": "en|Say: Seven!",
+  "lang": "en",
+  "text": "Say: Seven!"
+ },
+ {
+  "key": "en|Perfect! Seven!",
+  "lang": "en",
+  "text": "Perfect! Seven!"
+ },
+ {
+  "key": "en|Good try! Seven!",
+  "lang": "en",
+  "text": "Good try! Seven!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Seven",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Seven"
+ },
+ {
+  "key": "en|Find number Seven!",
+  "lang": "en",
+  "text": "Find number Seven!"
+ },
+ {
+  "key": "en|Yes! Seven!",
+  "lang": "en",
+  "text": "Yes! Seven!"
+ },
+ {
+  "key": "en|That's Seven. Try again!",
+  "lang": "en",
+  "text": "That's Seven. Try again!"
+ },
+ {
+  "key": "es|Busca: siete",
+  "lang": "es",
+  "text": "Busca: siete"
+ },
+ {
+  "key": "en|Seven!",
+  "lang": "en",
+  "text": "Seven!"
+ },
+ {
+  "key": "en|Eight",
+  "lang": "en",
+  "text": "Eight"
+ },
+ {
+  "key": "es|ocho",
+  "lang": "es",
+  "text": "ocho"
+ },
+ {
+  "key": "en|Say: Eight!",
+  "lang": "en",
+  "text": "Say: Eight!"
+ },
+ {
+  "key": "en|Perfect! Eight!",
+  "lang": "en",
+  "text": "Perfect! Eight!"
+ },
+ {
+  "key": "en|Good try! Eight!",
+  "lang": "en",
+  "text": "Good try! Eight!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Eight",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Eight"
+ },
+ {
+  "key": "en|Find number Eight!",
+  "lang": "en",
+  "text": "Find number Eight!"
+ },
+ {
+  "key": "en|Yes! Eight!",
+  "lang": "en",
+  "text": "Yes! Eight!"
+ },
+ {
+  "key": "en|That's Eight. Try again!",
+  "lang": "en",
+  "text": "That's Eight. Try again!"
+ },
+ {
+  "key": "es|Busca: ocho",
+  "lang": "es",
+  "text": "Busca: ocho"
+ },
+ {
+  "key": "en|Eight!",
+  "lang": "en",
+  "text": "Eight!"
+ },
+ {
+  "key": "en|Nine",
+  "lang": "en",
+  "text": "Nine"
+ },
+ {
+  "key": "es|nueve",
+  "lang": "es",
+  "text": "nueve"
+ },
+ {
+  "key": "en|Say: Nine!",
+  "lang": "en",
+  "text": "Say: Nine!"
+ },
+ {
+  "key": "en|Perfect! Nine!",
+  "lang": "en",
+  "text": "Perfect! Nine!"
+ },
+ {
+  "key": "en|Good try! Nine!",
+  "lang": "en",
+  "text": "Good try! Nine!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Nine",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Nine"
+ },
+ {
+  "key": "en|Find number Nine!",
+  "lang": "en",
+  "text": "Find number Nine!"
+ },
+ {
+  "key": "en|Yes! Nine!",
+  "lang": "en",
+  "text": "Yes! Nine!"
+ },
+ {
+  "key": "en|That's Nine. Try again!",
+  "lang": "en",
+  "text": "That's Nine. Try again!"
+ },
+ {
+  "key": "es|Busca: nueve",
+  "lang": "es",
+  "text": "Busca: nueve"
+ },
+ {
+  "key": "en|Nine!",
+  "lang": "en",
+  "text": "Nine!"
+ },
+ {
+  "key": "en|Ten",
+  "lang": "en",
+  "text": "Ten"
+ },
+ {
+  "key": "es|diez",
+  "lang": "es",
+  "text": "diez"
+ },
+ {
+  "key": "en|Say: Ten!",
+  "lang": "en",
+  "text": "Say: Ten!"
+ },
+ {
+  "key": "en|Perfect! Ten!",
+  "lang": "en",
+  "text": "Perfect! Ten!"
+ },
+ {
+  "key": "en|Good try! Ten!",
+  "lang": "en",
+  "text": "Good try! Ten!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Ten",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Ten"
+ },
+ {
+  "key": "en|Find number Ten!",
+  "lang": "en",
+  "text": "Find number Ten!"
+ },
+ {
+  "key": "en|Yes! Ten!",
+  "lang": "en",
+  "text": "Yes! Ten!"
+ },
+ {
+  "key": "en|That's Ten. Try again!",
+  "lang": "en",
+  "text": "That's Ten. Try again!"
+ },
+ {
+  "key": "es|Busca: diez",
+  "lang": "es",
+  "text": "Busca: diez"
+ },
+ {
+  "key": "en|Ten!",
+  "lang": "en",
+  "text": "Ten!"
+ },
+ {
+  "key": "es|¡Vamos a aprender las comidas en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a aprender las comidas en inglés!"
+ },
+ {
+  "key": "en|Food",
+  "lang": "en",
+  "text": "Food"
+ },
+ {
+  "key": "en|Apple",
+  "lang": "en",
+  "text": "Apple"
+ },
+ {
+  "key": "en|Say: Apple!",
+  "lang": "en",
+  "text": "Say: Apple!"
+ },
+ {
+  "key": "en|Perfect! Apple!",
+  "lang": "en",
+  "text": "Perfect! Apple!"
+ },
+ {
+  "key": "en|Good try! Apple!",
+  "lang": "en",
+  "text": "Good try! Apple!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Apple",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Apple"
+ },
+ {
+  "key": "en|Where is the Apple?",
+  "lang": "en",
+  "text": "Where is the Apple?"
+ },
+ {
+  "key": "en|Yes! Apple!",
+  "lang": "en",
+  "text": "Yes! Apple!"
+ },
+ {
+  "key": "en|That's Apple. Try again!",
+  "lang": "en",
+  "text": "That's Apple. Try again!"
+ },
+ {
+  "key": "es|Busca: manzana",
+  "lang": "es",
+  "text": "Busca: manzana"
+ },
+ {
+  "key": "en|Apple!",
+  "lang": "en",
+  "text": "Apple!"
+ },
+ {
+  "key": "en|Say: Banana!",
+  "lang": "en",
+  "text": "Say: Banana!"
+ },
+ {
+  "key": "en|Perfect! Banana!",
+  "lang": "en",
+  "text": "Perfect! Banana!"
+ },
+ {
+  "key": "en|Good try! Banana!",
+  "lang": "en",
+  "text": "Good try! Banana!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Banana",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Banana"
+ },
+ {
+  "key": "en|Where is the Banana?",
+  "lang": "en",
+  "text": "Where is the Banana?"
+ },
+ {
+  "key": "en|Yes! Banana!",
+  "lang": "en",
+  "text": "Yes! Banana!"
+ },
+ {
+  "key": "en|That's Banana. Try again!",
+  "lang": "en",
+  "text": "That's Banana. Try again!"
+ },
+ {
+  "key": "es|Busca: plátano",
+  "lang": "es",
+  "text": "Busca: plátano"
+ },
+ {
+  "key": "en|Banana!",
+  "lang": "en",
+  "text": "Banana!"
+ },
+ {
+  "key": "es|naranja",
+  "lang": "es",
+  "text": "naranja"
+ },
+ {
+  "key": "en|Where is the Orange?",
+  "lang": "en",
+  "text": "Where is the Orange?"
+ },
+ {
+  "key": "es|Busca: naranja",
+  "lang": "es",
+  "text": "Busca: naranja"
+ },
+ {
+  "key": "en|Grapes",
+  "lang": "en",
+  "text": "Grapes"
+ },
+ {
+  "key": "en|Say: Grapes!",
+  "lang": "en",
+  "text": "Say: Grapes!"
+ },
+ {
+  "key": "en|Perfect! Grapes!",
+  "lang": "en",
+  "text": "Perfect! Grapes!"
+ },
+ {
+  "key": "en|Good try! Grapes!",
+  "lang": "en",
+  "text": "Good try! Grapes!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Grapes",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Grapes"
+ },
+ {
+  "key": "en|Where is the Grapes?",
+  "lang": "en",
+  "text": "Where is the Grapes?"
+ },
+ {
+  "key": "en|Yes! Grapes!",
+  "lang": "en",
+  "text": "Yes! Grapes!"
+ },
+ {
+  "key": "en|That's Grapes. Try again!",
+  "lang": "en",
+  "text": "That's Grapes. Try again!"
+ },
+ {
+  "key": "es|Busca: uvas",
+  "lang": "es",
+  "text": "Busca: uvas"
+ },
+ {
+  "key": "en|Grapes!",
+  "lang": "en",
+  "text": "Grapes!"
+ },
+ {
+  "key": "en|Say: Strawberry!",
+  "lang": "en",
+  "text": "Say: Strawberry!"
+ },
+ {
+  "key": "en|Perfect! Strawberry!",
+  "lang": "en",
+  "text": "Perfect! Strawberry!"
+ },
+ {
+  "key": "en|Good try! Strawberry!",
+  "lang": "en",
+  "text": "Good try! Strawberry!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Strawberry",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Strawberry"
+ },
+ {
+  "key": "en|Where is the Strawberry?",
+  "lang": "en",
+  "text": "Where is the Strawberry?"
+ },
+ {
+  "key": "en|Yes! Strawberry!",
+  "lang": "en",
+  "text": "Yes! Strawberry!"
+ },
+ {
+  "key": "en|That's Strawberry. Try again!",
+  "lang": "en",
+  "text": "That's Strawberry. Try again!"
+ },
+ {
+  "key": "es|Busca: frutilla",
+  "lang": "es",
+  "text": "Busca: frutilla"
+ },
+ {
+  "key": "en|Strawberry!",
+  "lang": "en",
+  "text": "Strawberry!"
+ },
+ {
+  "key": "en|Watermelon",
+  "lang": "en",
+  "text": "Watermelon"
+ },
+ {
+  "key": "es|sandía",
+  "lang": "es",
+  "text": "sandía"
+ },
+ {
+  "key": "en|Say: Watermelon!",
+  "lang": "en",
+  "text": "Say: Watermelon!"
+ },
+ {
+  "key": "en|Perfect! Watermelon!",
+  "lang": "en",
+  "text": "Perfect! Watermelon!"
+ },
+ {
+  "key": "en|Good try! Watermelon!",
+  "lang": "en",
+  "text": "Good try! Watermelon!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Watermelon",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Watermelon"
+ },
+ {
+  "key": "en|Where is the Watermelon?",
+  "lang": "en",
+  "text": "Where is the Watermelon?"
+ },
+ {
+  "key": "en|Yes! Watermelon!",
+  "lang": "en",
+  "text": "Yes! Watermelon!"
+ },
+ {
+  "key": "en|That's Watermelon. Try again!",
+  "lang": "en",
+  "text": "That's Watermelon. Try again!"
+ },
+ {
+  "key": "es|Busca: sandía",
+  "lang": "es",
+  "text": "Busca: sandía"
+ },
+ {
+  "key": "en|Watermelon!",
+  "lang": "en",
+  "text": "Watermelon!"
+ },
+ {
+  "key": "en|Say: Carrot!",
+  "lang": "en",
+  "text": "Say: Carrot!"
+ },
+ {
+  "key": "en|Perfect! Carrot!",
+  "lang": "en",
+  "text": "Perfect! Carrot!"
+ },
+ {
+  "key": "en|Good try! Carrot!",
+  "lang": "en",
+  "text": "Good try! Carrot!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Carrot",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Carrot"
+ },
+ {
+  "key": "en|Where is the Carrot?",
+  "lang": "en",
+  "text": "Where is the Carrot?"
+ },
+ {
+  "key": "en|Yes! Carrot!",
+  "lang": "en",
+  "text": "Yes! Carrot!"
+ },
+ {
+  "key": "en|That's Carrot. Try again!",
+  "lang": "en",
+  "text": "That's Carrot. Try again!"
+ },
+ {
+  "key": "es|Busca: zanahoria",
+  "lang": "es",
+  "text": "Busca: zanahoria"
+ },
+ {
+  "key": "en|Carrot!",
+  "lang": "en",
+  "text": "Carrot!"
+ },
+ {
+  "key": "en|Say: Bread!",
+  "lang": "en",
+  "text": "Say: Bread!"
+ },
+ {
+  "key": "en|Perfect! Bread!",
+  "lang": "en",
+  "text": "Perfect! Bread!"
+ },
+ {
+  "key": "en|Good try! Bread!",
+  "lang": "en",
+  "text": "Good try! Bread!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Bread",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Bread"
+ },
+ {
+  "key": "en|Where is the Bread?",
+  "lang": "en",
+  "text": "Where is the Bread?"
+ },
+ {
+  "key": "en|Yes! Bread!",
+  "lang": "en",
+  "text": "Yes! Bread!"
+ },
+ {
+  "key": "en|That's Bread. Try again!",
+  "lang": "en",
+  "text": "That's Bread. Try again!"
+ },
+ {
+  "key": "es|Busca: pan",
+  "lang": "es",
+  "text": "Busca: pan"
+ },
+ {
+  "key": "en|Bread!",
+  "lang": "en",
+  "text": "Bread!"
+ },
+ {
+  "key": "en|Say: Milk!",
+  "lang": "en",
+  "text": "Say: Milk!"
+ },
+ {
+  "key": "en|Perfect! Milk!",
+  "lang": "en",
+  "text": "Perfect! Milk!"
+ },
+ {
+  "key": "en|Good try! Milk!",
+  "lang": "en",
+  "text": "Good try! Milk!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Milk",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Milk"
+ },
+ {
+  "key": "en|Where is the Milk?",
+  "lang": "en",
+  "text": "Where is the Milk?"
+ },
+ {
+  "key": "en|Yes! Milk!",
+  "lang": "en",
+  "text": "Yes! Milk!"
+ },
+ {
+  "key": "en|That's Milk. Try again!",
+  "lang": "en",
+  "text": "That's Milk. Try again!"
+ },
+ {
+  "key": "es|Busca: leche",
+  "lang": "es",
+  "text": "Busca: leche"
+ },
+ {
+  "key": "en|Milk!",
+  "lang": "en",
+  "text": "Milk!"
+ },
+ {
+  "key": "en|Say: Egg!",
+  "lang": "en",
+  "text": "Say: Egg!"
+ },
+ {
+  "key": "en|Perfect! Egg!",
+  "lang": "en",
+  "text": "Perfect! Egg!"
+ },
+ {
+  "key": "en|Good try! Egg!",
+  "lang": "en",
+  "text": "Good try! Egg!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Egg",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Egg"
+ },
+ {
+  "key": "en|Where is the Egg?",
+  "lang": "en",
+  "text": "Where is the Egg?"
+ },
+ {
+  "key": "en|Yes! Egg!",
+  "lang": "en",
+  "text": "Yes! Egg!"
+ },
+ {
+  "key": "en|That's Egg. Try again!",
+  "lang": "en",
+  "text": "That's Egg. Try again!"
+ },
+ {
+  "key": "es|Busca: huevo",
+  "lang": "es",
+  "text": "Busca: huevo"
+ },
+ {
+  "key": "en|Egg!",
+  "lang": "en",
+  "text": "Egg!"
+ },
+ {
+  "key": "en|Say: Cheese!",
+  "lang": "en",
+  "text": "Say: Cheese!"
+ },
+ {
+  "key": "en|Perfect! Cheese!",
+  "lang": "en",
+  "text": "Perfect! Cheese!"
+ },
+ {
+  "key": "en|Good try! Cheese!",
+  "lang": "en",
+  "text": "Good try! Cheese!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Cheese",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Cheese"
+ },
+ {
+  "key": "en|Where is the Cheese?",
+  "lang": "en",
+  "text": "Where is the Cheese?"
+ },
+ {
+  "key": "en|Yes! Cheese!",
+  "lang": "en",
+  "text": "Yes! Cheese!"
+ },
+ {
+  "key": "en|That's Cheese. Try again!",
+  "lang": "en",
+  "text": "That's Cheese. Try again!"
+ },
+ {
+  "key": "es|Busca: queso",
+  "lang": "es",
+  "text": "Busca: queso"
+ },
+ {
+  "key": "en|Cheese!",
+  "lang": "en",
+  "text": "Cheese!"
+ },
+ {
+  "key": "es|¡Vamos a aprender las partes del cuerpo en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a aprender las partes del cuerpo en inglés!"
+ },
+ {
+  "key": "en|My body",
+  "lang": "en",
+  "text": "My body"
+ },
+ {
+  "key": "en|Eyes",
+  "lang": "en",
+  "text": "Eyes"
+ },
+ {
+  "key": "es|ojos",
+  "lang": "es",
+  "text": "ojos"
+ },
+ {
+  "key": "en|Say: Eyes!",
+  "lang": "en",
+  "text": "Say: Eyes!"
+ },
+ {
+  "key": "en|Perfect! Eyes!",
+  "lang": "en",
+  "text": "Perfect! Eyes!"
+ },
+ {
+  "key": "en|Good try! Eyes!",
+  "lang": "en",
+  "text": "Good try! Eyes!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Eyes",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Eyes"
+ },
+ {
+  "key": "en|Show me the Eyes!",
+  "lang": "en",
+  "text": "Show me the Eyes!"
+ },
+ {
+  "key": "en|Yes! Eyes!",
+  "lang": "en",
+  "text": "Yes! Eyes!"
+ },
+ {
+  "key": "en|That's Eyes. Try again!",
+  "lang": "en",
+  "text": "That's Eyes. Try again!"
+ },
+ {
+  "key": "es|Busca: ojos",
+  "lang": "es",
+  "text": "Busca: ojos"
+ },
+ {
+  "key": "en|Eyes!",
+  "lang": "en",
+  "text": "Eyes!"
+ },
+ {
+  "key": "en|Nose",
+  "lang": "en",
+  "text": "Nose"
+ },
+ {
+  "key": "es|nariz",
+  "lang": "es",
+  "text": "nariz"
+ },
+ {
+  "key": "en|Say: Nose!",
+  "lang": "en",
+  "text": "Say: Nose!"
+ },
+ {
+  "key": "en|Perfect! Nose!",
+  "lang": "en",
+  "text": "Perfect! Nose!"
+ },
+ {
+  "key": "en|Good try! Nose!",
+  "lang": "en",
+  "text": "Good try! Nose!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Nose",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Nose"
+ },
+ {
+  "key": "en|Show me the Nose!",
+  "lang": "en",
+  "text": "Show me the Nose!"
+ },
+ {
+  "key": "en|Yes! Nose!",
+  "lang": "en",
+  "text": "Yes! Nose!"
+ },
+ {
+  "key": "en|That's Nose. Try again!",
+  "lang": "en",
+  "text": "That's Nose. Try again!"
+ },
+ {
+  "key": "es|Busca: nariz",
+  "lang": "es",
+  "text": "Busca: nariz"
+ },
+ {
+  "key": "en|Nose!",
+  "lang": "en",
+  "text": "Nose!"
+ },
+ {
+  "key": "en|Mouth",
+  "lang": "en",
+  "text": "Mouth"
+ },
+ {
+  "key": "es|boca",
+  "lang": "es",
+  "text": "boca"
+ },
+ {
+  "key": "en|Say: Mouth!",
+  "lang": "en",
+  "text": "Say: Mouth!"
+ },
+ {
+  "key": "en|Perfect! Mouth!",
+  "lang": "en",
+  "text": "Perfect! Mouth!"
+ },
+ {
+  "key": "en|Good try! Mouth!",
+  "lang": "en",
+  "text": "Good try! Mouth!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Mouth",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Mouth"
+ },
+ {
+  "key": "en|Show me the Mouth!",
+  "lang": "en",
+  "text": "Show me the Mouth!"
+ },
+ {
+  "key": "en|Yes! Mouth!",
+  "lang": "en",
+  "text": "Yes! Mouth!"
+ },
+ {
+  "key": "en|That's Mouth. Try again!",
+  "lang": "en",
+  "text": "That's Mouth. Try again!"
+ },
+ {
+  "key": "es|Busca: boca",
+  "lang": "es",
+  "text": "Busca: boca"
+ },
+ {
+  "key": "en|Mouth!",
+  "lang": "en",
+  "text": "Mouth!"
+ },
+ {
+  "key": "en|Ear",
+  "lang": "en",
+  "text": "Ear"
+ },
+ {
+  "key": "es|oreja",
+  "lang": "es",
+  "text": "oreja"
+ },
+ {
+  "key": "en|Say: Ear!",
+  "lang": "en",
+  "text": "Say: Ear!"
+ },
+ {
+  "key": "en|Perfect! Ear!",
+  "lang": "en",
+  "text": "Perfect! Ear!"
+ },
+ {
+  "key": "en|Good try! Ear!",
+  "lang": "en",
+  "text": "Good try! Ear!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Ear",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Ear"
+ },
+ {
+  "key": "en|Show me the Ear!",
+  "lang": "en",
+  "text": "Show me the Ear!"
+ },
+ {
+  "key": "en|Yes! Ear!",
+  "lang": "en",
+  "text": "Yes! Ear!"
+ },
+ {
+  "key": "en|That's Ear. Try again!",
+  "lang": "en",
+  "text": "That's Ear. Try again!"
+ },
+ {
+  "key": "es|Busca: oreja",
+  "lang": "es",
+  "text": "Busca: oreja"
+ },
+ {
+  "key": "en|Ear!",
+  "lang": "en",
+  "text": "Ear!"
+ },
+ {
+  "key": "en|Hand",
+  "lang": "en",
+  "text": "Hand"
+ },
+ {
+  "key": "es|mano",
+  "lang": "es",
+  "text": "mano"
+ },
+ {
+  "key": "en|Say: Hand!",
+  "lang": "en",
+  "text": "Say: Hand!"
+ },
+ {
+  "key": "en|Perfect! Hand!",
+  "lang": "en",
+  "text": "Perfect! Hand!"
+ },
+ {
+  "key": "en|Good try! Hand!",
+  "lang": "en",
+  "text": "Good try! Hand!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Hand",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Hand"
+ },
+ {
+  "key": "en|Show me the Hand!",
+  "lang": "en",
+  "text": "Show me the Hand!"
+ },
+ {
+  "key": "en|Yes! Hand!",
+  "lang": "en",
+  "text": "Yes! Hand!"
+ },
+ {
+  "key": "en|That's Hand. Try again!",
+  "lang": "en",
+  "text": "That's Hand. Try again!"
+ },
+ {
+  "key": "es|Busca: mano",
+  "lang": "es",
+  "text": "Busca: mano"
+ },
+ {
+  "key": "en|Hand!",
+  "lang": "en",
+  "text": "Hand!"
+ },
+ {
+  "key": "en|Foot",
+  "lang": "en",
+  "text": "Foot"
+ },
+ {
+  "key": "es|pie",
+  "lang": "es",
+  "text": "pie"
+ },
+ {
+  "key": "en|Say: Foot!",
+  "lang": "en",
+  "text": "Say: Foot!"
+ },
+ {
+  "key": "en|Perfect! Foot!",
+  "lang": "en",
+  "text": "Perfect! Foot!"
+ },
+ {
+  "key": "en|Good try! Foot!",
+  "lang": "en",
+  "text": "Good try! Foot!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Foot",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Foot"
+ },
+ {
+  "key": "en|Show me the Foot!",
+  "lang": "en",
+  "text": "Show me the Foot!"
+ },
+ {
+  "key": "en|Yes! Foot!",
+  "lang": "en",
+  "text": "Yes! Foot!"
+ },
+ {
+  "key": "en|That's Foot. Try again!",
+  "lang": "en",
+  "text": "That's Foot. Try again!"
+ },
+ {
+  "key": "es|Busca: pie",
+  "lang": "es",
+  "text": "Busca: pie"
+ },
+ {
+  "key": "en|Foot!",
+  "lang": "en",
+  "text": "Foot!"
+ },
+ {
+  "key": "en|Teeth",
+  "lang": "en",
+  "text": "Teeth"
+ },
+ {
+  "key": "es|dientes",
+  "lang": "es",
+  "text": "dientes"
+ },
+ {
+  "key": "en|Say: Teeth!",
+  "lang": "en",
+  "text": "Say: Teeth!"
+ },
+ {
+  "key": "en|Perfect! Teeth!",
+  "lang": "en",
+  "text": "Perfect! Teeth!"
+ },
+ {
+  "key": "en|Good try! Teeth!",
+  "lang": "en",
+  "text": "Good try! Teeth!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Teeth",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Teeth"
+ },
+ {
+  "key": "en|Show me the Teeth!",
+  "lang": "en",
+  "text": "Show me the Teeth!"
+ },
+ {
+  "key": "en|Yes! Teeth!",
+  "lang": "en",
+  "text": "Yes! Teeth!"
+ },
+ {
+  "key": "en|That's Teeth. Try again!",
+  "lang": "en",
+  "text": "That's Teeth. Try again!"
+ },
+ {
+  "key": "es|Busca: dientes",
+  "lang": "es",
+  "text": "Busca: dientes"
+ },
+ {
+  "key": "en|Teeth!",
+  "lang": "en",
+  "text": "Teeth!"
+ },
+ {
+  "key": "en|Hair",
+  "lang": "en",
+  "text": "Hair"
+ },
+ {
+  "key": "es|pelo",
+  "lang": "es",
+  "text": "pelo"
+ },
+ {
+  "key": "en|Say: Hair!",
+  "lang": "en",
+  "text": "Say: Hair!"
+ },
+ {
+  "key": "en|Perfect! Hair!",
+  "lang": "en",
+  "text": "Perfect! Hair!"
+ },
+ {
+  "key": "en|Good try! Hair!",
+  "lang": "en",
+  "text": "Good try! Hair!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Hair",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Hair"
+ },
+ {
+  "key": "en|Show me the Hair!",
+  "lang": "en",
+  "text": "Show me the Hair!"
+ },
+ {
+  "key": "en|Yes! Hair!",
+  "lang": "en",
+  "text": "Yes! Hair!"
+ },
+ {
+  "key": "en|That's Hair. Try again!",
+  "lang": "en",
+  "text": "That's Hair. Try again!"
+ },
+ {
+  "key": "es|Busca: pelo",
+  "lang": "es",
+  "text": "Busca: pelo"
+ },
+ {
+  "key": "en|Hair!",
+  "lang": "en",
+  "text": "Hair!"
+ },
+ {
+  "key": "es|¡Vamos a aprender las figuras en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a aprender las figuras en inglés!"
+ },
+ {
+  "key": "en|Shapes",
+  "lang": "en",
+  "text": "Shapes"
+ },
+ {
+  "key": "en|Circle",
+  "lang": "en",
+  "text": "Circle"
+ },
+ {
+  "key": "es|círculo",
+  "lang": "es",
+  "text": "círculo"
+ },
+ {
+  "key": "en|Say: Circle!",
+  "lang": "en",
+  "text": "Say: Circle!"
+ },
+ {
+  "key": "en|Perfect! Circle!",
+  "lang": "en",
+  "text": "Perfect! Circle!"
+ },
+ {
+  "key": "en|Good try! Circle!",
+  "lang": "en",
+  "text": "Good try! Circle!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Circle",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Circle"
+ },
+ {
+  "key": "en|Find the Circle!",
+  "lang": "en",
+  "text": "Find the Circle!"
+ },
+ {
+  "key": "en|Yes! Circle!",
+  "lang": "en",
+  "text": "Yes! Circle!"
+ },
+ {
+  "key": "en|That's Circle. Try again!",
+  "lang": "en",
+  "text": "That's Circle. Try again!"
+ },
+ {
+  "key": "es|Busca: círculo",
+  "lang": "es",
+  "text": "Busca: círculo"
+ },
+ {
+  "key": "en|Circle!",
+  "lang": "en",
+  "text": "Circle!"
+ },
+ {
+  "key": "en|Square",
+  "lang": "en",
+  "text": "Square"
+ },
+ {
+  "key": "es|cuadrado",
+  "lang": "es",
+  "text": "cuadrado"
+ },
+ {
+  "key": "en|Say: Square!",
+  "lang": "en",
+  "text": "Say: Square!"
+ },
+ {
+  "key": "en|Perfect! Square!",
+  "lang": "en",
+  "text": "Perfect! Square!"
+ },
+ {
+  "key": "en|Good try! Square!",
+  "lang": "en",
+  "text": "Good try! Square!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Square",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Square"
+ },
+ {
+  "key": "en|Find the Square!",
+  "lang": "en",
+  "text": "Find the Square!"
+ },
+ {
+  "key": "en|Yes! Square!",
+  "lang": "en",
+  "text": "Yes! Square!"
+ },
+ {
+  "key": "en|That's Square. Try again!",
+  "lang": "en",
+  "text": "That's Square. Try again!"
+ },
+ {
+  "key": "es|Busca: cuadrado",
+  "lang": "es",
+  "text": "Busca: cuadrado"
+ },
+ {
+  "key": "en|Square!",
+  "lang": "en",
+  "text": "Square!"
+ },
+ {
+  "key": "en|Triangle",
+  "lang": "en",
+  "text": "Triangle"
+ },
+ {
+  "key": "es|triángulo",
+  "lang": "es",
+  "text": "triángulo"
+ },
+ {
+  "key": "en|Say: Triangle!",
+  "lang": "en",
+  "text": "Say: Triangle!"
+ },
+ {
+  "key": "en|Perfect! Triangle!",
+  "lang": "en",
+  "text": "Perfect! Triangle!"
+ },
+ {
+  "key": "en|Good try! Triangle!",
+  "lang": "en",
+  "text": "Good try! Triangle!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Triangle",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Triangle"
+ },
+ {
+  "key": "en|Find the Triangle!",
+  "lang": "en",
+  "text": "Find the Triangle!"
+ },
+ {
+  "key": "en|Yes! Triangle!",
+  "lang": "en",
+  "text": "Yes! Triangle!"
+ },
+ {
+  "key": "en|That's Triangle. Try again!",
+  "lang": "en",
+  "text": "That's Triangle. Try again!"
+ },
+ {
+  "key": "es|Busca: triángulo",
+  "lang": "es",
+  "text": "Busca: triángulo"
+ },
+ {
+  "key": "en|Triangle!",
+  "lang": "en",
+  "text": "Triangle!"
+ },
+ {
+  "key": "en|Star",
+  "lang": "en",
+  "text": "Star"
+ },
+ {
+  "key": "es|estrella",
+  "lang": "es",
+  "text": "estrella"
+ },
+ {
+  "key": "en|Say: Star!",
+  "lang": "en",
+  "text": "Say: Star!"
+ },
+ {
+  "key": "en|Perfect! Star!",
+  "lang": "en",
+  "text": "Perfect! Star!"
+ },
+ {
+  "key": "en|Good try! Star!",
+  "lang": "en",
+  "text": "Good try! Star!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Star",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Star"
+ },
+ {
+  "key": "en|Find the Star!",
+  "lang": "en",
+  "text": "Find the Star!"
+ },
+ {
+  "key": "en|Yes! Star!",
+  "lang": "en",
+  "text": "Yes! Star!"
+ },
+ {
+  "key": "en|That's Star. Try again!",
+  "lang": "en",
+  "text": "That's Star. Try again!"
+ },
+ {
+  "key": "es|Busca: estrella",
+  "lang": "es",
+  "text": "Busca: estrella"
+ },
+ {
+  "key": "en|Star!",
+  "lang": "en",
+  "text": "Star!"
+ },
+ {
+  "key": "en|Heart",
+  "lang": "en",
+  "text": "Heart"
+ },
+ {
+  "key": "es|corazón",
+  "lang": "es",
+  "text": "corazón"
+ },
+ {
+  "key": "en|Say: Heart!",
+  "lang": "en",
+  "text": "Say: Heart!"
+ },
+ {
+  "key": "en|Perfect! Heart!",
+  "lang": "en",
+  "text": "Perfect! Heart!"
+ },
+ {
+  "key": "en|Good try! Heart!",
+  "lang": "en",
+  "text": "Good try! Heart!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Heart",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Heart"
+ },
+ {
+  "key": "en|Find the Heart!",
+  "lang": "en",
+  "text": "Find the Heart!"
+ },
+ {
+  "key": "en|Yes! Heart!",
+  "lang": "en",
+  "text": "Yes! Heart!"
+ },
+ {
+  "key": "en|That's Heart. Try again!",
+  "lang": "en",
+  "text": "That's Heart. Try again!"
+ },
+ {
+  "key": "es|Busca: corazón",
+  "lang": "es",
+  "text": "Busca: corazón"
+ },
+ {
+  "key": "en|Heart!",
+  "lang": "en",
+  "text": "Heart!"
+ },
+ {
+  "key": "en|Diamond",
+  "lang": "en",
+  "text": "Diamond"
+ },
+ {
+  "key": "es|rombo",
+  "lang": "es",
+  "text": "rombo"
+ },
+ {
+  "key": "en|Say: Diamond!",
+  "lang": "en",
+  "text": "Say: Diamond!"
+ },
+ {
+  "key": "en|Perfect! Diamond!",
+  "lang": "en",
+  "text": "Perfect! Diamond!"
+ },
+ {
+  "key": "en|Good try! Diamond!",
+  "lang": "en",
+  "text": "Good try! Diamond!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Diamond",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Diamond"
+ },
+ {
+  "key": "en|Find the Diamond!",
+  "lang": "en",
+  "text": "Find the Diamond!"
+ },
+ {
+  "key": "en|Yes! Diamond!",
+  "lang": "en",
+  "text": "Yes! Diamond!"
+ },
+ {
+  "key": "en|That's Diamond. Try again!",
+  "lang": "en",
+  "text": "That's Diamond. Try again!"
+ },
+ {
+  "key": "es|Busca: rombo",
+  "lang": "es",
+  "text": "Busca: rombo"
+ },
+ {
+  "key": "en|Diamond!",
+  "lang": "en",
+  "text": "Diamond!"
+ },
+ {
+  "key": "es|¡Vamos a aprender cosas de la naturaleza en inglés!",
+  "lang": "es",
+  "text": "¡Vamos a aprender cosas de la naturaleza en inglés!"
+ },
+ {
+  "key": "en|Nature",
+  "lang": "en",
+  "text": "Nature"
+ },
+ {
+  "key": "en|Sun",
+  "lang": "en",
+  "text": "Sun"
+ },
+ {
+  "key": "es|sol",
+  "lang": "es",
+  "text": "sol"
+ },
+ {
+  "key": "en|Say: Sun!",
+  "lang": "en",
+  "text": "Say: Sun!"
+ },
+ {
+  "key": "en|Perfect! Sun!",
+  "lang": "en",
+  "text": "Perfect! Sun!"
+ },
+ {
+  "key": "en|Good try! Sun!",
+  "lang": "en",
+  "text": "Good try! Sun!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Sun",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Sun"
+ },
+ {
+  "key": "en|Where is the Sun?",
+  "lang": "en",
+  "text": "Where is the Sun?"
+ },
+ {
+  "key": "en|Yes! Sun!",
+  "lang": "en",
+  "text": "Yes! Sun!"
+ },
+ {
+  "key": "en|That's Sun. Try again!",
+  "lang": "en",
+  "text": "That's Sun. Try again!"
+ },
+ {
+  "key": "es|Busca: sol",
+  "lang": "es",
+  "text": "Busca: sol"
+ },
+ {
+  "key": "en|Sun!",
+  "lang": "en",
+  "text": "Sun!"
+ },
+ {
+  "key": "en|Moon",
+  "lang": "en",
+  "text": "Moon"
+ },
+ {
+  "key": "es|luna",
+  "lang": "es",
+  "text": "luna"
+ },
+ {
+  "key": "en|Say: Moon!",
+  "lang": "en",
+  "text": "Say: Moon!"
+ },
+ {
+  "key": "en|Perfect! Moon!",
+  "lang": "en",
+  "text": "Perfect! Moon!"
+ },
+ {
+  "key": "en|Good try! Moon!",
+  "lang": "en",
+  "text": "Good try! Moon!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Moon",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Moon"
+ },
+ {
+  "key": "en|Where is the Moon?",
+  "lang": "en",
+  "text": "Where is the Moon?"
+ },
+ {
+  "key": "en|Yes! Moon!",
+  "lang": "en",
+  "text": "Yes! Moon!"
+ },
+ {
+  "key": "en|That's Moon. Try again!",
+  "lang": "en",
+  "text": "That's Moon. Try again!"
+ },
+ {
+  "key": "es|Busca: luna",
+  "lang": "es",
+  "text": "Busca: luna"
+ },
+ {
+  "key": "en|Moon!",
+  "lang": "en",
+  "text": "Moon!"
+ },
+ {
+  "key": "en|Cloud",
+  "lang": "en",
+  "text": "Cloud"
+ },
+ {
+  "key": "es|nube",
+  "lang": "es",
+  "text": "nube"
+ },
+ {
+  "key": "en|Say: Cloud!",
+  "lang": "en",
+  "text": "Say: Cloud!"
+ },
+ {
+  "key": "en|Perfect! Cloud!",
+  "lang": "en",
+  "text": "Perfect! Cloud!"
+ },
+ {
+  "key": "en|Good try! Cloud!",
+  "lang": "en",
+  "text": "Good try! Cloud!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Cloud",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Cloud"
+ },
+ {
+  "key": "en|Where is the Cloud?",
+  "lang": "en",
+  "text": "Where is the Cloud?"
+ },
+ {
+  "key": "en|Yes! Cloud!",
+  "lang": "en",
+  "text": "Yes! Cloud!"
+ },
+ {
+  "key": "en|That's Cloud. Try again!",
+  "lang": "en",
+  "text": "That's Cloud. Try again!"
+ },
+ {
+  "key": "es|Busca: nube",
+  "lang": "es",
+  "text": "Busca: nube"
+ },
+ {
+  "key": "en|Cloud!",
+  "lang": "en",
+  "text": "Cloud!"
+ },
+ {
+  "key": "en|Rain",
+  "lang": "en",
+  "text": "Rain"
+ },
+ {
+  "key": "es|lluvia",
+  "lang": "es",
+  "text": "lluvia"
+ },
+ {
+  "key": "en|Say: Rain!",
+  "lang": "en",
+  "text": "Say: Rain!"
+ },
+ {
+  "key": "en|Perfect! Rain!",
+  "lang": "en",
+  "text": "Perfect! Rain!"
+ },
+ {
+  "key": "en|Good try! Rain!",
+  "lang": "en",
+  "text": "Good try! Rain!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Rain",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Rain"
+ },
+ {
+  "key": "en|Where is the Rain?",
+  "lang": "en",
+  "text": "Where is the Rain?"
+ },
+ {
+  "key": "en|Yes! Rain!",
+  "lang": "en",
+  "text": "Yes! Rain!"
+ },
+ {
+  "key": "en|That's Rain. Try again!",
+  "lang": "en",
+  "text": "That's Rain. Try again!"
+ },
+ {
+  "key": "es|Busca: lluvia",
+  "lang": "es",
+  "text": "Busca: lluvia"
+ },
+ {
+  "key": "en|Rain!",
+  "lang": "en",
+  "text": "Rain!"
+ },
+ {
+  "key": "en|Rainbow",
+  "lang": "en",
+  "text": "Rainbow"
+ },
+ {
+  "key": "es|arcoíris",
+  "lang": "es",
+  "text": "arcoíris"
+ },
+ {
+  "key": "en|Say: Rainbow!",
+  "lang": "en",
+  "text": "Say: Rainbow!"
+ },
+ {
+  "key": "en|Perfect! Rainbow!",
+  "lang": "en",
+  "text": "Perfect! Rainbow!"
+ },
+ {
+  "key": "en|Good try! Rainbow!",
+  "lang": "en",
+  "text": "Good try! Rainbow!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Rainbow",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Rainbow"
+ },
+ {
+  "key": "en|Where is the Rainbow?",
+  "lang": "en",
+  "text": "Where is the Rainbow?"
+ },
+ {
+  "key": "en|Yes! Rainbow!",
+  "lang": "en",
+  "text": "Yes! Rainbow!"
+ },
+ {
+  "key": "en|That's Rainbow. Try again!",
+  "lang": "en",
+  "text": "That's Rainbow. Try again!"
+ },
+ {
+  "key": "es|Busca: arcoíris",
+  "lang": "es",
+  "text": "Busca: arcoíris"
+ },
+ {
+  "key": "en|Rainbow!",
+  "lang": "en",
+  "text": "Rainbow!"
+ },
+ {
+  "key": "en|Flower",
+  "lang": "en",
+  "text": "Flower"
+ },
+ {
+  "key": "es|flor",
+  "lang": "es",
+  "text": "flor"
+ },
+ {
+  "key": "en|Say: Flower!",
+  "lang": "en",
+  "text": "Say: Flower!"
+ },
+ {
+  "key": "en|Perfect! Flower!",
+  "lang": "en",
+  "text": "Perfect! Flower!"
+ },
+ {
+  "key": "en|Good try! Flower!",
+  "lang": "en",
+  "text": "Good try! Flower!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Flower",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Flower"
+ },
+ {
+  "key": "en|Where is the Flower?",
+  "lang": "en",
+  "text": "Where is the Flower?"
+ },
+ {
+  "key": "en|Yes! Flower!",
+  "lang": "en",
+  "text": "Yes! Flower!"
+ },
+ {
+  "key": "en|That's Flower. Try again!",
+  "lang": "en",
+  "text": "That's Flower. Try again!"
+ },
+ {
+  "key": "es|Busca: flor",
+  "lang": "es",
+  "text": "Busca: flor"
+ },
+ {
+  "key": "en|Flower!",
+  "lang": "en",
+  "text": "Flower!"
+ },
+ {
+  "key": "en|Tree",
+  "lang": "en",
+  "text": "Tree"
+ },
+ {
+  "key": "es|árbol",
+  "lang": "es",
+  "text": "árbol"
+ },
+ {
+  "key": "en|Say: Tree!",
+  "lang": "en",
+  "text": "Say: Tree!"
+ },
+ {
+  "key": "en|Perfect! Tree!",
+  "lang": "en",
+  "text": "Perfect! Tree!"
+ },
+ {
+  "key": "en|Good try! Tree!",
+  "lang": "en",
+  "text": "Good try! Tree!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Tree",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Tree"
+ },
+ {
+  "key": "en|Where is the Tree?",
+  "lang": "en",
+  "text": "Where is the Tree?"
+ },
+ {
+  "key": "en|Yes! Tree!",
+  "lang": "en",
+  "text": "Yes! Tree!"
+ },
+ {
+  "key": "en|That's Tree. Try again!",
+  "lang": "en",
+  "text": "That's Tree. Try again!"
+ },
+ {
+  "key": "es|Busca: árbol",
+  "lang": "es",
+  "text": "Busca: árbol"
+ },
+ {
+  "key": "en|Tree!",
+  "lang": "en",
+  "text": "Tree!"
+ },
+ {
+  "key": "en|Snow",
+  "lang": "en",
+  "text": "Snow"
+ },
+ {
+  "key": "es|nieve",
+  "lang": "es",
+  "text": "nieve"
+ },
+ {
+  "key": "en|Say: Snow!",
+  "lang": "en",
+  "text": "Say: Snow!"
+ },
+ {
+  "key": "en|Perfect! Snow!",
+  "lang": "en",
+  "text": "Perfect! Snow!"
+ },
+ {
+  "key": "en|Good try! Snow!",
+  "lang": "en",
+  "text": "Good try! Snow!"
+ },
+ {
+  "key": "es|Toca el micrófono y di: Snow",
+  "lang": "es",
+  "text": "Toca el micrófono y di: Snow"
+ },
+ {
+  "key": "en|Where is the Snow?",
+  "lang": "en",
+  "text": "Where is the Snow?"
+ },
+ {
+  "key": "en|Yes! Snow!",
+  "lang": "en",
+  "text": "Yes! Snow!"
+ },
+ {
+  "key": "en|That's Snow. Try again!",
+  "lang": "en",
+  "text": "That's Snow. Try again!"
+ },
+ {
+  "key": "es|Busca: nieve",
+  "lang": "es",
+  "text": "Busca: nieve"
+ },
+ {
+  "key": "en|Snow!",
+  "lang": "en",
+  "text": "Snow!"
+ },
+ {
+  "key": "es|¡Ahora juguemos! Escucha y toca el correcto.",
+  "lang": "es",
+  "text": "¡Ahora juguemos! Escucha y toca el correcto."
+ },
+ {
+  "key": "es|¡Perfecto!",
+  "lang": "es",
+  "text": "¡Perfecto!"
+ },
+ {
+  "key": "es|¡Buen intento!",
+  "lang": "es",
+  "text": "¡Buen intento!"
+ },
+ {
+  "key": "en|Hello! I'm Lumi. What's your name?",
+  "lang": "en",
+  "text": "Hello! I'm Lumi. What's your name?"
+ },
+ {
+  "key": "es|¡Hola! Soy Lumi. ¿Cómo te llamas?",
+  "lang": "es",
+  "text": "¡Hola! Soy Lumi. ¿Cómo te llamas?"
+ },
+ {
+  "key": "kid|My name is Martina!",
+  "lang": "kid",
+  "text": "My name is Martina!"
+ },
+ {
+  "key": "en|Nice to meet you, Martina!",
+  "lang": "en",
+  "text": "Nice to meet you, Martina!"
+ },
+ {
+  "key": "es|¡Qué lindo conocerte, Martina!",
+  "lang": "es",
+  "text": "¡Qué lindo conocerte, Martina!"
+ },
+ {
+  "key": "en|How are you today?",
+  "lang": "en",
+  "text": "How are you today?"
+ },
+ {
+  "key": "es|¿Cómo estás hoy?",
+  "lang": "es",
+  "text": "¿Cómo estás hoy?"
+ },
+ {
+  "key": "kid|Great!",
+  "lang": "kid",
+  "text": "Great!"
+ },
+ {
+  "key": "en|Great! I'm happy too!",
+  "lang": "en",
+  "text": "Great! I'm happy too!"
+ },
+ {
+  "key": "es|¡Súper! ¡Yo también estoy feliz!",
+  "lang": "es",
+  "text": "¡Súper! ¡Yo también estoy feliz!"
+ },
+ {
+  "key": "kid|Good!",
+  "lang": "kid",
+  "text": "Good!"
+ },
+ {
+  "key": "en|Good! That's nice.",
+  "lang": "en",
+  "text": "Good! That's nice."
+ },
+ {
+  "key": "es|¡Bien! Qué bueno.",
+  "lang": "es",
+  "text": "¡Bien! Qué bueno."
+ },
+ {
+  "key": "kid|Tired",
+  "lang": "kid",
+  "text": "Tired"
+ },
+ {
+  "key": "en|Tired? Let's play slowly.",
+  "lang": "en",
+  "text": "Tired? Let's play slowly."
+ },
+ {
+  "key": "es|¿Cansada? Juguemos tranquilitas.",
+  "lang": "es",
+  "text": "¿Cansada? Juguemos tranquilitas."
+ },
+ {
+  "key": "en|Can you say hello? Hello!",
+  "lang": "en",
+  "text": "Can you say hello? Hello!"
+ },
+ {
+  "key": "es|¿Puedes decir hola en inglés? Se dice: Hello!",
+  "lang": "es",
+  "text": "¿Puedes decir hola en inglés? Se dice: Hello!"
+ },
+ {
+  "key": "kid|Hello!",
+  "lang": "kid",
+  "text": "Hello!"
+ },
+ {
+  "key": "en|Hello! Very good!",
+  "lang": "en",
+  "text": "Hello! Very good!"
+ },
+ {
+  "key": "es|¡Muy bien!",
+  "lang": "es",
+  "text": "¡Muy bien!"
+ },
+ {
+  "key": "en|Goodbye! See you soon!",
+  "lang": "en",
+  "text": "Goodbye! See you soon!"
+ },
+ {
+  "key": "es|¡Chao! ¡Nos vemos pronto!",
+  "lang": "es",
+  "text": "¡Chao! ¡Nos vemos pronto!"
+ },
+ {
+  "key": "kid|Bye bye!",
+  "lang": "kid",
+  "text": "Bye bye!"
+ },
+ {
+  "key": "en|Bye bye, Martina!",
+  "lang": "en",
+  "text": "Bye bye, Martina!"
+ },
+ {
+  "key": "en|How old are you, Martina?",
+  "lang": "en",
+  "text": "How old are you, Martina?"
+ },
+ {
+  "key": "es|¿Cuántos años tienes, Martina?",
+  "lang": "es",
+  "text": "¿Cuántos años tienes, Martina?"
+ },
+ {
+  "key": "kid|I'm three!",
+  "lang": "kid",
+  "text": "I'm three!"
+ },
+ {
+  "key": "en|Three years old! Wow!",
+  "lang": "en",
+  "text": "Three years old! Wow!"
+ },
+ {
+  "key": "es|¡Tres años! ¡Guau!",
+  "lang": "es",
+  "text": "¡Tres años! ¡Guau!"
+ },
+ {
+  "key": "kid|I'm four!",
+  "lang": "kid",
+  "text": "I'm four!"
+ },
+ {
+  "key": "en|Four years old! You are so big!",
+  "lang": "en",
+  "text": "Four years old! You are so big!"
+ },
+ {
+  "key": "es|¡Cuatro años! ¡Qué grande!",
+  "lang": "es",
+  "text": "¡Cuatro años! ¡Qué grande!"
+ },
+ {
+  "key": "kid|I'm five!",
+  "lang": "kid",
+  "text": "I'm five!"
+ },
+ {
+  "key": "en|Five years old! Hooray!",
+  "lang": "en",
+  "text": "Five years old! Hooray!"
+ },
+ {
+  "key": "es|¡Cinco años! ¡Bravo!",
+  "lang": "es",
+  "text": "¡Cinco años! ¡Bravo!"
+ },
+ {
+  "key": "en|Let's count to five! One, two, three, four, five!",
+  "lang": "en",
+  "text": "Let's count to five! One, two, three, four, five!"
+ },
+ {
+  "key": "es|¡Contemos hasta cinco en inglés!",
+  "lang": "es",
+  "text": "¡Contemos hasta cinco en inglés!"
+ },
+ {
+  "key": "kid|One, two, three, four, five!",
+  "lang": "kid",
+  "text": "One, two, three, four, five!"
+ },
+ {
+  "key": "en|Great counting!",
+  "lang": "en",
+  "text": "Great counting!"
+ },
+ {
+  "key": "es|¡Muy bien contado!",
+  "lang": "es",
+  "text": "¡Muy bien contado!"
+ },
+ {
+  "key": "en|When is your birthday? Happy birthday!",
+  "lang": "en",
+  "text": "When is your birthday? Happy birthday!"
+ },
+ {
+  "key": "es|En tu cumpleaños decimos: Happy birthday!",
+  "lang": "es",
+  "text": "En tu cumpleaños decimos: Happy birthday!"
+ },
+ {
+  "key": "kid|Happy birthday!",
+  "lang": "kid",
+  "text": "Happy birthday!"
+ },
+ {
+  "key": "en|Yay! Happy birthday to you!",
+  "lang": "en",
+  "text": "Yay! Happy birthday to you!"
+ },
+ {
+  "key": "es|¡Feliz cumpleaños!",
+  "lang": "es",
+  "text": "¡Feliz cumpleaños!"
+ },
+ {
+  "key": "en|What's your favorite color?",
+  "lang": "en",
+  "text": "What's your favorite color?"
+ },
+ {
+  "key": "es|¿Cuál es tu color favorito?",
+  "lang": "es",
+  "text": "¿Cuál es tu color favorito?"
+ },
+ {
+  "key": "kid|Pink",
+  "lang": "kid",
+  "text": "Pink"
+ },
+ {
+  "key": "en|Pink! I love pink too!",
+  "lang": "en",
+  "text": "Pink! I love pink too!"
+ },
+ {
+  "key": "es|¡El rosado! ¡A mí también me encanta!",
+  "lang": "es",
+  "text": "¡El rosado! ¡A mí también me encanta!"
+ },
+ {
+  "key": "kid|Purple",
+  "lang": "kid",
+  "text": "Purple"
+ },
+ {
+  "key": "en|Purple! I love purple too!",
+  "lang": "en",
+  "text": "Purple! I love purple too!"
+ },
+ {
+  "key": "es|¡El morado! ¡A mí también me encanta!",
+  "lang": "es",
+  "text": "¡El morado! ¡A mí también me encanta!"
+ },
+ {
+  "key": "kid|Blue",
+  "lang": "kid",
+  "text": "Blue"
+ },
+ {
+  "key": "en|Blue! I love blue too!",
+  "lang": "en",
+  "text": "Blue! I love blue too!"
+ },
+ {
+  "key": "es|¡El azul! ¡A mí también me encanta!",
+  "lang": "es",
+  "text": "¡El azul! ¡A mí también me encanta!"
+ },
+ {
+  "key": "kid|Red",
+  "lang": "kid",
+  "text": "Red"
+ },
+ {
+  "key": "en|Red! I love red too!",
+  "lang": "en",
+  "text": "Red! I love red too!"
+ },
+ {
+  "key": "es|¡El rojo! ¡A mí también me encanta!",
+  "lang": "es",
+  "text": "¡El rojo! ¡A mí también me encanta!"
+ },
+ {
+  "key": "kid|Yellow",
+  "lang": "kid",
+  "text": "Yellow"
+ },
+ {
+  "key": "en|Yellow! I love yellow too!",
+  "lang": "en",
+  "text": "Yellow! I love yellow too!"
+ },
+ {
+  "key": "es|¡El amarillo! ¡A mí también me encanta!",
+  "lang": "es",
+  "text": "¡El amarillo! ¡A mí también me encanta!"
+ },
+ {
+  "key": "kid|Green",
+  "lang": "kid",
+  "text": "Green"
+ },
+ {
+  "key": "en|Green! I love green too!",
+  "lang": "en",
+  "text": "Green! I love green too!"
+ },
+ {
+  "key": "es|¡El verde! ¡A mí también me encanta!",
+  "lang": "es",
+  "text": "¡El verde! ¡A mí también me encanta!"
+ },
+ {
+  "key": "en|What color is the sky?",
+  "lang": "en",
+  "text": "What color is the sky?"
+ },
+ {
+  "key": "es|¿De qué color es el cielo?",
+  "lang": "es",
+  "text": "¿De qué color es el cielo?"
+ },
+ {
+  "key": "en|Yes! The sky is blue!",
+  "lang": "en",
+  "text": "Yes! The sky is blue!"
+ },
+ {
+  "key": "es|¡Sí! El cielo es azul.",
+  "lang": "es",
+  "text": "¡Sí! El cielo es azul."
+ },
+ {
+  "key": "en|Hmm, no. The sky is blue!",
+  "lang": "en",
+  "text": "Hmm, no. The sky is blue!"
+ },
+ {
+  "key": "es|Mmm, no. El cielo es azul.",
+  "lang": "es",
+  "text": "Mmm, no. El cielo es azul."
+ },
+ {
+  "key": "en|What color is a banana?",
+  "lang": "en",
+  "text": "What color is a banana?"
+ },
+ {
+  "key": "es|¿De qué color es un plátano?",
+  "lang": "es",
+  "text": "¿De qué color es un plátano?"
+ },
+ {
+  "key": "en|Silly! The banana is yellow!",
+  "lang": "en",
+  "text": "Silly! The banana is yellow!"
+ },
+ {
+  "key": "es|¡Jaja! El plátano es amarillo.",
+  "lang": "es",
+  "text": "¡Jaja! El plátano es amarillo."
+ },
+ {
+  "key": "en|Yes! The banana is yellow!",
+  "lang": "en",
+  "text": "Yes! The banana is yellow!"
+ },
+ {
+  "key": "es|¡Sí! El plátano es amarillo.",
+  "lang": "es",
+  "text": "¡Sí! El plátano es amarillo."
+ },
+ {
+  "key": "en|What animal do you like?",
+  "lang": "en",
+  "text": "What animal do you like?"
+ },
+ {
+  "key": "es|¿Qué animal te gusta?",
+  "lang": "es",
+  "text": "¿Qué animal te gusta?"
+ },
+ {
+  "key": "kid|The dog!",
+  "lang": "kid",
+  "text": "The dog!"
+ },
+ {
+  "key": "es|¡El perro! ¡Qué lindo!",
+  "lang": "es",
+  "text": "¡El perro! ¡Qué lindo!"
+ },
+ {
+  "key": "kid|The cat!",
+  "lang": "kid",
+  "text": "The cat!"
+ },
+ {
+  "key": "es|¡El gato! ¡Qué lindo!",
+  "lang": "es",
+  "text": "¡El gato! ¡Qué lindo!"
+ },
+ {
+  "key": "kid|The lion!",
+  "lang": "kid",
+  "text": "The lion!"
+ },
+ {
+  "key": "es|¡El león! ¡Qué lindo!",
+  "lang": "es",
+  "text": "¡El león! ¡Qué lindo!"
+ },
+ {
+  "key": "kid|The duck!",
+  "lang": "kid",
+  "text": "The duck!"
+ },
+ {
+  "key": "es|¡El pato! ¡Qué lindo!",
+  "lang": "es",
+  "text": "¡El pato! ¡Qué lindo!"
+ },
+ {
+  "key": "kid|The pig!",
+  "lang": "kid",
+  "text": "The pig!"
+ },
+ {
+  "key": "es|¡El cerdito! ¡Qué lindo!",
+  "lang": "es",
+  "text": "¡El cerdito! ¡Qué lindo!"
+ },
+ {
+  "key": "kid|The horse!",
+  "lang": "kid",
+  "text": "The horse!"
+ },
+ {
+  "key": "es|¡El caballo! ¡Qué lindo!",
+  "lang": "es",
+  "text": "¡El caballo! ¡Qué lindo!"
+ },
+ {
+  "key": "en|Can you roar like a lion? Roar!",
+  "lang": "en",
+  "text": "Can you roar like a lion? Roar!"
+ },
+ {
+  "key": "es|¿Puedes rugir como un león?",
+  "lang": "es",
+  "text": "¿Puedes rugir como un león?"
+ },
+ {
+  "key": "kid|Roar!",
+  "lang": "kid",
+  "text": "Roar!"
+ },
+ {
+  "key": "en|Wow! So strong!",
+  "lang": "en",
+  "text": "Wow! So strong!"
+ },
+ {
+  "key": "es|¡Guau, qué fuerte!",
+  "lang": "es",
+  "text": "¡Guau, qué fuerte!"
+ },
+ {
+  "key": "en|Which animal says moo?",
+  "lang": "en",
+  "text": "Which animal says moo?"
+ },
+ {
+  "key": "es|¿Qué animal dice mu?",
+  "lang": "es",
+  "text": "¿Qué animal dice mu?"
+ },
+ {
+  "key": "kid|The cow!",
+  "lang": "kid",
+  "text": "The cow!"
+ },
+ {
+  "key": "en|Yes! The cow says moo!",
+  "lang": "en",
+  "text": "Yes! The cow says moo!"
+ },
+ {
+  "key": "es|¡Sí! La vaca dice mu.",
+  "lang": "es",
+  "text": "¡Sí! La vaca dice mu."
+ },
+ {
+  "key": "en|No, the duck says quack! The cow says moo!",
+  "lang": "en",
+  "text": "No, the duck says quack! The cow says moo!"
+ },
+ {
+  "key": "es|El pato dice cuac. ¡La vaca dice mu!",
+  "lang": "es",
+  "text": "El pato dice cuac. ¡La vaca dice mu!"
+ },
+ {
+  "key": "en|No, the cat says meow! The cow says moo!",
+  "lang": "en",
+  "text": "No, the cat says meow! The cow says moo!"
+ },
+ {
+  "key": "es|El gato dice miau. ¡La vaca dice mu!",
+  "lang": "es",
+  "text": "El gato dice miau. ¡La vaca dice mu!"
+ },
+ {
+  "key": "en|Are you hungry?",
+  "lang": "en",
+  "text": "Are you hungry?"
+ },
+ {
+  "key": "es|¿Tienes hambre?",
+  "lang": "es",
+  "text": "¿Tienes hambre?"
+ },
+ {
+  "key": "kid|Yes!",
+  "lang": "kid",
+  "text": "Yes!"
+ },
+ {
+  "key": "en|Yes? Let's eat something yummy!",
+  "lang": "en",
+  "text": "Yes? Let's eat something yummy!"
+ },
+ {
+  "key": "es|¡Vamos a comer algo rico!",
+  "lang": "es",
+  "text": "¡Vamos a comer algo rico!"
+ },
+ {
+  "key": "kid|No.",
+  "lang": "kid",
+  "text": "No."
+ },
+ {
+  "key": "en|No? Okay, maybe later!",
+  "lang": "en",
+  "text": "No? Okay, maybe later!"
+ },
+ {
+  "key": "es|Bueno, ¡quizás más tarde!",
+  "lang": "es",
+  "text": "Bueno, ¡quizás más tarde!"
+ },
+ {
+  "key": "en|What do you want to eat?",
+  "lang": "en",
+  "text": "What do you want to eat?"
+ },
+ {
+  "key": "es|¿Qué quieres comer?",
+  "lang": "es",
+  "text": "¿Qué quieres comer?"
+ },
+ {
+  "key": "kid|An apple!",
+  "lang": "kid",
+  "text": "An apple!"
+ },
+ {
+  "key": "en|An apple! Yummy and healthy!",
+  "lang": "en",
+  "text": "An apple! Yummy and healthy!"
+ },
+ {
+  "key": "es|¡Una manzana! ¡Rica y sana!",
+  "lang": "es",
+  "text": "¡Una manzana! ¡Rica y sana!"
+ },
+ {
+  "key": "kid|A banana!",
+  "lang": "kid",
+  "text": "A banana!"
+ },
+ {
+  "key": "en|A banana! Monkeys love bananas!",
+  "lang": "en",
+  "text": "A banana! Monkeys love bananas!"
+ },
+ {
+  "key": "es|¡Un plátano! ¡A los monos les encanta!",
+  "lang": "es",
+  "text": "¡Un plátano! ¡A los monos les encanta!"
+ },
+ {
+  "key": "kid|Pizza!",
+  "lang": "kid",
+  "text": "Pizza!"
+ },
+ {
+  "key": "en|Pizza! Yummy yummy!",
+  "lang": "en",
+  "text": "Pizza! Yummy yummy!"
+ },
+ {
+  "key": "es|¡Pizza! ¡Ñam ñam!",
+  "lang": "es",
+  "text": "¡Pizza! ¡Ñam ñam!"
+ },
+ {
+  "key": "kid|Strawberries!",
+  "lang": "kid",
+  "text": "Strawberries!"
+ },
+ {
+  "key": "en|Strawberries! Red and sweet!",
+  "lang": "en",
+  "text": "Strawberries! Red and sweet!"
+ },
+ {
+  "key": "es|¡Frutillas! ¡Rojas y dulces!",
+  "lang": "es",
+  "text": "¡Frutillas! ¡Rojas y dulces!"
+ },
+ {
+  "key": "en|Fruits make us strong! Say: Yummy!",
+  "lang": "en",
+  "text": "Fruits make us strong! Say: Yummy!"
+ },
+ {
+  "key": "es|¡Las frutas nos hacen fuertes! Di: Yummy!",
+  "lang": "es",
+  "text": "¡Las frutas nos hacen fuertes! Di: Yummy!"
+ },
+ {
+  "key": "kid|Yummy!",
+  "lang": "kid",
+  "text": "Yummy!"
+ },
+ {
+  "key": "en|Yummy yummy!",
+  "lang": "en",
+  "text": "Yummy yummy!"
+ },
+ {
+  "key": "es|¡Ñam ñam!",
+  "lang": "es",
+  "text": "¡Ñam ñam!"
+ },
+ {
+  "key": "en|How do you feel today?",
+  "lang": "en",
+  "text": "How do you feel today?"
+ },
+ {
+  "key": "es|¿Cómo te sientes hoy?",
+  "lang": "es",
+  "text": "¿Cómo te sientes hoy?"
+ },
+ {
+  "key": "kid|I'm happy!",
+  "lang": "kid",
+  "text": "I'm happy!"
+ },
+ {
+  "key": "en|Yay! You are happy!",
+  "lang": "en",
+  "text": "Yay! You are happy!"
+ },
+ {
+  "key": "es|¡Bien! ¡Estás feliz!",
+  "lang": "es",
+  "text": "¡Bien! ¡Estás feliz!"
+ },
+ {
+  "key": "kid|I'm sad.",
+  "lang": "kid",
+  "text": "I'm sad."
+ },
+ {
+  "key": "en|Oh, you feel sad. A big hug for you!",
+  "lang": "en",
+  "text": "Oh, you feel sad. A big hug for you!"
+ },
+ {
+  "key": "es|Oh, estás triste. ¡Te mando un abrazo grande! Puedes contarle a mamá o papá.",
+  "lang": "es",
+  "text": "Oh, estás triste. ¡Te mando un abrazo grande! Puedes contarle a mamá o papá."
+ },
+ {
+  "key": "kid|I'm angry!",
+  "lang": "kid",
+  "text": "I'm angry!"
+ },
+ {
+  "key": "en|You feel angry. Let's breathe together.",
+  "lang": "en",
+  "text": "You feel angry. Let's breathe together."
+ },
+ {
+  "key": "es|Estás enojada. Respiremos juntas, despacito.",
+  "lang": "es",
+  "text": "Estás enojada. Respiremos juntas, despacito."
+ },
+ {
+  "key": "kid|I'm tired.",
+  "lang": "kid",
+  "text": "I'm tired."
+ },
+ {
+  "key": "en|You are tired. Rest is good!",
+  "lang": "en",
+  "text": "You are tired. Rest is good!"
+ },
+ {
+  "key": "es|Estás cansada. ¡Descansar es bueno!",
+  "lang": "es",
+  "text": "Estás cansada. ¡Descansar es bueno!"
+ },
+ {
+  "key": "en|Let's breathe. Breathe in... and out...",
+  "lang": "en",
+  "text": "Let's breathe. Breathe in... and out..."
+ },
+ {
+  "key": "es|Respiremos: toma aire por la nariz... y bótalo despacio.",
+  "lang": "es",
+  "text": "Respiremos: toma aire por la nariz... y bótalo despacio."
+ },
+ {
+  "key": "kid|In... and out...",
+  "lang": "kid",
+  "text": "In... and out..."
+ },
+ {
+  "key": "en|Very good! So calm.",
+  "lang": "en",
+  "text": "Very good! So calm."
+ },
+ {
+  "key": "es|¡Muy bien! Qué tranquilidad.",
+  "lang": "es",
+  "text": "¡Muy bien! Qué tranquilidad."
+ },
+ {
+  "key": "en|Can you give me a hug?",
+  "lang": "en",
+  "text": "Can you give me a hug?"
+ },
+ {
+  "key": "es|¿Me das un abrazo?",
+  "lang": "es",
+  "text": "¿Me das un abrazo?"
+ },
+ {
+  "key": "kid|A big hug!",
+  "lang": "kid",
+  "text": "A big hug!"
+ },
+ {
+  "key": "en|Thank you! I feel happy now!",
+  "lang": "en",
+  "text": "Thank you! I feel happy now!"
+ },
+ {
+  "key": "es|¡Gracias! ¡Ahora me siento feliz!",
+  "lang": "es",
+  "text": "¡Gracias! ¡Ahora me siento feliz!"
+ },
+ {
+  "key": "en|Look outside! How is the weather?",
+  "lang": "en",
+  "text": "Look outside! How is the weather?"
+ },
+ {
+  "key": "es|¡Mira por la ventana! ¿Cómo está el clima?",
+  "lang": "es",
+  "text": "¡Mira por la ventana! ¿Cómo está el clima?"
+ },
+ {
+  "key": "kid|It's sunny!",
+  "lang": "kid",
+  "text": "It's sunny!"
+ },
+ {
+  "key": "en|Sunny! Let's play outside!",
+  "lang": "en",
+  "text": "Sunny! Let's play outside!"
+ },
+ {
+  "key": "es|¡Soleado! ¡A jugar afuera!",
+  "lang": "es",
+  "text": "¡Soleado! ¡A jugar afuera!"
+ },
+ {
+  "key": "kid|It's rainy!",
+  "lang": "kid",
+  "text": "It's rainy!"
+ },
+ {
+  "key": "en|Rainy! Let's use an umbrella!",
+  "lang": "en",
+  "text": "Rainy! Let's use an umbrella!"
+ },
+ {
+  "key": "es|¡Lluvioso! ¡Usemos paraguas!",
+  "lang": "es",
+  "text": "¡Lluvioso! ¡Usemos paraguas!"
+ },
+ {
+  "key": "kid|It's cloudy!",
+  "lang": "kid",
+  "text": "It's cloudy!"
+ },
+ {
+  "key": "en|Cloudy! Big white clouds!",
+  "lang": "en",
+  "text": "Cloudy! Big white clouds!"
+ },
+ {
+  "key": "es|¡Nublado! ¡Nubes grandes y blancas!",
+  "lang": "es",
+  "text": "¡Nublado! ¡Nubes grandes y blancas!"
+ },
+ {
+  "key": "kid|It's cold!",
+  "lang": "kid",
+  "text": "It's cold!"
+ },
+ {
+  "key": "en|Cold! Brrr! Let's wear a jacket!",
+  "lang": "en",
+  "text": "Cold! Brrr! Let's wear a jacket!"
+ },
+ {
+  "key": "es|¡Frío! ¡Brrr! ¡Abriguémonos!",
+  "lang": "es",
+  "text": "¡Frío! ¡Brrr! ¡Abriguémonos!"
+ },
+ {
+  "key": "en|What do we wear when it is cold?",
+  "lang": "en",
+  "text": "What do we wear when it is cold?"
+ },
+ {
+  "key": "es|¿Qué nos ponemos cuando hace frío?",
+  "lang": "es",
+  "text": "¿Qué nos ponemos cuando hace frío?"
+ },
+ {
+  "key": "kid|A scarf!",
+  "lang": "kid",
+  "text": "A scarf!"
+ },
+ {
+  "key": "en|Yes! A warm scarf!",
+  "lang": "en",
+  "text": "Yes! A warm scarf!"
+ },
+ {
+  "key": "es|¡Sí! ¡Una bufanda calentita!",
+  "lang": "es",
+  "text": "¡Sí! ¡Una bufanda calentita!"
+ },
+ {
+  "key": "kid|A swimsuit!",
+  "lang": "kid",
+  "text": "A swimsuit!"
+ },
+ {
+  "key": "en|Brrr! A swimsuit is for the beach!",
+  "lang": "en",
+  "text": "Brrr! A swimsuit is for the beach!"
+ },
+ {
+  "key": "es|¡Brrr! El traje de baño es para la playa.",
+  "lang": "es",
+  "text": "¡Brrr! El traje de baño es para la playa."
+ },
+ {
+  "key": "en|See you later, alligator!",
+  "lang": "en",
+  "text": "See you later, alligator!"
+ },
+ {
+  "key": "es|¡Nos vemos, cocodrilo!",
+  "lang": "es",
+  "text": "¡Nos vemos, cocodrilo!"
+ },
+ {
+  "key": "en|Bye bye!",
+  "lang": "en",
+  "text": "Bye bye!"
+ },
+ {
+  "key": "en|Who loves you very much?",
+  "lang": "en",
+  "text": "Who loves you very much?"
+ },
+ {
+  "key": "es|¿Quién te quiere mucho?",
+  "lang": "es",
+  "text": "¿Quién te quiere mucho?"
+ },
+ {
+  "key": "kid|Mom!",
+  "lang": "kid",
+  "text": "Mom!"
+ },
+ {
+  "key": "en|Mom loves you very much!",
+  "lang": "en",
+  "text": "Mom loves you very much!"
+ },
+ {
+  "key": "es|Mom significa mamá. ¡Mamá te quiere mucho!",
+  "lang": "es",
+  "text": "Mom significa mamá. ¡Mamá te quiere mucho!"
+ },
+ {
+  "key": "kid|Dad!",
+  "lang": "kid",
+  "text": "Dad!"
+ },
+ {
+  "key": "en|Dad loves you very much!",
+  "lang": "en",
+  "text": "Dad loves you very much!"
+ },
+ {
+  "key": "es|Dad significa papá. ¡Papá te quiere mucho!",
+  "lang": "es",
+  "text": "Dad significa papá. ¡Papá te quiere mucho!"
+ },
+ {
+  "key": "kid|Grandma!",
+  "lang": "kid",
+  "text": "Grandma!"
+ },
+ {
+  "key": "en|Grandma loves you very much!",
+  "lang": "en",
+  "text": "Grandma loves you very much!"
+ },
+ {
+  "key": "es|Grandma significa abuela. ¡Te quiere mucho!",
+  "lang": "es",
+  "text": "Grandma significa abuela. ¡Te quiere mucho!"
+ },
+ {
+  "key": "kid|Grandpa!",
+  "lang": "kid",
+  "text": "Grandpa!"
+ },
+ {
+  "key": "en|Grandpa loves you very much!",
+  "lang": "en",
+  "text": "Grandpa loves you very much!"
+ },
+ {
+  "key": "es|Grandpa significa abuelo. ¡Te quiere mucho!",
+  "lang": "es",
+  "text": "Grandpa significa abuelo. ¡Te quiere mucho!"
+ },
+ {
+  "key": "en|Can you say: I love you!",
+  "lang": "en",
+  "text": "Can you say: I love you!"
+ },
+ {
+  "key": "es|¿Puedes decir te quiero en inglés? Se dice: I love you!",
+  "lang": "es",
+  "text": "¿Puedes decir te quiero en inglés? Se dice: I love you!"
+ },
+ {
+  "key": "kid|I love you!",
+  "lang": "kid",
+  "text": "I love you!"
+ },
+ {
+  "key": "en|I love you too, Martina!",
+  "lang": "en",
+  "text": "I love you too, Martina!"
+ },
+ {
+  "key": "es|¡Yo también te quiero!",
+  "lang": "es",
+  "text": "¡Yo también te quiero!"
+ },
+ {
+  "key": "en|Good try! Tap a picture too!",
+  "lang": "en",
+  "text": "Good try! Tap a picture too!"
+ },
+ {
+  "key": "es|¡Buen intento! Ahora toca un dibujo.",
+  "lang": "es",
+  "text": "¡Buen intento! Ahora toca un dibujo."
+ },
+ {
+  "key": "es|No te escuché. Toca un dibujo o intenta otra vez.",
+  "lang": "es",
+  "text": "No te escuché. Toca un dibujo o intenta otra vez."
+ },
+ {
+  "key": "en|Find the pairs!",
+  "lang": "en",
+  "text": "Find the pairs!"
+ },
+ {
+  "key": "en|Oops! Try again!",
+  "lang": "en",
+  "text": "Oops! Try again!"
+ },
+ {
+  "key": "en|Find the shadow!",
+  "lang": "en",
+  "text": "Find the shadow!"
+ },
+ {
+  "key": "en|How many? Let's count!",
+  "lang": "en",
+  "text": "How many? Let's count!"
+ },
+ {
+  "key": "en|Try again! Count with me.",
+  "lang": "en",
+  "text": "Try again! Count with me."
+ },
+ {
+  "key": "en|Let's draw!",
+  "lang": "en",
+  "text": "Let's draw!"
+ },
+ {
+  "key": "es|Encuentra las parejas iguales.",
+  "lang": "es",
+  "text": "Encuentra las parejas iguales."
+ },
+ {
+  "key": "es|Arrastra cada animal a su sombra.",
+  "lang": "es",
+  "text": "Arrastra cada animal a su sombra."
+ },
+ {
+  "key": "es|¿Cuántos hay? ¡Toca cada uno para contar!",
+  "lang": "es",
+  "text": "¿Cuántos hay? ¡Toca cada uno para contar!"
+ },
+ {
+  "key": "es|¡Dibuja algo primero!",
+  "lang": "es",
+  "text": "¡Dibuja algo primero!"
+ },
+ {
+  "key": "es|¡Dibuja lo que quieras! Elige un color.",
+  "lang": "es",
+  "text": "¡Dibuja lo que quieras! Elige un color."
+ },
+ {
+  "key": "en|Pop the red bubbles!",
+  "lang": "en",
+  "text": "Pop the red bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color rojo!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color rojo!"
+ },
+ {
+  "key": "en|That's red!",
+  "lang": "en",
+  "text": "That's red!"
+ },
+ {
+  "key": "en|Pop the blue bubbles!",
+  "lang": "en",
+  "text": "Pop the blue bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color azul!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color azul!"
+ },
+ {
+  "key": "en|That's blue!",
+  "lang": "en",
+  "text": "That's blue!"
+ },
+ {
+  "key": "en|Pop the yellow bubbles!",
+  "lang": "en",
+  "text": "Pop the yellow bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color amarillo!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color amarillo!"
+ },
+ {
+  "key": "en|That's yellow!",
+  "lang": "en",
+  "text": "That's yellow!"
+ },
+ {
+  "key": "en|Pop the green bubbles!",
+  "lang": "en",
+  "text": "Pop the green bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color verde!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color verde!"
+ },
+ {
+  "key": "en|That's green!",
+  "lang": "en",
+  "text": "That's green!"
+ },
+ {
+  "key": "en|Pop the orange bubbles!",
+  "lang": "en",
+  "text": "Pop the orange bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color naranjo!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color naranjo!"
+ },
+ {
+  "key": "en|That's orange!",
+  "lang": "en",
+  "text": "That's orange!"
+ },
+ {
+  "key": "en|Pop the purple bubbles!",
+  "lang": "en",
+  "text": "Pop the purple bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color morado!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color morado!"
+ },
+ {
+  "key": "en|That's purple!",
+  "lang": "en",
+  "text": "That's purple!"
+ },
+ {
+  "key": "en|Pop the pink bubbles!",
+  "lang": "en",
+  "text": "Pop the pink bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color rosado!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color rosado!"
+ },
+ {
+  "key": "en|That's pink!",
+  "lang": "en",
+  "text": "That's pink!"
+ },
+ {
+  "key": "en|Pop the brown bubbles!",
+  "lang": "en",
+  "text": "Pop the brown bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color café!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color café!"
+ },
+ {
+  "key": "en|That's brown!",
+  "lang": "en",
+  "text": "That's brown!"
+ },
+ {
+  "key": "en|Pop the black bubbles!",
+  "lang": "en",
+  "text": "Pop the black bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color negro!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color negro!"
+ },
+ {
+  "key": "en|That's black!",
+  "lang": "en",
+  "text": "That's black!"
+ },
+ {
+  "key": "en|Pop the white bubbles!",
+  "lang": "en",
+  "text": "Pop the white bubbles!"
+ },
+ {
+  "key": "es|¡Revienta las burbujas de color blanco!",
+  "lang": "es",
+  "text": "¡Revienta las burbujas de color blanco!"
+ },
+ {
+  "key": "en|That's white!",
+  "lang": "en",
+  "text": "That's white!"
+ }
+]

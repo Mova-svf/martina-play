@@ -84,10 +84,10 @@ const Voice = {
       const t = setTimeout(() => done(true), 15000);
       this.cur = () => done(true);
       a.onended = () => done(true); a.onerror = () => done(false); a.onpause = () => { if (!a.ended) done(true); };
-      a.preservesPitch = a.webkitPreservesPitch = !o.kid;
+      a.preservesPitch = a.webkitPreservesPitch = true;
       a.src = src;
-      a.playbackRate = o.kid ? 1.18 : (lang === 'en' && S.settings.slow ? 0.8 : 1);
-      a.play().then(() => { a.playbackRate = o.kid ? 1.18 : (lang === 'en' && S.settings.slow ? 0.8 : 1); }).catch(() => done(false));
+      a.playbackRate = (lang === 'en' && S.settings.slow ? 0.8 : 1);
+      a.play().then(() => { a.playbackRate = (lang === 'en' && S.settings.slow ? 0.8 : 1); }).catch(() => done(false));
     });
   },
   tts(text, lang, o = {}) {
