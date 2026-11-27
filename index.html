@@ -31,7 +31,7 @@
     loadState(); Voice.init(); screenSplash();
     document.addEventListener('gesturestart', (e) => e.preventDefault());
     document.addEventListener('dblclick', (e) => e.preventDefault(), { passive: false });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) { Voice.stop(); save(); } });
+    document.addEventListener('visibilitychange', () => { if (document.hidden) { Voice.stop(); save(); if (typeof Rec !== 'undefined') Rec.release(); } });
     if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) navigator.serviceWorker.register('sw.js');
   </script>
 </body>

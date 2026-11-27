@@ -82,9 +82,20 @@ function converse(text) {
 /* ---------- Grabar (micrófono + reconocimiento de voz del teléfono) ---------- */
 const Rec = {
   /* IMPORTANTE: llamar directo desde el toque (el iPhone bloquea el micrófono si se enciende después) */
-  async start(lang = 'es-CL') {
+  /* El micrófono se pide UNA vez y se reutiliza mientras siga en la misma pantalla,
+     así el iPhone no vuelve a preguntar el permiso en cada toque. */
+  live: null, idleT: null,
+  async mic() {
+    clearTimeout(this.idleT);
+    if (this.live && this.live.getAudioTracks().some((t) => t.readyState === 'live')) return this.live;
+    try { this.live = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } }); } catch (e) { this.live = null; }
+    return this.live;
+  },
+  release() { clearTimeout(this.idleT); if (this.live) this.live.getTracks().forEach((t) => t.stop()); this.live = null; },
+  /* opts.sr = false: solo graba (sin reconocimiento de voz, que en el iPhone pide un segundo permiso) */
+  async start(lang = 'es-CL', opts = {}) {
     this.chunks = []; this.text = ''; this.sr = null; this.mr = null; this.stream = null; this.t0 = Date.now();
-    if (Listen.SR) {
+    if (Listen.SR && opts.sr !== false) {
       try {
         const r = new Listen.SR();
         r.lang = lang; r.continuous = true; r.interimResults = true;
@@ -93,7 +104,7 @@ const Rec = {
         this.srDone = false; this.srEnd = null; this.srError = null; r.start(); this.sr = r;
       } catch (e) { this.sr = null; }
     }
-    try { this.stream = await navigator.mediaDevices.getUserMedia({ audio: true }); } catch (e) { this.stream = null; }
+    this.stream = await this.mic();
     if (this.stream && window.MediaRecorder) {
       try {
         const mt = ['audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].find((x) => MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(x));
@@ -112,7 +123,7 @@ const Rec = {
       blob = await new Promise((res) => { this.mr.onstop = () => res(new Blob(this.chunks, { type: this.mr.mimeType || 'audio/mp4' })); try { this.mr.stop(); } catch (e) { res(null); } });
     }
     if (this.sr && !this.srDone) await new Promise((res) => { this.srEnd = res; try { this.sr.stop(); } catch (e) { res(); } setTimeout(res, 2000); });
-    if (this.stream) this.stream.getTracks().forEach((tr) => tr.stop());
+    clearTimeout(this.idleT); this.idleT = setTimeout(() => this.release(), 90000); // se apaga solo tras 90 s sin uso
     return { blob: blob && blob.size > 800 ? blob : null, text: this.text || '', secs };
   },
 };

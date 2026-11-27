@@ -4,6 +4,7 @@ const app = document.getElementById('app');
 
 function render(inner, { title = '', back = null, home = false, cls = '', bar = true, gear = false } = {}) {
   screenId++; clearTimers(); Voice.stop();
+  if (typeof Rec !== 'undefined') Rec.release();
   $$('.ghost,.burst').forEach((g) => g.remove());
   const left = back ? `<button class="btn-round" id="btnBack" aria-label="Volver">${home ? '🏠' : '⬅️'}</button>`
     : gear ? `<button class="btn-round small" id="btnGear" aria-label="Padres">⚙️</button>` : '<span class="bar-sp"></span>';

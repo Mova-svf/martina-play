@@ -39,7 +39,7 @@ function screenLesson(topicKey, done, back) {
       tapify(mic, () => {
         if (on) return stopRec();
         Voice.stop(); on = true; mic.classList.add('recording'); mic.textContent = '👂';
-        Rec.start('en-US').then((ok) => { if (!ok && on) { on = false; mic.classList.remove('recording'); mic.textContent = '🎤'; Voice.say([['es', TALK.noMic, 'force']]); } });
+        Rec.start('en-US', { sr: false }).then((ok) => { if (!ok && on) { on = false; mic.classList.remove('recording'); mic.textContent = '🎤'; Voice.say([['es', TALK.noMic, 'force']]); } });
         stopT = later(stopRec, 3500);
       });
     }
